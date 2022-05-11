@@ -1,0 +1,120 @@
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\stdinout.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=get_input_digit; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\stdinout.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=get_input_digit; SIGNATURE=get_input_digit; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=16; END_LINE=47; TEMPLATE_FUNC=
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\stdinout.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=get_input_digit; NBD=0; TEMPLATE_FUNC=
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\stdinout.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=print_string; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\stdinout.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=print_string; SIGNATURE=print_string; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=52; END_LINE=55; TEMPLATE_FUNC=
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\stdinout.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=print_string; NBD=0; TEMPLATE_FUNC=
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\inout.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=get_input_digit; SIGNATURE=get_input_digit; NAMESPACE=; PARAMNO=0; DEF=false; START_LINE=6; END_LINE=6; TEMPLATE_FUNC=
+<l>6
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\stdinout.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=get_input_digit; NBD=0; TEMPLATE_FUNC=
+<l>16
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\inout.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=print_string; SIGNATURE=print_string; NAMESPACE=; PARAMNO=1; DEF=false; START_LINE=9; END_LINE=9; TEMPLATE_FUNC=
+<l>9
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\stdinout.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=print_string; NBD=0; TEMPLATE_FUNC=
+<l>52
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\inout.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=print_string_array; SIGNATURE=print_string_array; NAMESPACE=; PARAMNO=0; DEF=false; START_LINE=12; END_LINE=12; TEMPLATE_FUNC=
+<l>12
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\stdinout.c
+<c>INTERNAL-METRICS-LINES_TYPES
+<b>DATA=BCCCBSSBSSSBCCCSSSSSBSCSSSSSSSSMBCSBCSSSSBMBSSSBCCCSSSS
+<l>1
+<k>-1
+<s>false
+<N>
+<f>
+<L>0

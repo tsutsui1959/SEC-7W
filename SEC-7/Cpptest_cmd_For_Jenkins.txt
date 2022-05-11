@@ -1,0 +1,27 @@
+set BUILD_TOOL_CHAIN_DIR=C:\online_cpptest\cygwin
+set CPPTEST_DIR=C:\Program Files\Parasoft\C++test\10.5
+set PATH=%BUILD_TOOL_CHAIN_DIR%\bin;%CPPTEST_DIR%;%PATH%
+
+set WORKSPACE_DIR=%WORKSPACE%
+set PROJECT_NAME=DevelopSampleProject
+set PROJECT_DIR=%WORKSPACE_DIR%\%PROJECT_NAME%
+set LOCAL_SET=C:\online_cpptest\SEC-7
+
+cp -r C:\online_cpptest\SEC-7\DevelopSampleProject "%WORKSPACE_DIR%"
+del /F "%PROJECT_DIR%\cpptestscan.bdf"
+call "%PROJECT_DIR%\generate_bdf.bat"
+
+rmdir /s /q "%WORKSPACE_DIR%\report"
+cd "%WORKSPACE_DIR%"
+
+cpptestcli ^
+-J-Xms1024m -J-Xmx1400m ^
+-data .\ ^
+-bdf .\%PROJECT_NAME%\cpptestscan.bdf ^
+-resource %PROJECT_NAME% ^
+-config "builtin://Recommended Rules" ^
+-report "%WORKSPACE_DIR%\report" ^
+-localsettings %LOCAL_SET%\setting.properties ^
+-showdetails ^
+-appconsole stdout ^
+-publish

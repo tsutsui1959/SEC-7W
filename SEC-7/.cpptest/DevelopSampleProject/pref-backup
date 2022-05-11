@@ -1,0 +1,5 @@
+#Preferences Backup
+#Wed Oct 13 13:41:48 JST 2021
+com.parasoft.xtest.checkers.api.cpp.options.ode_options_dir=${resource_loc\:/DevelopSampleProject/cpptestscan.bdf}
+com.parasoft.xtest.checkers.api.cpp.options.advanced.options=
+com.parasoft.xtest.checkers.api.cpp.options.compiler.family.win32.x86=gcc_9-64

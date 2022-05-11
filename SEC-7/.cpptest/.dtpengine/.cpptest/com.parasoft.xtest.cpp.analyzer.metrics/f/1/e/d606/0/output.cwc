@@ -1,0 +1,70 @@
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Control\fan_control.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=read_temperature; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>9
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Control\fan_control.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=read_temperature; SIGNATURE=read_temperature; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=9; END_LINE=11; TEMPLATE_FUNC=
+<l>9
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Control\fan_control.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=read_temperature; NBD=0; TEMPLATE_FUNC=
+<l>9
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Control\fan_control.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=set_fan_rpm; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>12
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Control\fan_control.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=set_fan_rpm; SIGNATURE=set_fan_rpm; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=12; END_LINE=14; TEMPLATE_FUNC=
+<l>12
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Control\fan_control.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=set_fan_rpm; NBD=0; TEMPLATE_FUNC=
+<l>12
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Control\fan_control.c
+<c>INTERNAL-METRICS-LINES_TYPES
+<b>DATA=CCCCCCBBSSSSBS
+<l>1
+<k>-1
+<s>false
+<N>
+<f>
+<L>0

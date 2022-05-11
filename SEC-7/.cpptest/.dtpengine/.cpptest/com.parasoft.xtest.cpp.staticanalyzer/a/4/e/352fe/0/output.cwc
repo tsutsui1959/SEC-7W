@@ -1,0 +1,30 @@
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes\BetterRectangle.h
+<c>OOP-23
+<b>クラス BetterRectangle に仮想関数があるが、仮想デストラクタがない
+<l>7
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes\Shape.h
+<c>OOP-23
+<b>クラス Shape に仮想関数があるが、仮想デストラクタがない
+<l>4
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes\Point.h
+<c>OPT-14
+<b>The parameter 'p' of function 'getDistance' is passed by value
+<l>20
+<k>27
+<s>false
+<N>
+<f>
+<L>0

@@ -1,0 +1,4 @@
+fileName=
+workingDir=C:\online_cpptest\SEC-7\DevelopSampleProject\BD_Check
+compilerOptions=-Bdynamic -L/usr/lib/gcc/i686-pc-cygwin/9.3.0 -L/usr/lib/gcc/i686-pc-cygwin/9.3.0/../../../../i686-pc-cygwin/lib -L/usr/lib/gcc/i686-pc-cygwin/9.3.0/../../.. -lgcc_s -lgcc -lcygwin -ladvapi32 -lshell32 -luser32 -lkernel32 -lgcc_s -lgcc
+type=CPP

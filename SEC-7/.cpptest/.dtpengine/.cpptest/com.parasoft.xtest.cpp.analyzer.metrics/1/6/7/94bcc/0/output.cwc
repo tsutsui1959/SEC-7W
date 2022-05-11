@@ -1,0 +1,250 @@
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=readSensor; CC=1; SCC=2; MCC=1; TEMPLATE_FUNC=
+<l>11
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=readSensor; SIGNATURE=readSensor; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=11; END_LINE=17; TEMPLATE_FUNC=
+<l>11
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=readSensor; NBD=0; TEMPLATE_FUNC=
+<l>11
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=initialize; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=initialize; SIGNATURE=initialize; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=25; END_LINE=36; TEMPLATE_FUNC=
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=initialize; NBD=1; TEMPLATE_FUNC=
+<l>25
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=finalize; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>38
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=finalize; SIGNATURE=finalize; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=38; END_LINE=46; TEMPLATE_FUNC=
+<l>38
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=finalize; NBD=1; TEMPLATE_FUNC=
+<l>38
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=printMessage; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>48
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=printMessage; SIGNATURE=printMessage; NAMESPACE=; PARAMNO=2; DEF=true; START_LINE=48; END_LINE=53; TEMPLATE_FUNC=
+<l>48
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=printMessage; NBD=0; TEMPLATE_FUNC=
+<l>48
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=reportSensorFailure; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>55
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=reportSensorFailure; SIGNATURE=reportSensorFailure; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=55; END_LINE=59; TEMPLATE_FUNC=
+<l>55
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=reportSensorFailure; NBD=0; TEMPLATE_FUNC=
+<l>55
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=handleSensorValue; CC=3; SCC=5; MCC=3; TEMPLATE_FUNC=
+<l>61
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=handleSensorValue; SIGNATURE=handleSensorValue; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=61; END_LINE=71; TEMPLATE_FUNC=
+<l>61
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=handleSensorValue; NBD=1; TEMPLATE_FUNC=
+<l>61
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=mainLoop; CC=4; SCC=4; MCC=4; TEMPLATE_FUNC=
+<l>73
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=mainLoop; SIGNATURE=mainLoop; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=73; END_LINE=88; TEMPLATE_FUNC=
+<l>73
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=mainLoop; NBD=2; TEMPLATE_FUNC=
+<l>73
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=main; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>90
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=main; SIGNATURE=main; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=90; END_LINE=94; TEMPLATE_FUNC=
+<l>90
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=main; NBD=0; TEMPLATE_FUNC=
+<l>90
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+<c>INTERNAL-METRICS-LINES_TYPES
+<b>DATA=SSSBSSSBSBSSSSSSSBSBSSSBSSSSSSSSSSSSBSSSSSSSMSBSSSSSSBSSMSSBSSSSMSMSSSSBSSSSSSMSSSSSSSSSBSSSSS
+<l>1
+<k>-1
+<s>false
+<N>
+<f>
+<L>0

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.parasoft.ptest.common:10.5.0.202010220044"/>
+		<item value="com.parasoft.xtest.cpptest:10.5.0.1346"/>
+		<item value="org.eclipse.cdt.build.crossgcc:1.0.2.201202111925"/>
+		<item value="org.eclipse.cdt.bupc:1.0.3.201202111925"/>
+		<item value="org.eclipse.cdt.core.lrparser.feature:5.2.0.201202111925"/>
+		<item value="org.eclipse.cdt.core.parser.upc.feature:5.1.0.201202111925"/>
+		<item value="org.eclipse.cdt.debug.edc:2.0.0.201202112006"/>
+		<item value="org.eclipse.cdt.debug.gdbjtag:7.0.0.201202111925"/>
+		<item value="org.eclipse.cdt.examples.dsf:2.1.0.201202111925"/>
+		<item value="org.eclipse.cdt.gdb:7.0.0.201202111925"/>
+		<item value="org.eclipse.cdt.launch.remote:6.0.0.201202111925"/>
+		<item value="org.eclipse.cdt.sdk:8.0.2.201202111925"/>
+		<item value="org.eclipse.cdt.xlc.feature:6.3.1.201202111925"/>
+		<item value="org.eclipse.cdt:8.0.2.201202111925"/>
+		<item value="org.eclipse.emf.common:2.12.0.v20160420-0247"/>
+		<item value="org.eclipse.emf.ecore:2.12.0.v20160420-0247"/>
+		<item value="org.eclipse.help:2.2.2.v20170301-0400"/>
+		<item value="org.eclipse.mylyn.bugzilla_feature:3.21.0.v20160909-1813"/>
+		<item value="org.eclipse.mylyn.commons.identity:1.13.0.v20160630-1702"/>
+		<item value="org.eclipse.mylyn.commons.notifications:1.13.0.v20160721-2347"/>
+		<item value="org.eclipse.mylyn.commons.repositories:1.13.0.v20160630-1702"/>
+		<item value="org.eclipse.mylyn.commons:3.21.0.v20160707-1856"/>
+		<item value="org.eclipse.mylyn.context_feature:3.21.0.v20160815-2336"/>
+		<item value="org.eclipse.mylyn.discovery:3.21.0.v20160729-1739"/>
+		<item value="org.eclipse.mylyn.ide_feature:3.21.0.v20160912-1820"/>
+		<item value="org.eclipse.mylyn.monitor:3.21.0.v20160630-1702"/>
+		<item value="org.eclipse.mylyn.tasks.ide:3.21.0.v20160929-1805"/>
+		<item value="org.eclipse.mylyn.team_feature:3.21.0.v20160701-1337"/>
+		<item value="org.eclipse.mylyn_feature:3.21.0.v20160914-0252"/>
+		<item value="org.eclipse.platform:4.6.3.v20170301-0400"/>
+		<item value="org.eclipse.rcp:4.6.3.v20170301-0400"/>
+		<item value="org.eclipse.rse.core:3.3.2.R33x_v201110030150-7a7JFZ4F8Fz0vz03_qRujci-z-Mp"/>
+		<item value="org.eclipse.rse.dstore:3.3.1.R33x_v201109141647-7L78FRAD2YR70wUHbQUplQ8LFC"/>
+		<item value="org.eclipse.rse.ftp:3.0.301.R33x_v201109141647-782F8O9KC92gz097E9EKF23225"/>
+		<item value="org.eclipse.rse.local:2.1.300.v201103142315-7B4FKsBgJ9EE9ICQIFYT"/>
+		<item value="org.eclipse.rse.ssh:3.0.301.R33x_v201109141647-7A3F9xAGGB5k0C7KEATN92641"/>
+		<item value="org.eclipse.rse.telnet:2.2.200.v201106011538-775F8NAkF7BB7B9NEIPP"/>
+		<item value="org.eclipse.rse.terminals:1.1.1.R33x_v201109141647-771Bh9uD7HbBF3u7DNO3293A3752"/>
+		<item value="org.eclipse.rse:3.3.2.R33x_v201110030150-7L7CFGH8wqio8s-qYtkPgn8qWd4T"/>
+		<item value="org.eclipse.tm.terminal:3.1.1.R33x_v201106281309-4007S44yaw312218292641"/>
+	</list>
+	<section name="ResourceNavigator">
+		<item key="ResourceWorkingSetFilter.STORE_WORKING_SET" value=""/>
+		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="ImportMakeWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="com.parasoft.xtest.execution.api.cpp"/>
+		</list>
+	</section>
+</section>

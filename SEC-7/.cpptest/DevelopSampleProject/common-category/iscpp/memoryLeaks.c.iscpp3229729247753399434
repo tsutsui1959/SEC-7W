@@ -1,0 +1,6 @@
+fileName=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective\memoryLeaks.c
+isCpp=
+compilerOpts=-I"C:\Program Files\Parasoft\C++test\10.5\engine\runtime\include" -DPARASOFT_CPPTEST
+compilerId=gcc_9-64
+workingDir=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective
+advancedOptionsHash=1237154733

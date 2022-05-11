@@ -1,0 +1,10 @@
+file=C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\stdinout.c
+compiler=gcc_9-64
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Timer
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-g
+arg=-I.
+arg=-c
+arg=-DPARASOFT_CPPTEST
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\stdinout.c

@@ -1,0 +1,1579 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ResultsSession buildId="2021-10-13" climode="true" execEnv="win32_x86_64" hasViols="true" id="1635903525656" lang="ja_JP" machine="Pana-7600U-01" prjModule="DevelopSampleProject" project="" tag="Recommended Rules" time="2021-10-13T13:42:36+09:00" toolDispName="C/C++test" toolId="c++test" toolName="DTP Engine for C/C++" toolVer="2020.2.0" user="tutui">
+   <TestConfig machine="Pana-7600U-01" name="Recommended Rules" pseudoUrl="builtin://Recommended Rules" user="tutui" />
+   <Authors>
+      <Author id="dev1" name="tutui" />
+   </Authors>
+   <Analyzers>
+      <Analyzer id="com.parasoft.xtest.scope.analyzer" name="Scope Analyzer" ver="10.5.0.20201016" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.code" name="Parasoft C/C++ Code Analyzer" ver="10.5.0.20201022B981" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.desktop.files.in.scope" name="Helper Scope Analyzer for C/C++test Professional" ver="10.5.0.20201022B981" />
+      <Analyzer id="com.parasoft.xtest.dupcode.parser" name="Code Duplication Parser" ver="10.5.0.20201016" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.pattern" name="Parasoft C/C++ Static Analyzer" ver="10.5.0.20201022B981" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.flow" name="Parasoft C/C++ Flow Analyzer" ver="10.5.0.20201013B2287" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.metrics" name="Parasoft C/C++ Metrics Analyzer" ver="10.5.0.20201022B981" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.dupcode" name="Code Duplication Detector" ver="10.5.0.20201016" />
+      <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.global" name="Parasoft C/C++ Global Static Analyzer" ver="10.5.0.20201022B981" />
+   </Analyzers>
+   <VersionInfos>
+      <StorageInfo ownerId="" resultId="ISetupResult" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IMetricsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IExecutionViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IDupCodeViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="IFlowAnalysisViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IFunctionalViolation" ver="1" ver10x="1" />
+      <StorageInfo ownerId="com.parasoft.xtest.checkers.api.standards" resultId="ICodingStandardsViolation" ver="2" ver10x="1" />
+      <StorageInfo ownerId="" resultId="IUnitTestViolation" ver="1" ver10x="1" />
+   </VersionInfos>
+   <Goals tsks="45">
+      
+   </Goals>
+   <Metrics>
+      <Metric avg="1.689" disp="true" id="METRIC.CC" max="8" min="1" name="McCabe Cyclomatic Complexity" noi="122" stddev="1.146">
+         <Info avg="1.689" disp="true" elem="DevelopSampleProject" max="8" min="1" noi="122" stddev="1.146" />
+      </Metric>
+      <Metric avg="0.41" disp="true" id="METRIC.NBD" max="3" min="0" name="ブロックのネストの深さ" noi="122" stddev="0.637">
+         <Info avg="0.41" disp="true" elem="DevelopSampleProject" max="3" min="0" noi="122" stddev="0.637" />
+      </Metric>
+      <Metric avg="39.864" disp="true" id="METRIC.NOPLIF" max="203" min="3" name="ファイルの物理行数" noi="44" stddev="36.947">
+         <Info avg="39.864" disp="true" elem="DevelopSampleProject" max="203" min="3" noi="44" stddev="36.947" />
+      </Metric>
+      <Metric avg="9.017" disp="true" id="METRIC.NOSLIM" max="48" min="3" name="メソッドのソース行数" noi="118" stddev="6.931">
+         <Info avg="9.017" disp="true" elem="DevelopSampleProject" max="48" min="3" noi="118" stddev="6.931" />
+      </Metric>
+   </Metrics>
+   <Scope>
+      <Repositories />
+      <Locations>
+         <Loc auth="tutui" hash="-249486341" locRef="1" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Timer/clock.c" totLns="30" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/clock.c" />
+         <Loc auth="tutui" hash="65740504" locRef="2" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Timer/driver.c" totLns="76" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/driver.c" />
+         <Loc auth="tutui" hash="844867668" locRef="3" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Timer/stdinout.c" totLns="55" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/stdinout.c" />
+         <Loc auth="tutui" hash="-275311578" locRef="4" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Timer/timer.c" totLns="155" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/timer.c" />
+         <Loc auth="tutui" hash="-1926818961" locRef="5" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BD_Check/BD_check1.c" totLns="22" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BD_Check/BD_check1.c" />
+         <Loc auth="tutui" hash="-743134928" locRef="6" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BD_Check/BD_check2.c" totLns="41" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BD_Check/BD_check2.c" />
+         <Loc auth="tutui" hash="-1411136315" locRef="7" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/arrayOutOfBounds.c" totLns="44" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/arrayOutOfBounds.c" />
+         <Loc auth="tutui" hash="226867487" locRef="8" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/bufferOverflow.c" totLns="35" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/bufferOverflow.c" />
+         <Loc auth="tutui" hash="-892903586" locRef="9" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/dbutil.c" totLns="17" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/dbutil.c" />
+         <Loc auth="tutui" hash="1923244810" locRef="10" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/divisionByZero.c" totLns="58" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/divisionByZero.c" />
+         <Loc auth="tutui" hash="2102946591" locRef="11" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/fileLeaks.c" totLns="60" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/fileLeaks.c" />
+         <Loc auth="tutui" hash="2111655268" locRef="12" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/integerOverflow.c" totLns="42" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/integerOverflow.c" />
+         <Loc auth="tutui" hash="1502549011" locRef="13" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/memoryLeaks.c" totLns="46" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/memoryLeaks.c" />
+         <Loc auth="tutui" hash="585379582" locRef="14" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/nullPointerDeref.c" totLns="43" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/nullPointerDeref.c" />
+         <Loc auth="tutui" hash="-1583021683" locRef="15" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/nullPointerDerefBenchmark.c" totLns="79" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" />
+         <Loc auth="tutui" hash="1115766966" locRef="16" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/sql.c" totLns="12" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/sql.c" />
+         <Loc auth="tutui" hash="-1138451494" locRef="17" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/sqlInjection.c" totLns="37" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/sqlInjection.c" />
+         <Loc auth="tutui" hash="1398926183" locRef="18" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/unreachableCode.c" totLns="68" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/unreachableCode.c" />
+         <Loc auth="tutui" hash="389143777" locRef="19" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/useBeforeInit.c" totLns="53" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/useBeforeInit.c" />
+         <Loc auth="tutui" hash="1600673856" locRef="20" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Control/fan.c" totLns="28" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Control/fan.c" />
+         <Loc auth="tutui" hash="-230714909" locRef="21" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Control/fan_control.c" totLns="14" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Control/fan_control.c" />
+         <Loc auth="tutui" hash="-1464444715" locRef="22" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Sensor/sensor.c" totLns="94" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Sensor/sensor.c" />
+         <Loc auth="tutui" hash="1374762162" locRef="23" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Shapes/BetterRectangle.cpp" totLns="13" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/BetterRectangle.cpp" />
+         <Loc auth="tutui" hash="694175076" locRef="24" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Shapes/Logger.cpp" totLns="5" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Logger.cpp" />
+         <Loc auth="tutui" hash="557422286" locRef="25" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Shapes/Main.cpp" totLns="29" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Main.cpp" />
+         <Loc auth="tutui" hash="1997028367" locRef="26" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Shapes/Point.cpp" totLns="29" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Point.cpp" />
+         <Loc auth="tutui" hash="993800269" locRef="27" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Shapes/Rectangle.cpp" totLns="37" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Rectangle.cpp" />
+         <Loc auth="tutui" hash="1133154993" locRef="28" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Shapes/Square.cpp" totLns="38" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Square.cpp" />
+         <Loc auth="tutui" hash="-1204881763" locRef="29" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Timer/clock.h" totLns="14" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/clock.h" />
+         <Loc auth="tutui" hash="412873452" locRef="30" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Shapes/Square.h" totLns="32" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Square.h" />
+         <Loc auth="tutui" hash="-940449750" locRef="31" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Shapes/Rectangle.h" totLns="32" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Rectangle.h" />
+         <Loc auth="tutui" hash="-390129458" locRef="32" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/dbutil.h" totLns="10" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/dbutil.h" />
+         <Loc auth="tutui" hash="1651539479" locRef="33" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Timer/consts.h" totLns="9" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/consts.h" />
+         <Loc auth="tutui" hash="380717242" locRef="34" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/sql.h" totLns="28" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/sql.h" />
+         <Loc auth="tutui" hash="-311568100" locRef="35" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Timer/timer.h" totLns="36" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/timer.h" />
+         <Loc auth="tutui" hash="126874863" locRef="36" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Shapes/BetterRectangle.h" totLns="24" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/BetterRectangle.h" />
+         <Loc auth="tutui" hash="-1572680660" locRef="37" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Shapes/Logger.h" totLns="203" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Logger.h" />
+         <Loc auth="tutui" hash="-829573575" locRef="38" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BugDetective/socket.h" totLns="22" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/socket.h" />
+         <Loc auth="tutui" hash="-188264527" locRef="39" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Shapes/BetterSquare.h" totLns="15" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/BetterSquare.h" />
+         <Loc auth="tutui" hash="-311681184" locRef="40" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Timer/inout.h" totLns="15" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/inout.h" />
+         <Loc auth="tutui" hash="777628632" locRef="41" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Shapes/Shape.h" totLns="10" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Shape.h" />
+         <Loc auth="tutui" hash="-653814286" locRef="42" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Shapes/Point.h" totLns="27" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Point.h" />
+         <Loc auth="tutui" hash="538373380" locRef="43" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="Control/fan_control.h" totLns="14" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Control/fan_control.h" />
+         <Loc auth="tutui" hash="1417310945" locRef="44" projId="DevelopSampleProject" projPath="/DevelopSampleProject" project="DevelopSampleProject" resProjPath="BD_Check/BD_check.h" totLns="3" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BD_Check/BD_check.h" />
+      </Locations>
+   </Scope>
+   
+  <SetupProblems />
+
+   <CodingStandards ownerId="com.parasoft.xtest.checkers.api.standards" time="0:01:17">
+      <Projects>
+         <Project bdCheckedFiles="0" bdTotalFiles="0" checkedFiles="44" checkedLns="1754" id="DevelopSampleProject" name="DevelopSampleProject" qfixErrs="0" suppErrs="0" totErrs="45" totFiles="44" totLns="1754" />
+      </Projects>
+      
+      
+      <Rules>
+         <CategoriesList>
+            <Category authTot="0;" authUrg="0;" desc="フロー解析" name="BD" rules="117" total="0">
+               <Category authTot="0;" authUrg="0;" desc="誤った API の使用" name="BD-API" rules="6" total="0" />
+               <Category authTot="31;" authUrg="31;" desc="バグの可能性" name="BD-PB" rules="64" total="31" />
+               <Category authTot="6;" authUrg="6;" desc="リソース" name="BD-RES" rules="8" total="6" />
+               <Category authTot="0;" authUrg="0;" desc="スレッドと同期化" name="BD-TRS" rules="15" total="0" />
+            </Category>
+            <Category authTot="2;" authUrg="2;" desc="重複コードの検出" name="CDD" rules="4" total="2" />
+            <Category authTot="0;" authUrg="0;" desc="コーディング規約" name="CODSTA" rules="427" total="0">
+               <Category authTot="0;" authUrg="0;" desc="C++ コーディング規約" name="CODSTA-CPP" rules="108" total="0" />
+            </Category>
+            <Category authTot="0;" authUrg="0;" desc="例外" name="EXCEPT" rules="26" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="初期化" name="INIT" rules="20" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="メトリクス" name="METRIC" rules="50" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="MISRA C 2004" name="MISRA2004" rules="220" total="0" />
+            <Category authTot="0;" authUrg="0;" desc="メモリおよびリソース管理" name="MRM" rules="60" total="0" />
+            <Category authTot="4;" authUrg="4;" desc="オブジェクト指向" name="OOP" rules="60" total="4" />
+            <Category authTot="2;" authUrg="2;" desc="最適化" name="OPT" rules="43" total="2" />
+            <Category authTot="0;" authUrg="0;" desc="バグの可能性" name="PB" rules="84" total="0" />
+         </CategoriesList>
+         <RulesList>
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-API" desc="負の値ではない引数を期待する関数に負の値を渡してはならない" id="BD-API-NEGPARAM" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="例外を常にキャッチする" id="BD-PB-EXCEPT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="3;" authUrg="3;" cat="BD-PB" desc="初期化の前に使用しない" id="BD-PB-NOTINIT" sev="1" total="3" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="12;" authUrg="12;" cat="BD-PB" desc="null ポインターの間接参照を避ける" id="BD-PB-NP" sev="1" total="12" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="不正な書式指定子によるバッファー オーバーフローを避ける" id="BD-PB-OVERFFMT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="ゼロで終わっていない文字列の読み込みによるオーバーフローを避ける" id="BD-PB-OVERFNZT" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="バッファー読み込み時のオーバーフローを避ける" id="BD-PB-OVERFRD" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="1;" authUrg="1;" cat="BD-PB" desc="バッファー書き込み時のオーバーフローを避ける" id="BD-PB-OVERFWR" sev="1" total="1" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="2;" authUrg="2;" cat="BD-PB" desc="ゼロによる除算を避ける" id="BD-PB-ZERO" sev="1" total="2" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="2;" authUrg="2;" cat="BD-PB" desc="配列の境界を超えてアクセスしてはならない" id="BD-PB-ARRAY" sev="2" total="2" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="8;" authUrg="8;" cat="BD-PB" desc="常に同じ値に評価される条件式を避ける" id="BD-PB-CC" sev="2" total="8" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="3;" authUrg="3;" cat="BD-PB" desc="間接参照の後に null チェックしない" id="BD-PB-DEREF" sev="2" total="3" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="疑わしい値でストリームのフラグを設定している" id="BD-PB-STREAMFLAGS" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-PB" desc="ストリーム フォーマットの復元" id="BD-PB-STREAMFMT" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-RES" desc="動的に割り当てられたリソースを適切に割り当て解除する" id="BD-RES-BADDEALLOC" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="1;" authUrg="1;" cat="BD-RES" desc="解放されたリソースを使用してはならない" id="BD-RES-FREE" sev="1" total="1" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-RES" desc="無効なポインタを使用してリソースを解放してはならない" id="BD-RES-INVFREE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="5;" authUrg="5;" cat="BD-RES" desc="リソースが解放されていることを確認する" id="BD-RES-LEAKS" sev="1" total="5" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="二重ロックを避ける" id="BD-TRS-DLOCK" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="fork およびファイル記述子を使用する際の競合状態を避ける" id="BD-TRS-FORKFILE" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="解放されていないロックを放棄してはならない" id="BD-TRS-LOCK" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="異なる順序でロックを獲得しない" id="BD-TRS-ORDER" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="シンボリック リンクの存在を確認する際の競合状態を避ける" id="BD-TRS-SYMLINK" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" authTot="0;" authUrg="0;" cat="BD-TRS" desc="ロックを保持している間にブロッキング関数を使用してはならない" id="BD-TRS-TSHL" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.dupcode" authTot="2;" authUrg="2;" cat="CDD" desc="関数の重複を避ける" id="CDD-DUPM" sev="2" total="2" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="ローカル変数はメンバー変数と同じ名前を使用してはならない" id="CODSTA-44" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="関係演算子 &lt;、>、>=、&lt;= を使用してポインターと NULL を比較してはならない" id="CODSTA-147" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="等価演算子または関係演算子のオペランドとして文字列リテラルを使用しない" id="CODSTA-148" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA" desc="無限ループを避ける" id="CODSTA-82" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="CODSTA-CPP" desc="変換を可能にするコンストラクタは  explicit にする" id="CODSTA-CPP-04" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="EXCEPT" desc="値でスローし、参照でキャッチする" id="EXCEPT-02" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="EXCEPT" desc="デストラクタの中から throw を行ってはいけない" id="EXCEPT-03" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="INIT" desc="すべてのメンバ変数をコンストラクタで初期化する" id="INIT-06" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.metrics" authTot="0;" authUrg="0;" cat="METRIC" desc="McCabe Cyclomatic Complexity" id="METRIC.CC" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.metrics" authTot="0;" authUrg="0;" cat="METRIC" desc="ブロックのネストの深さ" id="METRIC.NBD" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="浮動小数点式は、等価または非等価のテストをしてはならない" id="MISRA2004-13_3" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="戻り値の型が非 void の関数の場合、すべての出口で、式を持つ明示的な return 文を記述しなければならない" id="MISRA2004-16_8" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MISRA2004" desc="自動記憶域のオブジェクトのアドレスを関数から返してはいけない" id="MISRA2004-17_6_a" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="コンストラクタのあるオブジェクトに対し malloc/realloc を呼び出さない" id="MRM-08" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="動的にメモリを割り当てるクラスにはコピー代入演算子を宣言する" id="MRM-37" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="メモリを動的に割り当てるクラスには、コピー コンストラクタを定義する" id="MRM-38" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="配列でないものを解放する場合、delete に空の括弧 ([]) を付けてはならない" id="MRM-35" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="配列を解放する場合、必ず delete に空の括弧 ([]) を付ける" id="MRM-36" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="MRM" desc="void 型を指すポインターに対して delete を使用してはならない" id="MRM-51" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="仮想継承を除いて、クラスは他のクラスを 2 回以上継承してはならない" id="OOP-03" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="OOP" desc="コンストラクターから仮想関数を呼び出してはいけない" id="OOP-16" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="4;" authUrg="4;" cat="OOP" desc="クラスに仮想関数がある場合、仮想デストラクタがなければならない" id="OOP-23" sev="2" total="4" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="2;" authUrg="2;" cat="OPT" desc="値ではなく参照でオブジェクトを渡す" id="OPT-14" sev="3" total="2" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="非ポインタに対して delete を呼び出してはいけない" id="PB-13" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="適切に文字列を終了させる" id="PB-21" sev="1" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="キャストの時点で不完全なクラスから、またはそのようなクラスへ、キャストしてはならない" id="PB-54" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="削除の時点で不完全なオブジェクトを削除してはならない" id="PB-55" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="列挙型にゼロ定数だけ、またはゼロ以外の定数だけしかないために、常に同じ値に評価されるブール条件" id="PB-68" sev="2" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="malloc への疑わしい引数" id="PB-60" sev="3" total="0" />
+            <Rule analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" authTot="0;" authUrg="0;" cat="PB" desc="割り当てられたばかりのメモリに対してポインター算術演算が行われている" id="PB-61" sev="3" total="0" />
+         </RulesList>
+         <SeverityList>
+            <Severity authTot="24;" authUrg="24;" id="1" total="24" />
+            <Severity authTot="19;" authUrg="19;" id="2" total="19" />
+            <Severity authTot="2;" authUrg="2;" id="3" total="2" />
+         </SeverityList>
+      </Rules>
+      
+  <Supps />
+
+      
+  <StdViols>
+    <FlowViol msg="&quot;the_record&quot; は null の可能性がある" ln="49" locFile="/DevelopSampleProject/Timer/timer.c" ruleSAFMsg="null ポインタ間接参照のポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="49" rule="BD-PB-NP" FirstElSrcRngStartPos="0" lnHash="1340052799" ruleSCSCMsg="NULL 値のソース" FirstElSrcRngFile="/DevelopSampleProject/Timer/timer.c" rule.header="null ポインターの間接参照を避ける" FirstElSrcRngStartln="48" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="1312183816" lang="cpp" locEndPos="0" urgent="true" locEndLn="50" goals="1," locStartln="49" sev="1" locRef="4" tool="c++test" lineHash="1340052799" locType="sr" hash="-275311578" causeLocRef="4">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="621530644" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="41" ln="40" srcRngEndPos="0" srcRngStartln="40" srcRngStartPos="0" desc="int start_h, start_m, end_h, end_m;" ElType="." rngLn="40" />
+        <ElDesc lineHash="-456882160" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="42" ln="41" srcRngEndPos="0" srcRngStartln="41" srcRngStartPos="0" desc="struct timer_record* the_record;" ElType="." rngLn="41" />
+        <ElDesc lineHash="1079331828" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="43" ln="42" srcRngEndPos="0" srcRngStartln="42" srcRngStartPos="0" desc="time_t timer;" ElType="." rngLn="42" />
+        <ElDesc lineHash="1350390768" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="44" ln="43" srcRngEndPos="0" srcRngStartln="43" srcRngStartPos="0" desc="struct tm* tm_tmp;" ElType="." rngLn="43" />
+        <ElDesc lineHash="1705568950" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="46" ln="45" srcRngEndPos="0" srcRngStartln="45" srcRngStartPos="0" desc="timer = time(NULL);" ElType="." rngLn="45" />
+        <ElDesc lineHash="-1526808077" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="47" ln="46" srcRngEndPos="0" srcRngStartln="46" srcRngStartPos="0" desc="tm_tmp = localtime(&amp;timer);" ElType="." rngLn="46" />
+        <ElDesc lineHash="-527707354" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="49" ln="48" srcRngEndPos="0" srcRngStartln="48" srcRngStartPos="0" desc="malloc(...)" ElType=".C" rngLn="48">
+          <Props>
+            <Prop key="Tracked variables" val="malloc(...)" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のソース" kind="cause" />
+            <Ann msg="NULL 値のキャリア: malloc(...)" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-527707354" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="49" ln="48" srcRngEndPos="0" srcRngStartln="48" srcRngStartPos="0" desc="the_record = (struct timer_record*)malloc(sizeof(struct timer_record));" ElType="!" rngLn="48" />
+        <ElDesc lineHash="1340052799" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="50" ln="49" srcRngEndPos="0" srcRngStartln="49" srcRngStartPos="0" desc="memset(the_record, 0, sizeof(struct timer_record));" ElType=".P" rngLn="49">
+          <Props>
+            <Prop key="Tracked variables" val="the_record" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: the_record" kind="var" />
+            <Ann msg="null ポインタ間接参照のポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;record&quot; が間接参照の後に null チェックされている" ln="80" locFile="/DevelopSampleProject/Timer/timer.c" ruleSAFMsg="null チェックのポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="70" rule="BD-PB-DEREF" FirstElSrcRngStartPos="0" lnHash="-1502932978" ruleSCSCMsg="間接参照のポイント" FirstElSrcRngFile="/DevelopSampleProject/Timer/timer.c" rule.header="間接参照の後に null チェックしない" FirstElSrcRngStartln="69" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="604202232" lang="cpp" locEndPos="0" urgent="true" locEndLn="81" goals="1," locStartln="80" sev="2" locRef="4" tool="c++test" lineHash="-1502932978" locType="sr" hash="-275311578" causeLocRef="4">
+      <Props>
+        <Prop key="Tracked variables" val="重要な値" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-174357818" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="79" ln="78" srcRngEndPos="0" srcRngStartln="78" srcRngStartPos="0" desc="record = query_user();" ElType="!" rngLn="78">
+          <ElDescList>
+            <ElDesc lineHash="1021803899" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="70" ln="69" srcRngEndPos="0" srcRngStartln="69" srcRngStartPos="0" desc="the_record->channel = get_input_digit();" ElType=".C" rngLn="69">
+              <Props>
+                <Prop key="Tracked variables" val="the_record != null" />
+              </Props>
+              <Anns>
+                <Ann msg="間接参照のポイント" kind="cause" />
+                <Ann msg="重要な値: the_record != null" kind="var" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="601074313" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="72" ln="71" srcRngEndPos="0" srcRngStartln="71" srcRngStartPos="0" desc="return (the_record);" ElType="!" rngLn="71" />
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="-1502932978" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="81" ln="80" srcRngEndPos="0" srcRngStartln="80" srcRngStartPos="0" desc="if (record) {" ElType=".P" rngLn="80">
+          <Props>
+            <Prop key="Tracked variables" val="record != null" />
+          </Props>
+          <Anns>
+            <Ann msg="重要な値: record != null" kind="var" />
+            <Ann msg="null チェックのポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="インデックス -1 で配列 &quot;timer_records&quot; の境界外にアクセスしている可能性がある。正しいインデックス [0...99]" ln="116" locFile="/DevelopSampleProject/Timer/timer.c" ruleSAFMsg="境界外アクセスのポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="26" rule="BD-PB-ARRAY" FirstElSrcRngStartPos="0" lnHash="1747357394" ruleSCSCMsg="パスの開始" FirstElSrcRngFile="/DevelopSampleProject/Timer/timer.c" rule.header="配列の境界を超えてアクセスしてはならない" FirstElSrcRngStartln="25" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-181154707" lang="cpp" locEndPos="0" urgent="true" locEndLn="117" goals="1," locStartln="116" sev="2" locRef="4" tool="c++test" lineHash="1747357394" locType="sr" hash="-275311578" causeLocRef="4">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="-301312004" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="26" ln="25" srcRngEndPos="0" srcRngStartln="25" srcRngStartPos="0" desc="void uninit_timer()" ElType=".C" rngLn="25">
+          <Anns>
+            <Ann msg="パスの開始" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1679375043" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="29" ln="28" srcRngEndPos="0" srcRngStartln="28" srcRngStartPos="0" desc="int i;" ElType="." rngLn="28" />
+        <ElDesc lineHash="1743982722" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="31" ln="30" srcRngEndPos="0" srcRngStartln="30" srcRngStartPos="0" desc="for (i = 0; i &lt; max_records; i++) {" ElType="." rngLn="30">
+          <Anns>
+            <Ann msg="ループ条件評価:(i &lt; 100) (true)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="26121042" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="32" ln="31" srcRngEndPos="0" srcRngStartln="31" srcRngStartPos="0" desc="delete_timer_record(i);" ElType="!" rngLn="31">
+          <ElDescList>
+            <ElDesc lineHash="-1356760849" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="111" ln="110" srcRngEndPos="0" srcRngStartln="110" srcRngStartPos="0" desc="struct timer_record* tr = timer_records[idx];" ElType="." rngLn="110" />
+            <ElDesc lineHash="1679375043" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="112" ln="111" srcRngEndPos="0" srcRngStartln="111" srcRngStartPos="0" desc="int i;" ElType="." rngLn="111" />
+            <ElDesc lineHash="-1694282400" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="115" ln="114" srcRngEndPos="0" srcRngStartln="114" srcRngStartPos="0" desc="for (i = idx-1; i &lt; curr_index; i++)" ElType="." rngLn="114">
+              <Anns>
+                <Ann msg="ループ条件評価: (i &lt; curr_index) (true を仮定)" kind="condEval" />
+                <Ann msg="ループに入る" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1747357394" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="117" ln="116" srcRngEndPos="0" srcRngStartln="116" srcRngStartPos="0" desc="if (0 == timer_records[i]) {" ElType=".P" rngLn="116">
+              <Anns>
+                <Ann msg="境界外アクセスのポイント" kind="point" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;tr&quot; が間接参照の後に null チェックされている" ln="136" locFile="/DevelopSampleProject/Timer/timer.c" ruleSAFMsg="null チェックのポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="135" rule="BD-PB-DEREF" FirstElSrcRngStartPos="0" lnHash="130267201" ruleSCSCMsg="間接参照のポイント" FirstElSrcRngFile="/DevelopSampleProject/Timer/timer.c" rule.header="間接参照の後に null チェックしない" FirstElSrcRngStartln="134" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="147042602" lang="cpp" locEndPos="0" urgent="true" locEndLn="137" goals="1," locStartln="136" sev="2" locRef="4" tool="c++test" lineHash="130267201" locType="sr" hash="-275311578" causeLocRef="4">
+      <Props>
+        <Prop key="Tracked variables" val="重要な値" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-1644342585" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="135" ln="134" srcRngEndPos="0" srcRngStartln="134" srcRngStartPos="0" desc="localtime(...)" ElType=".C" rngLn="134">
+          <Props>
+            <Prop key="Tracked variables" val="tr != null" />
+          </Props>
+          <Anns>
+            <Ann msg="間接参照のポイント" kind="cause" />
+            <Ann msg="重要な値: tr != null" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1644342585" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="135" ln="134" srcRngEndPos="0" srcRngStartln="134" srcRngStartPos="0" desc="strftime(end, BUF_SIZE, &quot;%I:%M %p&quot;, localtime(&amp;tr->endtime));" ElType="." rngLn="134" />
+        <ElDesc lineHash="130267201" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="137" ln="136" srcRngEndPos="0" srcRngStartln="136" srcRngStartPos="0" desc="if (tr) {" ElType=".P" rngLn="136">
+          <Props>
+            <Prop key="Tracked variables" val="tr != null" />
+          </Props>
+          <Anns>
+            <Ann msg="重要な値: tr != null" kind="var" />
+            <Ann msg="null チェックのポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="条件 &quot;tr&quot; は常に true に評価される" ln="136" locFile="/DevelopSampleProject/Timer/timer.c" ruleSAFMsg="意味を持たない条件が使用されたポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="127" rule="BD-PB-CC" FirstElSrcRngStartPos="0" lnHash="130267201" ruleSCSCMsg="パスの開始" FirstElSrcRngFile="/DevelopSampleProject/Timer/timer.c" rule.header="常に同じ値に評価される条件式を避ける" FirstElSrcRngStartln="126" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="1370006541" lang="cpp" locEndPos="0" urgent="true" locEndLn="137" goals="1," locStartln="136" sev="2" locRef="4" tool="c++test" lineHash="130267201" locType="sr" hash="-275311578" causeLocRef="4">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="1296456001" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="127" ln="126" srcRngEndPos="0" srcRngStartln="126" srcRngStartPos="0" desc="void format_timer_record(int idx, char* buf)" ElType=".C" rngLn="126">
+          <Anns>
+            <Ann msg="パスの開始" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1285013714" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="129" ln="128" srcRngEndPos="0" srcRngStartln="128" srcRngStartPos="0" desc="char start[BUF_SIZE];" ElType="." rngLn="128" />
+        <ElDesc lineHash="-1725726827" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="130" ln="129" srcRngEndPos="0" srcRngStartln="129" srcRngStartPos="0" desc="char end[BUF_SIZE];" ElType="." rngLn="129" />
+        <ElDesc lineHash="-1356760849" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="132" ln="131" srcRngEndPos="0" srcRngStartln="131" srcRngStartPos="0" desc="struct timer_record* tr = timer_records[idx];" ElType="!" rngLn="131" />
+        <ElDesc lineHash="-23883783" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="134" ln="133" srcRngEndPos="0" srcRngStartln="133" srcRngStartPos="0" desc="strftime(start, BUF_SIZE, &quot;%I:%M %p&quot;, localtime(&amp;tr->starttime));" ElType="." rngLn="133" />
+        <ElDesc lineHash="-1644342585" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="135" ln="134" srcRngEndPos="0" srcRngStartln="134" srcRngStartPos="0" desc="strftime(end, BUF_SIZE, &quot;%I:%M %p&quot;, localtime(&amp;tr->endtime));" ElType="." rngLn="134" />
+        <ElDesc lineHash="130267201" locType="sr" srcRnghash="-275311578" locRef="4" srcRngFile="/DevelopSampleProject/Timer/timer.c" srcRngEndLn="137" ln="136" srcRngEndPos="0" srcRngStartln="136" srcRngStartPos="0" desc="if (tr) {" ElType=".P" rngLn="136">
+          <Anns>
+            <Ann msg="意味を持たない条件が使用されたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;p&quot; は初期化する前に使用されている" ln="32" locFile="/DevelopSampleProject/BD_Check/BD_check2.c" ruleSAFMsg="使用ポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="26" rule="BD-PB-NOTINIT" FirstElSrcRngStartPos="0" lnHash="983766654" ruleSCSCMsg="初期化されていない値のソース" FirstElSrcRngFile="/DevelopSampleProject/BD_Check/BD_check2.c" rule.header="初期化の前に使用しない" FirstElSrcRngStartln="25" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-1874726486" lang="cpp" locEndPos="0" urgent="true" locEndLn="33" goals="1," locStartln="32" sev="1" locRef="6" tool="c++test" lineHash="983766654" locType="sr" hash="-743134928" causeLocRef="6">
+      <Props>
+        <Prop key="Tracked variables" val="初期化されていない値" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="1043456454" locType="sr" srcRnghash="-743134928" locRef="6" srcRngFile="/DevelopSampleProject/BD_Check/BD_check2.c" srcRngEndLn="25" ln="24" srcRngEndPos="0" srcRngStartln="24" srcRngStartPos="0" desc="int i, x;" ElType="." rngLn="24" />
+        <ElDesc lineHash="-806592673" locType="sr" srcRnghash="-743134928" locRef="6" srcRngFile="/DevelopSampleProject/BD_Check/BD_check2.c" srcRngEndLn="26" ln="25" srcRngEndPos="0" srcRngStartln="25" srcRngStartPos="0" desc="char c, *p;" ElType=".C" rngLn="25">
+          <Props>
+            <Prop key="Tracked variables" val="p" />
+          </Props>
+          <Anns>
+            <Ann msg="初期化されていない値のソース" kind="cause" />
+            <Ann msg="初期化されていない値: p" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1756837549" locType="sr" srcRnghash="-743134928" locRef="6" srcRngFile="/DevelopSampleProject/BD_Check/BD_check2.c" srcRngEndLn="28" ln="27" srcRngEndPos="0" srcRngStartln="27" srcRngStartPos="0" desc="x = 8 / 2;" ElType="." rngLn="27" />
+        <ElDesc lineHash="1198765907" locType="sr" srcRnghash="-743134928" locRef="6" srcRngFile="/DevelopSampleProject/BD_Check/BD_check2.c" srcRngEndLn="30" ln="29" srcRngEndPos="0" srcRngStartln="29" srcRngStartPos="0" desc="for (i = 0; i &lt; x; i++) {" ElType="." rngLn="29">
+          <Anns>
+            <Ann msg="ループ条件評価:(i &lt; x) (true)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1087863428" locType="sr" srcRnghash="-743134928" locRef="6" srcRngFile="/DevelopSampleProject/BD_Check/BD_check2.c" srcRngEndLn="31" ln="30" srcRngEndPos="0" srcRngStartln="30" srcRngStartPos="0" desc="if (i == 1)" ElType="." rngLn="30">
+          <Anns>
+            <Ann msg="条件評価: (i == 1) (false)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="983766654" locType="sr" srcRnghash="-743134928" locRef="6" srcRngFile="/DevelopSampleProject/BD_Check/BD_check2.c" srcRngEndLn="33" ln="32" srcRngEndPos="0" srcRngStartln="32" srcRngStartPos="0" desc="if(!p){return;}" ElType=".P" rngLn="32">
+          <Props>
+            <Prop key="Tracked variables" val="p" />
+          </Props>
+          <Anns>
+            <Ann msg="初期化されていない値: p" kind="var" />
+            <Ann msg="使用ポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="インデックス [1...1000] で配列 &quot;cache&quot; の境界外にアクセスしている可能性がある。正しいインデックス [0...999]" ln="33" locFile="/DevelopSampleProject/BugDetective/arrayOutOfBounds.c" ruleSAFMsg="境界外アクセスのポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="41" rule="BD-PB-ARRAY" FirstElSrcRngStartPos="0" lnHash="308957226" ruleSCSCMsg="パスの開始" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/arrayOutOfBounds.c" rule.header="配列の境界を超えてアクセスしてはならない" FirstElSrcRngStartln="40" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-546067470" lang="cpp" locEndPos="0" urgent="true" locEndLn="34" goals="1," locStartln="33" sev="2" locRef="7" tool="c++test" lineHash="308957226" locType="sr" hash="-1411136315" causeLocRef="7">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="-1961341245" locType="sr" srcRnghash="-1411136315" locRef="7" srcRngFile="/DevelopSampleProject/BugDetective/arrayOutOfBounds.c" srcRngEndLn="41" ln="40" srcRngEndPos="0" srcRngStartln="40" srcRngStartPos="0" desc="void clearAllCache()" ElType=".C" rngLn="40">
+          <Anns>
+            <Ann msg="パスの開始" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1825717159" locType="sr" srcRnghash="-1411136315" locRef="7" srcRngFile="/DevelopSampleProject/BugDetective/arrayOutOfBounds.c" srcRngEndLn="43" ln="42" srcRngEndPos="0" srcRngStartln="42" srcRngStartPos="0" desc="clearCache(0, CACHE_SIZE /* -1 */ ); /* Uncomment to fix accessing out of bounds */" ElType="!" rngLn="42">
+          <ElDescList>
+            <ElDesc lineHash="1679375043" locType="sr" srcRnghash="-1411136315" locRef="7" srcRngFile="/DevelopSampleProject/BugDetective/arrayOutOfBounds.c" srcRngEndLn="32" ln="31" srcRngEndPos="0" srcRngStartln="31" srcRngStartPos="0" desc="int i;" ElType="." rngLn="31" />
+            <ElDesc lineHash="-1540506943" locType="sr" srcRnghash="-1411136315" locRef="7" srcRngFile="/DevelopSampleProject/BugDetective/arrayOutOfBounds.c" srcRngEndLn="33" ln="32" srcRngEndPos="0" srcRngStartln="32" srcRngStartPos="0" desc="for (i = from_id; i &lt;= to_id; i++) {" ElType="." rngLn="32">
+              <Anns>
+                <Ann msg="ループ条件評価:(i &lt;= to_id) (true)" kind="condEval" />
+                <Ann msg="ループに入る" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="308957226" locType="sr" srcRnghash="-1411136315" locRef="7" srcRngFile="/DevelopSampleProject/BugDetective/arrayOutOfBounds.c" srcRngEndLn="34" ln="33" srcRngEndPos="0" srcRngStartln="33" srcRngStartPos="0" desc="if (cache[i] != 0) {" ElType="." rngLn="33">
+              <Anns>
+                <Ann msg="条件評価: (cache[i] != 0) (false を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-1540506943" locType="sr" srcRnghash="-1411136315" locRef="7" srcRngFile="/DevelopSampleProject/BugDetective/arrayOutOfBounds.c" srcRngEndLn="33" ln="32" srcRngEndPos="0" srcRngStartln="32" srcRngStartPos="0" desc="for (i = from_id; i &lt;= to_id; i++) {" ElType="." rngLn="32">
+              <Anns>
+                <Ann msg="ループ条件評価:(i &lt;= to_id) (true)" kind="condEval" />
+                <Ann msg="ループに入る" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="308957226" locType="sr" srcRnghash="-1411136315" locRef="7" srcRngFile="/DevelopSampleProject/BugDetective/arrayOutOfBounds.c" srcRngEndLn="34" ln="33" srcRngEndPos="0" srcRngStartln="33" srcRngStartPos="0" desc="if (cache[i] != 0) {" ElType=".P" rngLn="33">
+              <Anns>
+                <Ann msg="境界外アクセスのポイント" kind="point" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="バッファー &quot;buffer&quot; (char[999] 999 バイト) 書き込み時にオーバーフローが発生する。書き込まれるバイト数 = 1000" ln="27" locFile="/DevelopSampleProject/BugDetective/bufferOverflow.c" ruleSAFMsg="バッファー オーバーフローが発生したポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="28" rule="BD-PB-OVERFWR" FirstElSrcRngStartPos="0" lnHash="1283866216" ruleSCSCMsg="書き込まれる要素の数が定義されたポイント" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/bufferOverflow.c" rule.header="バッファー書き込み時のオーバーフローを避ける" FirstElSrcRngStartln="27" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="1570707077" lang="cpp" locEndPos="0" urgent="true" locEndLn="28" goals="1," locStartln="27" sev="1" locRef="8" tool="c++test" lineHash="1283866216" locType="sr" hash="226867487" causeLocRef="8">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="1212873409" locType="sr" srcRnghash="226867487" locRef="8" srcRngFile="/DevelopSampleProject/BugDetective/bufferOverflow.c" srcRngEndLn="34" ln="33" srcRngEndPos="0" srcRngStartln="33" srcRngStartPos="0" desc="resetBuffer(1000 /* BUFFER_SIZE */); /* POSSIBLE BUFFER OVERFLOW HERE */" ElType="!" rngLn="33">
+          <ElDescList>
+            <ElDesc lineHash="1679375043" locType="sr" srcRnghash="226867487" locRef="8" srcRngFile="/DevelopSampleProject/BugDetective/bufferOverflow.c" srcRngEndLn="27" ln="26" srcRngEndPos="0" srcRngStartln="26" srcRngStartPos="0" desc="int i;" ElType="." rngLn="26" />
+            <ElDesc lineHash="1283866216" locType="sr" srcRnghash="226867487" locRef="8" srcRngFile="/DevelopSampleProject/BugDetective/bufferOverflow.c" srcRngEndLn="28" ln="27" srcRngEndPos="0" srcRngStartln="27" srcRngStartPos="0" desc="memset(buffer, 0, size);" ElType="CP" rngLn="27">
+              <Anns>
+                <Ann msg="書き込まれる要素の数が定義されたポイント" kind="cause" />
+                <Ann msg="バッファー オーバーフローが発生したポイント" kind="point" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="ゼロである可能性がある &quot;person->daysWorkedInPassedMonth&quot; による除算" ln="9" locFile="/DevelopSampleProject/BugDetective/divisionByZero.c" ruleSAFMsg="ゼロ割のポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="19" rule="BD-PB-ZERO" FirstElSrcRngStartPos="0" lnHash="-969021421" ruleSCSCMsg="パスの開始" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" rule.header="ゼロによる除算を避ける" FirstElSrcRngStartln="18" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-523346250" lang="cpp" locEndPos="0" urgent="true" locEndLn="10" goals="1," locStartln="9" sev="1" locRef="10" tool="c++test" lineHash="-969021421" locType="sr" hash="1923244810" causeLocRef="10">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="1706567659" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="19" ln="18" srcRngEndPos="0" srcRngStartln="18" srcRngStartPos="0" desc="p->daysWorkedInPassedMonth = 0;" ElType=".C" rngLn="18">
+          <Anns>
+            <Ann msg="パスの開始" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="417141098" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="20" ln="19" srcRngEndPos="0" srcRngStartln="19" srcRngStartPos="0" desc="displayPersonalInfo(p);" ElType="!" rngLn="19">
+          <ElDescList>
+            <ElDesc lineHash="-194506379" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="8" ln="7" srcRngEndPos="0" srcRngStartln="7" srcRngStartPos="0" desc="printf(&quot;Name: %s\n&quot;, person->name);" ElType="." rngLn="7" />
+            <ElDesc lineHash="-1754501628" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="9" ln="8" srcRngEndPos="0" srcRngStartln="8" srcRngStartPos="0" desc="printf(&quot;Salary: %d\n&quot;, person->salary);" ElType="." rngLn="8" />
+            <ElDesc lineHash="-969021421" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="10" ln="9" srcRngEndPos="0" srcRngStartln="9" srcRngStartPos="0" desc="printf(&quot;Day's pay: %d\n&quot;, person->salary/person->daysWorkedInPassedMonth);" ElType=".P" rngLn="9">
+              <Anns>
+                <Ann msg="ゼロ割のポイント" kind="point" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="ゼロである可能性がある &quot;numberOfEmployees&quot; による除算" ln="26" locFile="/DevelopSampleProject/BugDetective/divisionByZero.c" ruleSAFMsg="ゼロ割のポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="54" rule="BD-PB-ZERO" FirstElSrcRngStartPos="0" lnHash="-1503128871" ruleSCSCMsg="パスの開始" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" rule.header="ゼロによる除算を避ける" FirstElSrcRngStartln="53" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-708653029" lang="cpp" locEndPos="0" urgent="true" locEndLn="27" goals="1," locStartln="26" sev="1" locRef="10" tool="c++test" lineHash="-1503128871" locType="sr" hash="1923244810" causeLocRef="10">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="2068113868" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="54" ln="53" srcRngEndPos="0" srcRngStartln="53" srcRngStartPos="0" desc="numberOfEmployees = processFile(file, employees);" ElType=".C" rngLn="53">
+          <ElDescList>
+            <ElDesc lineHash="-1256396037" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="42" ln="41" srcRngEndPos="0" srcRngStartln="41" srcRngStartPos="0" desc="return 0;" ElType="!" rngLn="41">
+              <Anns>
+                <Ann msg="戻り値: 0" kind="valEval" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+          <Anns>
+            <Ann msg="パスの開始" kind="cause" />
+            <Ann msg="変数の代入: numberOfEmployees = processFile(file,employees) -> numberOfEmployees = 0" kind="valEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-337476011" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="55" ln="54" srcRngEndPos="0" srcRngStartln="54" srcRngStartPos="0" desc="processStaff(employees, numberOfEmployees);" ElType="!" rngLn="54">
+          <ElDescList>
+            <ElDesc lineHash="727882071" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="30" ln="29" srcRngEndPos="0" srcRngStartln="29" srcRngStartPos="0" desc="void processStaff(Person* employees[], int sizeOfStaff)" ElType="!" rngLn="29">
+              <Anns>
+                <Ann msg="パラメーター値: sizeOfStaff = numberOfEmployees -> sizeOfStaff = 0" kind="valEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1679375043" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="32" ln="31" srcRngEndPos="0" srcRngStartln="31" srcRngStartPos="0" desc="int i;" ElType="." rngLn="31" />
+            <ElDesc lineHash="882805155" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="33" ln="32" srcRngEndPos="0" srcRngStartln="32" srcRngStartPos="0" desc="for (i = 0; i &lt; sizeOfStaff; ++i) {" ElType="." rngLn="32">
+              <Anns>
+                <Ann msg="ループ条件評価:(i &lt; sizeOfStaff) (false)" kind="condEval" />
+                <Ann msg="ループに入っていない" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-1642911173" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="36" ln="35" srcRngEndPos="0" srcRngStartln="35" srcRngStartPos="0" desc="calculateAverageSalary(...)" ElType="!" rngLn="35">
+              <ElDescList>
+                <ElDesc lineHash="1420344907" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="24" ln="23" srcRngEndPos="0" srcRngStartln="23" srcRngStartPos="0" desc="int calculateAverageSalary(int numberOfEmployees)" ElType="!" rngLn="23">
+                  <Anns>
+                    <Ann msg="パラメーター値: numberOfEmployees = sizeOfStaff -> numberOfEmployees = 0" kind="valEval" />
+                  </Anns>
+                </ElDesc>
+                <ElDesc lineHash="-306300958" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="26" ln="25" srcRngEndPos="0" srcRngStartln="25" srcRngStartPos="0" desc="int WAGE_FUND = 10000;" ElType="." rngLn="25" />
+                <ElDesc lineHash="-1503128871" locType="sr" srcRnghash="1923244810" locRef="10" srcRngFile="/DevelopSampleProject/BugDetective/divisionByZero.c" srcRngEndLn="27" ln="26" srcRngEndPos="0" srcRngStartln="26" srcRngStartPos="0" desc="return WAGE_FUND/numberOfEmployees;" ElType=".P" rngLn="26">
+                  <Anns>
+                    <Ann msg="ゼロ割のポイント" kind="point" />
+                  </Anns>
+                </ElDesc>
+              </ElDescList>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="ファイルがクローズされていない: file" ln="36" locFile="/DevelopSampleProject/BugDetective/fileLeaks.c" ruleSAFMsg="オープンされたファイルが失われたポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="27" rule="BD-RES-LEAKS" FirstElSrcRngStartPos="0" lnHash="125" ruleSCSCMsg="ファイルがオープンされたポイント" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" rule.header="リソースが解放されていることを確認する" FirstElSrcRngStartln="26" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="1679861686" lang="cpp" locEndPos="0" urgent="true" locEndLn="37" goals="1," locStartln="36" sev="1" locRef="11" tool="c++test" lineHash="125" locType="sr" hash="2102946591" causeLocRef="11">
+      <Props>
+        <Prop key="Tracked variables" val="オープンされたファイル" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-1954950279" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="26" ln="25" srcRngEndPos="0" srcRngStartln="25" srcRngStartPos="0" desc="FILE *file;" ElType="." rngLn="25" />
+        <ElDesc lineHash="663570683" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="27" ln="26" srcRngEndPos="0" srcRngStartln="26" srcRngStartPos="0" desc="file = fopen(&quot;myfile.txt&quot;, &quot;r&quot;);" ElType=".C" rngLn="26">
+          <Props>
+            <Prop key="Tracked variables" val="file" />
+          </Props>
+          <Anns>
+            <Ann msg="ファイルがオープンされたポイント" kind="cause" />
+            <Ann msg="オープンされたファイル: file" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1958866940" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="28" ln="27" srcRngEndPos="0" srcRngStartln="27" srcRngStartPos="0" desc="if (file==NULL) {" ElType="." rngLn="27">
+          <Anns>
+            <Ann msg="条件評価: (file == 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1833015213" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="32" ln="31" srcRngEndPos="0" srcRngStartln="31" srcRngStartPos="0" desc="printf(&quot;File successfully opened.\n\n&quot;);" ElType="." rngLn="31" />
+        <ElDesc lineHash="178811885" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="33" ln="32" srcRngEndPos="0" srcRngStartln="32" srcRngStartPos="0" desc="printFile(file);" ElType="." rngLn="32">
+          <ElDescList>
+            <ElDesc lineHash="-695983806" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="12" ln="11" srcRngEndPos="0" srcRngStartln="11" srcRngStartPos="0" desc="char c;" ElType="." rngLn="11">
+              <Props>
+                <Prop key="Tracked variables" val="file" />
+              </Props>
+              <Anns>
+                <Ann msg="オープンされたファイル: file" kind="var" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1807758733" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="13" ln="12" srcRngEndPos="0" srcRngStartln="12" srcRngStartPos="0" desc="printf(&quot;Reading file contents:\n\n&quot;);" ElType="." rngLn="12" />
+            <ElDesc lineHash="66462730" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="14" ln="13" srcRngEndPos="0" srcRngStartln="13" srcRngStartPos="0" desc="while(1) {" ElType="." rngLn="13">
+              <Anns>
+                <Ann msg="ループ条件評価:1 (true)" kind="condEval" />
+                <Ann msg="ループに入る" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1093133731" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="15" ln="14" srcRngEndPos="0" srcRngStartln="14" srcRngStartPos="0" desc="c = fgetc(file);" ElType="." rngLn="14" />
+            <ElDesc lineHash="161967170" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="16" ln="15" srcRngEndPos="0" srcRngStartln="15" srcRngStartPos="0" desc="if (c!=EOF) {" ElType="." rngLn="15">
+              <Anns>
+                <Ann msg="条件評価: (c != -1) (false を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="207609628" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="19" ln="18" srcRngEndPos="0" srcRngStartln="18" srcRngStartPos="0" desc="break;" ElType="." rngLn="18">
+              <Anns>
+                <Ann msg="ループから出る" kind="condEval" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="-1256396037" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="36" ln="35" srcRngEndPos="0" srcRngStartln="35" srcRngStartPos="0" desc="return 0;" ElType="." rngLn="35" />
+        <ElDesc lineHash="125" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="37" ln="36" srcRngEndPos="0" srcRngStartln="36" srcRngStartPos="0" desc="}" ElType=".P" rngLn="36">
+          <Props>
+            <Prop key="Tracked variables" val="file" />
+          </Props>
+          <Anns>
+            <Ann msg="オープンされたファイル: file" kind="var" />
+            <Ann msg="オープンされたファイルが失われたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="ファイルがクローズされていない: file" ln="49" locFile="/DevelopSampleProject/BugDetective/fileLeaks.c" ruleSAFMsg="オープンされたファイルが失われたポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="50" rule="BD-RES-LEAKS" FirstElSrcRngStartPos="0" lnHash="1237972298" ruleSCSCMsg="ファイルがオープンされたポイント" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" rule.header="リソースが解放されていることを確認する" FirstElSrcRngStartln="49" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="438135217" lang="cpp" locEndPos="0" urgent="true" locEndLn="50" goals="1," locStartln="49" sev="1" locRef="11" tool="c++test" lineHash="1237972298" locType="sr" hash="2102946591" causeLocRef="11">
+      <Props>
+        <Prop key="Tracked variables" val="オープンされたファイル" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="1104249178" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="41" ln="40" srcRngEndPos="0" srcRngStartln="40" srcRngStartPos="0" desc="int ARRSIZE = 3;" ElType="." rngLn="40" />
+        <ElDesc lineHash="1679375043" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="47" ln="46" srcRngEndPos="0" srcRngStartln="46" srcRngStartPos="0" desc="int i;" ElType="." rngLn="46" />
+        <ElDesc lineHash="-587502381" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="48" ln="47" srcRngEndPos="0" srcRngStartln="47" srcRngStartPos="0" desc="FILE *file = NULL;" ElType="." rngLn="47" />
+        <ElDesc lineHash="1072446173" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="49" ln="48" srcRngEndPos="0" srcRngStartln="48" srcRngStartPos="0" desc="for (i = 0; i &lt; ARRSIZE; ++i) {" ElType="." rngLn="48">
+          <Anns>
+            <Ann msg="ループ条件評価:(i &lt; ARRSIZE) (true)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1237972298" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="50" ln="49" srcRngEndPos="0" srcRngStartln="49" srcRngStartPos="0" desc="file = fopen(names[i], &quot;r&quot;);" ElType=".C" rngLn="49">
+          <Props>
+            <Prop key="Tracked variables" val="file" />
+          </Props>
+          <Anns>
+            <Ann msg="ファイルがオープンされたポイント" kind="cause" />
+            <Ann msg="オープンされたファイル: file" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1109565686" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="51" ln="50" srcRngEndPos="0" srcRngStartln="50" srcRngStartPos="0" desc="if(file==NULL) {" ElType="." rngLn="50">
+          <Anns>
+            <Ann msg="条件評価: (file == 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="887323629" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="55" ln="54" srcRngEndPos="0" srcRngStartln="54" srcRngStartPos="0" desc="printFile(file);" ElType="." rngLn="54">
+          <ElDescList>
+            <ElDesc lineHash="-695983806" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="12" ln="11" srcRngEndPos="0" srcRngStartln="11" srcRngStartPos="0" desc="char c;" ElType="." rngLn="11">
+              <Props>
+                <Prop key="Tracked variables" val="file" />
+              </Props>
+              <Anns>
+                <Ann msg="オープンされたファイル: file" kind="var" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1807758733" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="13" ln="12" srcRngEndPos="0" srcRngStartln="12" srcRngStartPos="0" desc="printf(&quot;Reading file contents:\n\n&quot;);" ElType="." rngLn="12" />
+            <ElDesc lineHash="66462730" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="14" ln="13" srcRngEndPos="0" srcRngStartln="13" srcRngStartPos="0" desc="while(1) {" ElType="." rngLn="13">
+              <Anns>
+                <Ann msg="ループ条件評価:1 (true)" kind="condEval" />
+                <Ann msg="ループに入る" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1093133731" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="15" ln="14" srcRngEndPos="0" srcRngStartln="14" srcRngStartPos="0" desc="c = fgetc(file);" ElType="." rngLn="14" />
+            <ElDesc lineHash="161967170" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="16" ln="15" srcRngEndPos="0" srcRngStartln="15" srcRngStartPos="0" desc="if (c!=EOF) {" ElType="." rngLn="15">
+              <Anns>
+                <Ann msg="条件評価: (c != -1) (false を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="207609628" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="19" ln="18" srcRngEndPos="0" srcRngStartln="18" srcRngStartPos="0" desc="break;" ElType="." rngLn="18">
+              <Anns>
+                <Ann msg="ループから出る" kind="condEval" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="1072446173" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="49" ln="48" srcRngEndPos="0" srcRngStartln="48" srcRngStartPos="0" desc="for (i = 0; i &lt; ARRSIZE; ++i) {" ElType="." rngLn="48">
+          <Anns>
+            <Ann msg="ループ条件評価: (i &lt; ARRSIZE) (true を仮定)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1237972298" locType="sr" srcRnghash="2102946591" locRef="11" srcRngFile="/DevelopSampleProject/BugDetective/fileLeaks.c" srcRngEndLn="50" ln="49" srcRngEndPos="0" srcRngStartln="49" srcRngStartPos="0" desc="file = fopen(names[i], &quot;r&quot;);" ElType=".P" rngLn="49">
+          <Props>
+            <Prop key="Tracked variables" val="file" />
+          </Props>
+          <Anns>
+            <Ann msg="オープンされたファイル: file" kind="var" />
+            <Ann msg="オープンされたファイルが失われたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="メモリが解放されていない: p" ln="26" locFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" ruleSAFMsg="割り当てられたメモリが失われたポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="19" rule="BD-RES-LEAKS" FirstElSrcRngStartPos="0" lnHash="2099466359" ruleSCSCMsg="メモリが割り当てられたポイント" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" rule.header="リソースが解放されていることを確認する" FirstElSrcRngStartln="18" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="324425043" lang="cpp" locEndPos="0" urgent="true" locEndLn="27" goals="1," locStartln="26" sev="1" locRef="13" tool="c++test" lineHash="2099466359" locType="sr" hash="1502549011" causeLocRef="13">
+      <Props>
+        <Prop key="Tracked variables" val="割り当てられたメモリ" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-100714984" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="13" ln="12" srcRngEndPos="0" srcRngStartln="12" srcRngStartPos="0" desc="char *c;" ElType="." rngLn="12" />
+        <ElDesc lineHash="39827869" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="14" ln="13" srcRngEndPos="0" srcRngStartln="13" srcRngStartPos="0" desc="char buf[100];" ElType="." rngLn="13" />
+        <ElDesc lineHash="-785260158" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="15" ln="14" srcRngEndPos="0" srcRngStartln="14" srcRngStartPos="0" desc="int id = 0;" ElType="." rngLn="14" />
+        <ElDesc lineHash="66462730" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="16" ln="15" srcRngEndPos="0" srcRngStartln="15" srcRngStartPos="0" desc="while(1) {" ElType="." rngLn="15">
+          <Anns>
+            <Ann msg="ループ条件評価:1 (true)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-526658767" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="17" ln="16" srcRngEndPos="0" srcRngStartln="16" srcRngStartPos="0" desc="c = fgets(buf, 100, file);" ElType="." rngLn="16" />
+        <ElDesc lineHash="301978179" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="18" ln="17" srcRngEndPos="0" srcRngStartln="17" srcRngStartPos="0" desc="if (c!=NULL) {" ElType="." rngLn="17">
+          <Anns>
+            <Ann msg="条件評価: (c != 0) (true を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1212191400" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="19" ln="18" srcRngEndPos="0" srcRngStartln="18" srcRngStartPos="0" desc="malloc(...)" ElType=".C" rngLn="18">
+          <Props>
+            <Prop key="Tracked variables" val="malloc(...)" />
+          </Props>
+          <Anns>
+            <Ann msg="メモリが割り当てられたポイント" kind="cause" />
+            <Ann msg="割り当てられたメモリ: malloc(...)" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1212191400" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="19" ln="18" srcRngEndPos="0" srcRngStartln="18" srcRngStartPos="0" desc="Person* p = malloc(sizeof(Person));" ElType="!" rngLn="18" />
+        <ElDesc lineHash="-812912267" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="20" ln="19" srcRngEndPos="0" srcRngStartln="19" srcRngStartPos="0" desc="if (p == 0) exit(1);" ElType="." rngLn="19">
+          <Props>
+            <Prop key="Tracked variables" val="p" />
+          </Props>
+          <Anns>
+            <Ann msg="割り当てられたメモリ: p" kind="var" />
+            <Ann msg="条件評価: (p == 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1899725753" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="21" ln="20" srcRngEndPos="0" srcRngStartln="20" srcRngStartPos="0" desc="p->personalId = ++id;" ElType="." rngLn="20" />
+        <ElDesc lineHash="-217028449" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="22" ln="21" srcRngEndPos="0" srcRngStartln="21" srcRngStartPos="0" desc="p->name = buf;" ElType="." rngLn="21" />
+        <ElDesc lineHash="-2076993264" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="23" ln="22" srcRngEndPos="0" srcRngStartln="22" srcRngStartPos="0" desc="storePerson(p);" ElType="." rngLn="22" />
+        <ElDesc lineHash="2099466359" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="27" ln="26" srcRngEndPos="0" srcRngStartln="26" srcRngStartPos="0" desc="} else {" ElType=".P" rngLn="26">
+          <Props>
+            <Prop key="Tracked variables" val="p" />
+          </Props>
+          <Anns>
+            <Ann msg="割り当てられたメモリ: p" kind="var" />
+            <Ann msg="割り当てられたメモリが失われたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="メモリが解放されていない: pointer" ln="40" locFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" ruleSAFMsg="割り当てられたメモリが失われたポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="41" rule="BD-RES-LEAKS" FirstElSrcRngStartPos="0" lnHash="-334359523" ruleSCSCMsg="メモリが割り当てられたポイント" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" rule.header="リソースが解放されていることを確認する" FirstElSrcRngStartln="40" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="112578646" lang="cpp" locEndPos="0" urgent="true" locEndLn="41" goals="1," locStartln="40" sev="1" locRef="13" tool="c++test" lineHash="-334359523" locType="sr" hash="1502549011" causeLocRef="13">
+      <Props>
+        <Prop key="Tracked variables" val="割り当てられたメモリ" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="221640208" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="35" ln="34" srcRngEndPos="0" srcRngStartln="34" srcRngStartPos="0" desc="int count = 0;" ElType="." rngLn="34" />
+        <ElDesc lineHash="1125267983" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="36" ln="35" srcRngEndPos="0" srcRngStartln="35" srcRngStartPos="0" desc="int LOOPS = 100;" ElType="." rngLn="35" />
+        <ElDesc lineHash="22113273" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="37" ln="36" srcRngEndPos="0" srcRngStartln="36" srcRngStartPos="0" desc="int MAXSIZE = 100;" ElType="." rngLn="36" />
+        <ElDesc lineHash="-1239722706" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="38" ln="37" srcRngEndPos="0" srcRngStartln="37" srcRngStartPos="0" desc="char *pointer = NULL;" ElType="." rngLn="37" />
+        <ElDesc lineHash="-1318212244" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="40" ln="39" srcRngEndPos="0" srcRngStartln="39" srcRngStartPos="0" desc="for(count=0; count &lt; LOOPS; count++) {" ElType="." rngLn="39">
+          <Anns>
+            <Ann msg="ループ条件評価:(count &lt; LOOPS) (true)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-334359523" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="41" ln="40" srcRngEndPos="0" srcRngStartln="40" srcRngStartPos="0" desc="malloc(...)" ElType=".C" rngLn="40">
+          <Props>
+            <Prop key="Tracked variables" val="malloc(...)" />
+          </Props>
+          <Anns>
+            <Ann msg="メモリが割り当てられたポイント" kind="cause" />
+            <Ann msg="割り当てられたメモリ: malloc(...)" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-334359523" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="41" ln="40" srcRngEndPos="0" srcRngStartln="40" srcRngStartPos="0" desc="pointer = (char *)malloc(sizeof(char) * MAXSIZE);" ElType="!" rngLn="40" />
+        <ElDesc lineHash="-1318212244" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="40" ln="39" srcRngEndPos="0" srcRngStartln="39" srcRngStartPos="0" desc="for(count=0; count &lt; LOOPS; count++) {" ElType="." rngLn="39">
+          <Props>
+            <Prop key="Tracked variables" val="pointer" />
+          </Props>
+          <Anns>
+            <Ann msg="割り当てられたメモリ: pointer" kind="var" />
+            <Ann msg="ループ条件評価: (count &lt; LOOPS) (true を仮定)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-334359523" locType="sr" srcRnghash="1502549011" locRef="13" srcRngFile="/DevelopSampleProject/BugDetective/memoryLeaks.c" srcRngEndLn="41" ln="40" srcRngEndPos="0" srcRngStartln="40" srcRngStartPos="0" desc="pointer = (char *)malloc(sizeof(char) * MAXSIZE);" ElType=".P" rngLn="40">
+          <Props>
+            <Prop key="Tracked variables" val="pointer" />
+          </Props>
+          <Anns>
+            <Ann msg="割り当てられたメモリ: pointer" kind="var" />
+            <Ann msg="割り当てられたメモリが失われたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;person&quot; は null の可能性がある" ln="13" locFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" ruleSAFMsg="null ポインタ間接参照のポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="11" rule="BD-PB-NP" FirstElSrcRngStartPos="0" lnHash="650531314" ruleSCSCMsg="NULL 値のソース" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/dbutil.c" rule.header="null ポインターの間接参照を避ける" FirstElSrcRngStartln="10" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="1452351157" lang="cpp" locEndPos="0" urgent="true" locEndLn="14" goals="1," locStartln="13" sev="1" locRef="14" tool="c++test" lineHash="650531314" locType="sr" hash="585379582" causeLocRef="9">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="1374140990" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="23" ln="22" srcRngEndPos="0" srcRngStartln="22" srcRngStartPos="0" desc="Person* p = retrievePersonFromDB(id);" ElType="!" rngLn="22">
+          <ElDescList>
+            <ElDesc lineHash="1041656438" locType="sr" srcRnghash="-892903586" locRef="9" srcRngFile="/DevelopSampleProject/BugDetective/dbutil.c" srcRngEndLn="8" ln="7" srcRngEndPos="0" srcRngStartln="7" srcRngStartPos="0" desc="Person* p;" ElType="." rngLn="7" />
+            <ElDesc lineHash="932373780" locType="sr" srcRnghash="-892903586" locRef="9" srcRngFile="/DevelopSampleProject/BugDetective/dbutil.c" srcRngEndLn="9" ln="8" srcRngEndPos="0" srcRngStartln="8" srcRngStartPos="0" desc="int MIN_ID = 1;" ElType="." rngLn="8" />
+            <ElDesc lineHash="1035623864" locType="sr" srcRnghash="-892903586" locRef="9" srcRngFile="/DevelopSampleProject/BugDetective/dbutil.c" srcRngEndLn="10" ln="9" srcRngEndPos="0" srcRngStartln="9" srcRngStartPos="0" desc="if (id &lt; MIN_ID) {" ElType="." rngLn="9">
+              <Anns>
+                <Ann msg="条件評価: (id &lt; MIN_ID) (true を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-1561874268" locType="sr" srcRnghash="-892903586" locRef="9" srcRngFile="/DevelopSampleProject/BugDetective/dbutil.c" srcRngEndLn="11" ln="10" srcRngEndPos="0" srcRngStartln="10" srcRngStartPos="0" desc="return NULL;" ElType=".C" rngLn="10">
+              <Props>
+                <Prop key="Tracked variables" val="&lt;retrievePersonFromDB() の戻り値>" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のソース" kind="cause" />
+                <Ann msg="NULL 値のキャリア: &lt;retrievePersonFromDB() の戻り値>" kind="var" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="-1906410249" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="24" ln="23" srcRngEndPos="0" srcRngStartln="23" srcRngStartPos="0" desc="storePersonToFile(p, file);" ElType="!" rngLn="23">
+          <ElDescList>
+            <ElDesc lineHash="1027984352" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="13" ln="12" srcRngEndPos="0" srcRngStartln="12" srcRngStartPos="0" desc="if (file!=NULL) {" ElType="." rngLn="12">
+              <Props>
+                <Prop key="Tracked variables" val="person" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のキャリア: person" kind="var" />
+                <Ann msg="条件評価: (file != 0) (true を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="650531314" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="14" ln="13" srcRngEndPos="0" srcRngStartln="13" srcRngStartPos="0" desc="fprintf(file, &quot;Id: %d Name: %s References:%s\n&quot;," ElType=".P" rngLn="13">
+              <Props>
+                <Prop key="Tracked variables" val="person" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のキャリア: person" kind="var" />
+                <Ann msg="null ポインタ間接参照のポイント" kind="point" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+          <Props>
+            <Prop key="Tracked variables" val="p" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: p" kind="var" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;file&quot; は null の可能性がある" ln="17" locFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" ruleSAFMsg="null ポインタ間接参照のポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="13" rule="BD-PB-NP" FirstElSrcRngStartPos="0" lnHash="191846468" ruleSCSCMsg="NULL 値のソース" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" rule.header="null ポインターの間接参照を避ける" FirstElSrcRngStartln="12" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-336304907" lang="cpp" locEndPos="0" urgent="true" locEndLn="18" goals="1," locStartln="17" sev="1" locRef="14" tool="c++test" lineHash="191846468" locType="sr" hash="585379582" causeLocRef="14">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="1027984352" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="13" ln="12" srcRngEndPos="0" srcRngStartln="12" srcRngStartPos="0" desc="if (file!=NULL) {" ElType=".C" rngLn="12">
+          <Props>
+            <Prop key="Tracked variables" val="file" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のソース" kind="cause" />
+            <Ann msg="NULL 値のキャリア: file" kind="var" />
+            <Ann msg="条件評価: (file != 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="191846468" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="18" ln="17" srcRngEndPos="0" srcRngStartln="17" srcRngStartPos="0" desc="fclose(file);" ElType=".P" rngLn="17">
+          <Props>
+            <Prop key="Tracked variables" val="file" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: file" kind="var" />
+            <Ann msg="null ポインタ間接参照のポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;p&quot; は null の可能性がある" ln="30" locFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" ruleSAFMsg="null ポインタ間接参照のポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="30" rule="BD-PB-NP" FirstElSrcRngStartPos="0" lnHash="1708187001" ruleSCSCMsg="NULL 値のソース" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" rule.header="null ポインターの間接参照を避ける" FirstElSrcRngStartln="29" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-1172535384" lang="cpp" locEndPos="0" urgent="true" locEndLn="31" goals="1," locStartln="30" sev="1" locRef="14" tool="c++test" lineHash="1708187001" locType="sr" hash="585379582" causeLocRef="14">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="457932120" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="30" ln="29" srcRngEndPos="0" srcRngStartln="29" srcRngStartPos="0" desc="Person* p = malloc(sizeof(Person));" ElType=".C" rngLn="29">
+          <Props>
+            <Prop key="Tracked variables" val="malloc(...)" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のソース" kind="cause" />
+            <Ann msg="NULL 値のキャリア: malloc(...)" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1708187001" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="31" ln="30" srcRngEndPos="0" srcRngStartln="30" srcRngStartPos="0" desc="p->name = name;" ElType=".P" rngLn="30">
+          <Props>
+            <Prop key="Tracked variables" val="p" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: p" kind="var" />
+            <Ann msg="null ポインタ間接参照のポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;p->reference&quot; は null の可能性がある" ln="40" locFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" ruleSAFMsg="null ポインタ間接参照のポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="40" rule="BD-PB-NP" FirstElSrcRngStartPos="0" lnHash="1175606183" ruleSCSCMsg="NULL 値のソース" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" rule.header="null ポインターの間接参照を避ける" FirstElSrcRngStartln="39" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-290241350" lang="cpp" locEndPos="0" urgent="true" locEndLn="41" goals="1," locStartln="40" sev="1" locRef="14" tool="c++test" lineHash="1175606183" locType="sr" hash="585379582" causeLocRef="14">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-695983806" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="39" ln="38" srcRngEndPos="0" srcRngStartln="38" srcRngStartPos="0" desc="char c;" ElType="." rngLn="38" />
+        <ElDesc lineHash="961893567" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="40" ln="39" srcRngEndPos="0" srcRngStartln="39" srcRngStartPos="0" desc="Person* p = createPerson(7, &quot;Alice&quot;, NULL);" ElType=".C" rngLn="39">
+          <ElDescList>
+            <ElDesc lineHash="457932120" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="30" ln="29" srcRngEndPos="0" srcRngStartln="29" srcRngStartPos="0" desc="Person* p = malloc(sizeof(Person));" ElType="." rngLn="29">
+              <Props>
+                <Prop key="Tracked variables" val="ref" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のキャリア: ref" kind="var" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1708187001" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="31" ln="30" srcRngEndPos="0" srcRngStartln="30" srcRngStartPos="0" desc="p->name = name;" ElType="." rngLn="30" />
+            <ElDesc lineHash="2093147993" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="32" ln="31" srcRngEndPos="0" srcRngStartln="31" srcRngStartPos="0" desc="p->personalId = id;" ElType="." rngLn="31" />
+            <ElDesc lineHash="708220577" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="33" ln="32" srcRngEndPos="0" srcRngStartln="32" srcRngStartPos="0" desc="p->reference = ref;" ElType="!" rngLn="32" />
+            <ElDesc lineHash="-1256394053" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="34" ln="33" srcRngEndPos="0" srcRngStartln="33" srcRngStartPos="0" desc="return p;" ElType="!" rngLn="33">
+              <Props>
+                <Prop key="Tracked variables" val="p->reference" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のキャリア: p->reference" kind="var" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+          <Props>
+            <Prop key="Tracked variables" val="&lt;createPerson() のパラメーター#3>" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のソース" kind="cause" />
+            <Ann msg="NULL 値のキャリア: &lt;createPerson() のパラメーター#3>" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1175606183" locType="sr" srcRnghash="585379582" locRef="14" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDeref.c" srcRngEndLn="41" ln="40" srcRngEndPos="0" srcRngStartln="40" srcRngStartPos="0" desc="c = *p->reference;" ElType=".P" rngLn="40">
+          <Props>
+            <Prop key="Tracked variables" val="p->reference" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: p->reference" kind="var" />
+            <Ann msg="null ポインタ間接参照のポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;x&quot; は null の可能性がある" ln="9" locFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" ruleSAFMsg="null ポインタ間接参照のポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="70" rule="BD-PB-NP" FirstElSrcRngStartPos="0" lnHash="-293575299" ruleSCSCMsg="NULL 値のソース" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" rule.header="null ポインターの間接参照を避ける" FirstElSrcRngStartln="69" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="1897827450" lang="cpp" locEndPos="0" urgent="true" locEndLn="10" goals="1," locStartln="9" sev="1" locRef="15" tool="c++test" lineHash="-293575299" locType="sr" hash="-1583021683" causeLocRef="15">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="2035137398" locType="sr" srcRnghash="-1583021683" locRef="15" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" srcRngEndLn="70" ln="69" srcRngEndPos="0" srcRngStartln="69" srcRngStartPos="0" desc="x = 0;" ElType=".C" rngLn="69">
+          <Props>
+            <Prop key="Tracked variables" val="x" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のソース" kind="cause" />
+            <Ann msg="NULL 値のキャリア: x" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1669491884" locType="sr" srcRnghash="-1583021683" locRef="15" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" srcRngEndLn="71" ln="70" srcRngEndPos="0" srcRngStartln="70" srcRngStartPos="0" desc="if (b)" ElType="." rngLn="70">
+          <Anns>
+            <Ann msg="条件評価: (b != 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="963008959" locType="sr" srcRnghash="-1583021683" locRef="15" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" srcRngEndLn="73" ln="72" srcRngEndPos="0" srcRngStartln="72" srcRngStartPos="0" desc="helper1(...)" ElType="!" rngLn="72">
+          <ElDescList>
+            <ElDesc lineHash="1669491884" locType="sr" srcRnghash="-1583021683" locRef="15" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" srcRngEndLn="8" ln="7" srcRngEndPos="0" srcRngStartln="7" srcRngStartPos="0" desc="if (b)" ElType="." rngLn="7">
+              <Props>
+                <Prop key="Tracked variables" val="x" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のキャリア: x" kind="var" />
+                <Ann msg="条件評価: (b != 0) (false)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="-293575299" locType="sr" srcRnghash="-1583021683" locRef="15" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" srcRngEndLn="10" ln="9" srcRngEndPos="0" srcRngStartln="9" srcRngStartPos="0" desc="return *x;" ElType=".P" rngLn="9">
+              <Props>
+                <Prop key="Tracked variables" val="x" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のキャリア: x" kind="var" />
+                <Ann msg="null ポインタ間接参照のポイント" kind="point" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;x&quot; は null の可能性がある" ln="13" locFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" ruleSAFMsg="null ポインタ間接参照のポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="77" rule="BD-PB-NP" FirstElSrcRngStartPos="0" lnHash="-293575299" ruleSCSCMsg="NULL 値のソース" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" rule.header="null ポインターの間接参照を避ける" FirstElSrcRngStartln="76" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-1601519771" lang="cpp" locEndPos="0" urgent="true" locEndLn="14" goals="1," locStartln="13" sev="1" locRef="15" tool="c++test" lineHash="-293575299" locType="sr" hash="-1583021683" causeLocRef="15">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="2035137398" locType="sr" srcRnghash="-1583021683" locRef="15" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" srcRngEndLn="77" ln="76" srcRngEndPos="0" srcRngStartln="76" srcRngStartPos="0" desc="x = 0;" ElType=".C" rngLn="76">
+          <Props>
+            <Prop key="Tracked variables" val="x" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のソース" kind="cause" />
+            <Ann msg="NULL 値のキャリア: x" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="862376838" locType="sr" srcRnghash="-1583021683" locRef="15" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" srcRngEndLn="78" ln="77" srcRngEndPos="0" srcRngStartln="77" srcRngStartPos="0" desc="helper2()" ElType="!" rngLn="77">
+          <ElDescList>
+            <ElDesc lineHash="-293575299" locType="sr" srcRnghash="-1583021683" locRef="15" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" srcRngEndLn="14" ln="13" srcRngEndPos="0" srcRngStartln="13" srcRngStartPos="0" desc="return *x;" ElType=".P" rngLn="13">
+              <Props>
+                <Prop key="Tracked variables" val="x" />
+              </Props>
+              <Anns>
+                <Ann msg="NULL 値のキャリア: x" kind="var" />
+                <Ann msg="null ポインタ間接参照のポイント" kind="point" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;x&quot; は null の可能性がある" ln="51" locFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" ruleSAFMsg="null ポインタ間接参照のポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="47" rule="BD-PB-NP" FirstElSrcRngStartPos="0" lnHash="60910973" ruleSCSCMsg="NULL 値のソース" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" rule.header="null ポインターの間接参照を避ける" FirstElSrcRngStartln="46" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-297032921" lang="cpp" locEndPos="0" urgent="true" locEndLn="52" goals="1," locStartln="51" sev="1" locRef="15" tool="c++test" lineHash="60910973" locType="sr" hash="-1583021683" causeLocRef="15">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-299073094" locType="sr" srcRnghash="-1583021683" locRef="15" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" srcRngEndLn="46" ln="45" srcRngEndPos="0" srcRngStartln="45" srcRngStartPos="0" desc="int* y = 0;" ElType="." rngLn="45" />
+        <ElDesc lineHash="1828542768" locType="sr" srcRnghash="-1583021683" locRef="15" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" srcRngEndLn="47" ln="46" srcRngEndPos="0" srcRngStartln="46" srcRngStartPos="0" desc="if (x != 0)" ElType=".C" rngLn="46">
+          <Props>
+            <Prop key="Tracked variables" val="x" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のソース" kind="cause" />
+            <Ann msg="NULL 値のキャリア: x" kind="var" />
+            <Ann msg="条件評価: (x != 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1578920847" locType="sr" srcRnghash="-1583021683" locRef="15" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" srcRngEndLn="49" ln="48" srcRngEndPos="0" srcRngStartln="48" srcRngStartPos="0" desc="if (y != 0)" ElType="." rngLn="48">
+          <Anns>
+            <Ann msg="条件評価: (y != 0) (false)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="60910973" locType="sr" srcRnghash="-1583021683" locRef="15" srcRngFile="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" srcRngEndLn="52" ln="51" srcRngEndPos="0" srcRngStartln="51" srcRngStartPos="0" desc="return *x;" ElType=".P" rngLn="51">
+          <Props>
+            <Prop key="Tracked variables" val="x" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: x" kind="var" />
+            <Ann msg="null ポインタ間接参照のポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="条件 &quot;!volumetric&quot; は常に true に評価される" ln="16" locFile="/DevelopSampleProject/BugDetective/unreachableCode.c" ruleSAFMsg="意味を持たない条件が使用されたポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="12" rule="BD-PB-CC" FirstElSrcRngStartPos="0" lnHash="-187791626" ruleSCSCMsg="パスの開始" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" rule.header="常に同じ値に評価される条件式を避ける" FirstElSrcRngStartln="11" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-986365914" lang="cpp" locEndPos="0" urgent="true" locEndLn="17" goals="1," locStartln="16" sev="2" locRef="18" tool="c++test" lineHash="-187791626" locType="sr" hash="1398926183" causeLocRef="18">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="-1480948708" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="12" ln="11" srcRngEndPos="0" srcRngStartln="11" srcRngStartPos="0" desc="static void guessFigure(int round, int volumetric)" ElType=".C" rngLn="11">
+          <Anns>
+            <Ann msg="パスの開始" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1057660582" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="14" ln="13" srcRngEndPos="0" srcRngStartln="13" srcRngStartPos="0" desc="int figure;" ElType="." rngLn="13" />
+        <ElDesc lineHash="698448873" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="15" ln="14" srcRngEndPos="0" srcRngStartln="14" srcRngStartPos="0" desc="if (round &amp;&amp; volumetric) {" ElType="!" rngLn="14">
+          <Anns>
+            <Ann msg="条件評価: (round != 0) (true を仮定)" kind="condEval" />
+            <Ann msg="条件評価: (volumetric != 0) (false を仮定)" kind="condEval" />
+            <Ann msg="条件評価: round &amp;&amp; volumetric (false)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-187791626" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="17" ln="16" srcRngEndPos="0" srcRngStartln="16" srcRngStartPos="0" desc="} else if (round &amp;&amp; !volumetric) {" ElType=".P" rngLn="16">
+          <Anns>
+            <Ann msg="条件評価: (round != 0) (true)" kind="condEval" />
+            <Ann msg="意味を持たない条件が使用されたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="条件 &quot;!round&quot; は常に true に評価される" ln="18" locFile="/DevelopSampleProject/BugDetective/unreachableCode.c" ruleSAFMsg="意味を持たない条件が使用されたポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="12" rule="BD-PB-CC" FirstElSrcRngStartPos="0" lnHash="-1388792196" ruleSCSCMsg="パスの開始" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" rule.header="常に同じ値に評価される条件式を避ける" FirstElSrcRngStartln="11" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-1780134809" lang="cpp" locEndPos="0" urgent="true" locEndLn="19" goals="1," locStartln="18" sev="2" locRef="18" tool="c++test" lineHash="-1388792196" locType="sr" hash="1398926183" causeLocRef="18">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="-1480948708" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="12" ln="11" srcRngEndPos="0" srcRngStartln="11" srcRngStartPos="0" desc="static void guessFigure(int round, int volumetric)" ElType=".C" rngLn="11">
+          <Anns>
+            <Ann msg="パスの開始" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1057660582" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="14" ln="13" srcRngEndPos="0" srcRngStartln="13" srcRngStartPos="0" desc="int figure;" ElType="." rngLn="13" />
+        <ElDesc lineHash="698448873" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="15" ln="14" srcRngEndPos="0" srcRngStartln="14" srcRngStartPos="0" desc="if (round &amp;&amp; volumetric) {" ElType="!" rngLn="14">
+          <Anns>
+            <Ann msg="条件評価: (round != 0) (false を仮定)" kind="condEval" />
+            <Ann msg="条件評価: round &amp;&amp; volumetric (false)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-187791626" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="17" ln="16" srcRngEndPos="0" srcRngStartln="16" srcRngStartPos="0" desc="} else if (round &amp;&amp; !volumetric) {" ElType="." rngLn="16">
+          <Anns>
+            <Ann msg="条件評価: (round != 0) (false)" kind="condEval" />
+            <Ann msg="条件評価: round &amp;&amp; !volumetric (false)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1388792196" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="19" ln="18" srcRngEndPos="0" srcRngStartln="18" srcRngStartPos="0" desc="} else if (!round &amp;&amp; volumetric) {" ElType=".P" rngLn="18">
+          <Anns>
+            <Ann msg="意味を持たない条件が使用されたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="条件 &quot;(*cur >= 'a') &amp;&amp; (*cur &lt;= 'f')&quot; は常に false に評価される" ln="51" locFile="/DevelopSampleProject/BugDetective/unreachableCode.c" ruleSAFMsg="意味を持たない条件が使用されたポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="45" rule="BD-PB-CC" FirstElSrcRngStartPos="0" lnHash="1747727699" ruleSCSCMsg="パスの開始" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" rule.header="常に同じ値に評価される条件式を避ける" FirstElSrcRngStartln="44" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="794342911" lang="cpp" locEndPos="0" urgent="true" locEndLn="52" goals="1," locStartln="51" sev="2" locRef="18" tool="c++test" lineHash="1747727699" locType="sr" hash="1398926183" causeLocRef="18">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="1739736142" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="45" ln="44" srcRngEndPos="0" srcRngStartln="44" srcRngStartPos="0" desc="static void checkRange(char* cur)" ElType=".C" rngLn="44">
+          <Anns>
+            <Ann msg="パスの開始" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="207315533" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="47" ln="46" srcRngEndPos="0" srcRngStartln="46" srcRngStartPos="0" desc="if ((*cur &lt; '0') || (*cur > '9')) {" ElType="." rngLn="46">
+          <Anns>
+            <Ann msg="条件評価: (*cur &lt; 48) (false を仮定)" kind="condEval" />
+            <Ann msg="条件評価: (*cur > 57) (false を仮定)" kind="condEval" />
+            <Ann msg="条件評価: (*cur &lt; '0') || (*cur > '9') (false)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1747727699" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="52" ln="51" srcRngEndPos="0" srcRngStartln="51" srcRngStartPos="0" desc="if ((*cur >= 'a') &amp;&amp; (*cur &lt;= 'f')) {" ElType=".P" rngLn="51">
+          <Anns>
+            <Ann msg="条件評価: (*cur >= 97) (false)" kind="condEval" />
+            <Ann msg="意味を持たない条件が使用されたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="条件 &quot;(int)*cur >= 97&quot; は常に false に評価される" ln="51" locFile="/DevelopSampleProject/BugDetective/unreachableCode.c" ruleSAFMsg="意味を持たない条件が使用されたポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="45" rule="BD-PB-CC" FirstElSrcRngStartPos="0" lnHash="1747727699" ruleSCSCMsg="パスの開始" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" rule.header="常に同じ値に評価される条件式を避ける" FirstElSrcRngStartln="44" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-1003792216" lang="cpp" locEndPos="0" urgent="true" locEndLn="52" goals="1," locStartln="51" sev="2" locRef="18" tool="c++test" lineHash="1747727699" locType="sr" hash="1398926183" causeLocRef="18">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="1739736142" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="45" ln="44" srcRngEndPos="0" srcRngStartln="44" srcRngStartPos="0" desc="static void checkRange(char* cur)" ElType=".C" rngLn="44">
+          <Anns>
+            <Ann msg="パスの開始" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="207315533" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="47" ln="46" srcRngEndPos="0" srcRngStartln="46" srcRngStartPos="0" desc="if ((*cur &lt; '0') || (*cur > '9')) {" ElType="." rngLn="46">
+          <Anns>
+            <Ann msg="条件評価: (*cur &lt; 48) (false を仮定)" kind="condEval" />
+            <Ann msg="条件評価: (*cur > 57) (false を仮定)" kind="condEval" />
+            <Ann msg="条件評価: (*cur &lt; '0') || (*cur > '9') (false)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1747727699" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="52" ln="51" srcRngEndPos="0" srcRngStartln="51" srcRngStartPos="0" desc="if ((*cur >= 'a') &amp;&amp; (*cur &lt;= 'f')) {" ElType=".P" rngLn="51">
+          <Anns>
+            <Ann msg="意味を持たない条件が使用されたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;cur&quot; が間接参照の後に null チェックされている" ln="63" locFile="/DevelopSampleProject/BugDetective/unreachableCode.c" ruleSAFMsg="null チェックのポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="59" rule="BD-PB-DEREF" FirstElSrcRngStartPos="0" lnHash="219043974" ruleSCSCMsg="間接参照のポイント" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" rule.header="間接参照の後に null チェックしない" FirstElSrcRngStartln="58" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-1441502352" lang="cpp" locEndPos="0" urgent="true" locEndLn="64" goals="1," locStartln="63" sev="2" locRef="18" tool="c++test" lineHash="219043974" locType="sr" hash="1398926183" causeLocRef="18">
+      <Props>
+        <Prop key="Tracked variables" val="重要な値" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="1138493433" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="59" ln="58" srcRngEndPos="0" srcRngStartln="58" srcRngStartPos="0" desc="if (cur[0] == '-') {" ElType=".C" rngLn="58">
+          <Props>
+            <Prop key="Tracked variables" val="cur != null" />
+          </Props>
+          <Anns>
+            <Ann msg="間接参照のポイント" kind="cause" />
+            <Ann msg="重要な値: cur != null" kind="var" />
+            <Ann msg="条件評価: (cur[0] == 45) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="219043974" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="64" ln="63" srcRngEndPos="0" srcRngStartln="63" srcRngStartPos="0" desc="if (cur == 0) {" ElType=".P" rngLn="63">
+          <Props>
+            <Prop key="Tracked variables" val="cur != null" />
+          </Props>
+          <Anns>
+            <Ann msg="重要な値: cur != null" kind="var" />
+            <Ann msg="null チェックのポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="条件 &quot;cur == 0&quot; は常に false に評価される" ln="63" locFile="/DevelopSampleProject/BugDetective/unreachableCode.c" ruleSAFMsg="意味を持たない条件が使用されたポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="57" rule="BD-PB-CC" FirstElSrcRngStartPos="0" lnHash="219043974" ruleSCSCMsg="パスの開始" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" rule.header="常に同じ値に評価される条件式を避ける" FirstElSrcRngStartln="56" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="1312003114" lang="cpp" locEndPos="0" urgent="true" locEndLn="64" goals="1," locStartln="63" sev="2" locRef="18" tool="c++test" lineHash="219043974" locType="sr" hash="1398926183" causeLocRef="18">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="1824344440" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="57" ln="56" srcRngEndPos="0" srcRngStartln="56" srcRngStartPos="0" desc="static void checkSequence(char cur[])" ElType=".C" rngLn="56">
+          <Anns>
+            <Ann msg="パスの開始" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1138493433" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="59" ln="58" srcRngEndPos="0" srcRngStartln="58" srcRngStartPos="0" desc="if (cur[0] == '-') {" ElType="." rngLn="58">
+          <Anns>
+            <Ann msg="条件評価: (cur[0] == 45) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="219043974" locType="sr" srcRnghash="1398926183" locRef="18" srcRngFile="/DevelopSampleProject/BugDetective/unreachableCode.c" srcRngEndLn="64" ln="63" srcRngEndPos="0" srcRngStartln="63" srcRngStartPos="0" desc="if (cur == 0) {" ElType=".P" rngLn="63">
+          <Anns>
+            <Ann msg="意味を持たない条件が使用されたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;numberOfCharactersPrinted&quot; は初期化する前に使用されている" ln="27" locFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" ruleSAFMsg="使用ポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="19" rule="BD-PB-NOTINIT" FirstElSrcRngStartPos="0" lnHash="-1547729396" ruleSCSCMsg="初期化されていない値のソース" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" rule.header="初期化の前に使用しない" FirstElSrcRngStartln="18" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-1810206114" lang="cpp" locEndPos="0" urgent="true" locEndLn="28" goals="1," locStartln="27" sev="1" locRef="19" tool="c++test" lineHash="-1547729396" locType="sr" hash="389143777" causeLocRef="19">
+      <Props>
+        <Prop key="Tracked variables" val="初期化されていない値" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="-1954950279" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="18" ln="17" srcRngEndPos="0" srcRngStartln="17" srcRngStartPos="0" desc="FILE *file;" ElType="." rngLn="17" />
+        <ElDesc lineHash="943815722" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="19" ln="18" srcRngEndPos="0" srcRngStartln="18" srcRngStartPos="0" desc="int numberOfCharactersPrinted;" ElType=".C" rngLn="18">
+          <Props>
+            <Prop key="Tracked variables" val="numberOfCharactersPrinted" />
+          </Props>
+          <Anns>
+            <Ann msg="初期化されていない値のソース" kind="cause" />
+            <Ann msg="初期化されていない値: numberOfCharactersPrinted" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="986280837" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="20" ln="19" srcRngEndPos="0" srcRngStartln="19" srcRngStartPos="0" desc="file = fopen(filename, &quot;w&quot;);" ElType="." rngLn="19" />
+        <ElDesc lineHash="1027984352" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="22" ln="21" srcRngEndPos="0" srcRngStartln="21" srcRngStartPos="0" desc="if (file!=NULL) {" ElType="." rngLn="21">
+          <Anns>
+            <Ann msg="条件評価: (file != 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1547729396" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="28" ln="27" srcRngEndPos="0" srcRngStartln="27" srcRngStartPos="0" desc="printf(&quot;File length: %d\n&quot;, numberOfCharactersPrinted);" ElType=".P" rngLn="27">
+          <Props>
+            <Prop key="Tracked variables" val="numberOfCharactersPrinted" />
+          </Props>
+          <Anns>
+            <Ann msg="初期化されていない値: numberOfCharactersPrinted" kind="var" />
+            <Ann msg="使用ポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="ファイルがクローズされていない: file" ln="40" locFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" ruleSAFMsg="オープンされたファイルが失われたポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="35" rule="BD-RES-LEAKS" FirstElSrcRngStartPos="0" lnHash="-321328779" ruleSCSCMsg="ファイルがオープンされたポイント" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" rule.header="リソースが解放されていることを確認する" FirstElSrcRngStartln="34" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="12287502" lang="cpp" locEndPos="0" urgent="true" locEndLn="41" goals="1," locStartln="40" sev="1" locRef="19" tool="c++test" lineHash="-321328779" locType="sr" hash="389143777" causeLocRef="19">
+      <Props>
+        <Prop key="Tracked variables" val="オープンされたファイル" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="1041656438" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="33" ln="32" srcRngEndPos="0" srcRngStartln="32" srcRngStartPos="0" desc="Person* p;" ElType="." rngLn="32" />
+        <ElDesc lineHash="-1954950279" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="34" ln="33" srcRngEndPos="0" srcRngStartln="33" srcRngStartPos="0" desc="FILE *file;" ElType="." rngLn="33" />
+        <ElDesc lineHash="986131882" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="35" ln="34" srcRngEndPos="0" srcRngStartln="34" srcRngStartPos="0" desc="file = fopen(filename, &quot;r&quot;);" ElType=".C" rngLn="34">
+          <Props>
+            <Prop key="Tracked variables" val="file" />
+          </Props>
+          <Anns>
+            <Ann msg="ファイルがオープンされたポイント" kind="cause" />
+            <Ann msg="オープンされたファイル: file" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1027984352" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="36" ln="35" srcRngEndPos="0" srcRngStartln="35" srcRngStartPos="0" desc="if (file!=NULL) {" ElType="." rngLn="35">
+          <Anns>
+            <Ann msg="条件評価: (file != 0) (true を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="905762227" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="37" ln="36" srcRngEndPos="0" srcRngStartln="36" srcRngStartPos="0" desc="char id[10];" ElType="." rngLn="36" />
+        <ElDesc lineHash="-170681591" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="38" ln="37" srcRngEndPos="0" srcRngStartln="37" srcRngStartPos="0" desc="char name[100];" ElType="." rngLn="37" />
+        <ElDesc lineHash="-483460585" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="39" ln="38" srcRngEndPos="0" srcRngStartln="38" srcRngStartPos="0" desc="char reference[1000];" ElType="." rngLn="38" />
+        <ElDesc lineHash="1433650083" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="40" ln="39" srcRngEndPos="0" srcRngStartln="39" srcRngStartPos="0" desc="p = malloc(sizeof(Person));" ElType="." rngLn="39" />
+        <ElDesc lineHash="-321328779" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="41" ln="40" srcRngEndPos="0" srcRngStartln="40" srcRngStartPos="0" desc="exit(...)" ElType=".P" rngLn="40">
+          <Props>
+            <Prop key="Tracked variables" val="file" />
+          </Props>
+          <Anns>
+            <Ann msg="オープンされたファイル: file" kind="var" />
+            <Ann msg="オープンされたファイルが失われたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;p&quot; は初期化する前に使用されている" ln="51" locFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" ruleSAFMsg="使用ポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="33" rule="BD-PB-NOTINIT" FirstElSrcRngStartPos="0" lnHash="1220665574" ruleSCSCMsg="初期化されていない値のソース" FirstElSrcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" rule.header="初期化の前に使用しない" FirstElSrcRngStartln="32" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="2041234283" lang="cpp" locEndPos="0" urgent="true" locEndLn="52" goals="1," locStartln="51" sev="1" locRef="19" tool="c++test" lineHash="1220665574" locType="sr" hash="389143777" causeLocRef="19">
+      <Props>
+        <Prop key="Tracked variables" val="初期化されていない値" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="1041656438" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="33" ln="32" srcRngEndPos="0" srcRngStartln="32" srcRngStartPos="0" desc="Person* p;" ElType=".C" rngLn="32">
+          <Props>
+            <Prop key="Tracked variables" val="p" />
+          </Props>
+          <Anns>
+            <Ann msg="初期化されていない値のソース" kind="cause" />
+            <Ann msg="初期化されていない値: p" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1954950279" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="34" ln="33" srcRngEndPos="0" srcRngStartln="33" srcRngStartPos="0" desc="FILE *file;" ElType="." rngLn="33" />
+        <ElDesc lineHash="986131882" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="35" ln="34" srcRngEndPos="0" srcRngStartln="34" srcRngStartPos="0" desc="file = fopen(filename, &quot;r&quot;);" ElType="." rngLn="34" />
+        <ElDesc lineHash="1027984352" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="36" ln="35" srcRngEndPos="0" srcRngStartln="35" srcRngStartPos="0" desc="if (file!=NULL) {" ElType="." rngLn="35">
+          <Anns>
+            <Ann msg="条件評価: (file != 0) (false を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="295924201" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="51" ln="50" srcRngEndPos="0" srcRngStartln="50" srcRngStartPos="0" desc="storePersonToDB(p);" ElType="." rngLn="50" />
+        <ElDesc lineHash="1220665574" locType="sr" srcRnghash="389143777" locRef="19" srcRngFile="/DevelopSampleProject/BugDetective/useBeforeInit.c" srcRngEndLn="52" ln="51" srcRngEndPos="0" srcRngStartln="51" srcRngStartPos="0" desc="free(p);" ElType=".P" rngLn="51">
+          <Props>
+            <Prop key="Tracked variables" val="p" />
+          </Props>
+          <Anns>
+            <Ann msg="初期化されていない値: p" kind="var" />
+            <Ann msg="使用ポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="条件 &quot;temperature &lt; 50&quot; は常に true に評価される" ln="17" locFile="/DevelopSampleProject/Control/fan.c" ruleSAFMsg="意味を持たない条件が使用されたポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="12" rule="BD-PB-CC" FirstElSrcRngStartPos="0" lnHash="1130913291" ruleSCSCMsg="パスの開始" FirstElSrcRngFile="/DevelopSampleProject/Control/fan.c" rule.header="常に同じ値に評価される条件式を避ける" FirstElSrcRngStartln="11" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="1952730283" lang="cpp" locEndPos="0" urgent="true" locEndLn="18" goals="1," locStartln="17" sev="2" locRef="20" tool="c++test" lineHash="1130913291" locType="sr" hash="1600673856" causeLocRef="20">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="-140625873" locType="sr" srcRnghash="1600673856" locRef="20" srcRngFile="/DevelopSampleProject/Control/fan.c" srcRngEndLn="12" ln="11" srcRngEndPos="0" srcRngStartln="11" srcRngStartPos="0" desc="int fan_control(int base_rpm)" ElType=".C" rngLn="11">
+          <Anns>
+            <Ann msg="パスの開始" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="1419468998" locType="sr" srcRnghash="1600673856" locRef="20" srcRngFile="/DevelopSampleProject/Control/fan.c" srcRngEndLn="14" ln="13" srcRngEndPos="0" srcRngStartln="13" srcRngStartPos="0" desc="int rpm;" ElType="." rngLn="13" />
+        <ElDesc lineHash="1918929889" locType="sr" srcRnghash="1600673856" locRef="20" srcRngFile="/DevelopSampleProject/Control/fan.c" srcRngEndLn="15" ln="14" srcRngEndPos="0" srcRngStartln="14" srcRngStartPos="0" desc="int temperature;" ElType="." rngLn="14" />
+        <ElDesc lineHash="-1977805147" locType="sr" srcRnghash="1600673856" locRef="20" srcRngFile="/DevelopSampleProject/Control/fan.c" srcRngEndLn="17" ln="16" srcRngEndPos="0" srcRngStartln="16" srcRngStartPos="0" desc="temperature = read_temperature(); /* 温度を読み取る */" ElType="!" rngLn="16">
+          <ElDescList>
+            <ElDesc lineHash="1599597842" locType="sr" srcRnghash="-230714909" locRef="21" srcRngFile="/DevelopSampleProject/Control/fan_control.c" srcRngEndLn="11" ln="10" srcRngEndPos="0" srcRngStartln="10" srcRngStartPos="0" desc="return 0;" ElType="!" rngLn="10" />
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="1130913291" locType="sr" srcRnghash="1600673856" locRef="20" srcRngFile="/DevelopSampleProject/Control/fan.c" srcRngEndLn="18" ln="17" srcRngEndPos="0" srcRngStartln="17" srcRngStartPos="0" desc="if (temperature &lt; 50) {" ElType=".P" rngLn="17">
+          <Anns>
+            <Ann msg="意味を持たない条件が使用されたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;messages&quot; は null の可能性がある" ln="29" locFile="/DevelopSampleProject/Sensor/sensor.c" ruleSAFMsg="null ポインタ間接参照のポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="29" rule="BD-PB-NP" FirstElSrcRngStartPos="0" lnHash="-246638945" ruleSCSCMsg="NULL 値のソース" FirstElSrcRngFile="/DevelopSampleProject/Sensor/sensor.c" rule.header="null ポインターの間接参照を避ける" FirstElSrcRngStartln="28" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-287399785" lang="cpp" locEndPos="0" urgent="true" locEndLn="30" goals="1," locStartln="29" sev="1" locRef="22" tool="c++test" lineHash="-246638945" locType="sr" hash="-1464444715" causeLocRef="22">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="862816677" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="28" ln="27" srcRngEndPos="0" srcRngStartln="27" srcRngStartPos="0" desc="if (messages == 0) {" ElType="." rngLn="27">
+          <Anns>
+            <Ann msg="条件評価: (messages == 0) (true を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="261036598" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="29" ln="28" srcRngEndPos="0" srcRngStartln="28" srcRngStartPos="0" desc="malloc(...)" ElType=".C" rngLn="28">
+          <Props>
+            <Prop key="Tracked variables" val="malloc(...)" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のソース" kind="cause" />
+            <Ann msg="NULL 値のキャリア: malloc(...)" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="261036598" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="29" ln="28" srcRngEndPos="0" srcRngStartln="28" srcRngStartPos="0" desc="messages = (char**)malloc(sizeof(char*) * 3);" ElType="!" rngLn="28" />
+        <ElDesc lineHash="-246638945" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="30" ln="29" srcRngEndPos="0" srcRngStartln="29" srcRngStartPos="0" desc="messages[0] = (char*)malloc(128);" ElType=".P" rngLn="29">
+          <Props>
+            <Prop key="Tracked variables" val="messages" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: messages" kind="var" />
+            <Ann msg="null ポインタ間接参照のポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;messages[0]&quot; は null の可能性がある" ln="32" locFile="/DevelopSampleProject/Sensor/sensor.c" ruleSAFMsg="null ポインタ間接参照のポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="30" rule="BD-PB-NP" FirstElSrcRngStartPos="0" lnHash="-1384907465" ruleSCSCMsg="NULL 値のソース" FirstElSrcRngFile="/DevelopSampleProject/Sensor/sensor.c" rule.header="null ポインターの間接参照を避ける" FirstElSrcRngStartln="29" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="1749582196" lang="cpp" locEndPos="0" urgent="true" locEndLn="33" goals="1," locStartln="32" sev="1" locRef="22" tool="c++test" lineHash="-1384907465" locType="sr" hash="-1464444715" causeLocRef="22">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="862816677" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="28" ln="27" srcRngEndPos="0" srcRngStartln="27" srcRngStartPos="0" desc="if (messages == 0) {" ElType="." rngLn="27">
+          <Anns>
+            <Ann msg="条件評価: (messages == 0) (true を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="261036598" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="29" ln="28" srcRngEndPos="0" srcRngStartln="28" srcRngStartPos="0" desc="messages = (char**)malloc(sizeof(char*) * 3);" ElType="." rngLn="28" />
+        <ElDesc lineHash="-246638945" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="30" ln="29" srcRngEndPos="0" srcRngStartln="29" srcRngStartPos="0" desc="malloc(...)" ElType=".C" rngLn="29">
+          <Props>
+            <Prop key="Tracked variables" val="malloc(...)" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のソース" kind="cause" />
+            <Ann msg="NULL 値のキャリア: malloc(...)" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-246638945" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="30" ln="29" srcRngEndPos="0" srcRngStartln="29" srcRngStartPos="0" desc="messages[0] = (char*)malloc(128);" ElType="!" rngLn="29" />
+        <ElDesc lineHash="-313645698" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="31" ln="30" srcRngEndPos="0" srcRngStartln="30" srcRngStartPos="0" desc="messages[1] = (char*)malloc(128);" ElType="." rngLn="30">
+          <Props>
+            <Prop key="Tracked variables" val="messages[0]" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: messages[0]" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-380652451" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="32" ln="31" srcRngEndPos="0" srcRngStartln="31" srcRngStartPos="0" desc="messages[2] = (char*)malloc(128);" ElType="." rngLn="31" />
+        <ElDesc lineHash="-1384907465" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="33" ln="32" srcRngEndPos="0" srcRngStartln="32" srcRngStartPos="0" desc="strcpy(messages[VALUE_LOW_MSG], &quot;Low&quot;);" ElType=".P" rngLn="32">
+          <Props>
+            <Prop key="Tracked variables" val="messages[0]" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: messages[0]" kind="var" />
+            <Ann msg="null ポインタ間接参照のポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;messages[1]&quot; は null の可能性がある" ln="33" locFile="/DevelopSampleProject/Sensor/sensor.c" ruleSAFMsg="null ポインタ間接参照のポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="31" rule="BD-PB-NP" FirstElSrcRngStartPos="0" lnHash="660982285" ruleSCSCMsg="NULL 値のソース" FirstElSrcRngFile="/DevelopSampleProject/Sensor/sensor.c" rule.header="null ポインターの間接参照を避ける" FirstElSrcRngStartln="30" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-125508316" lang="cpp" locEndPos="0" urgent="true" locEndLn="34" goals="1," locStartln="33" sev="1" locRef="22" tool="c++test" lineHash="660982285" locType="sr" hash="-1464444715" causeLocRef="22">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="862816677" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="28" ln="27" srcRngEndPos="0" srcRngStartln="27" srcRngStartPos="0" desc="if (messages == 0) {" ElType="." rngLn="27">
+          <Anns>
+            <Ann msg="条件評価: (messages == 0) (true を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="261036598" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="29" ln="28" srcRngEndPos="0" srcRngStartln="28" srcRngStartPos="0" desc="messages = (char**)malloc(sizeof(char*) * 3);" ElType="." rngLn="28" />
+        <ElDesc lineHash="-246638945" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="30" ln="29" srcRngEndPos="0" srcRngStartln="29" srcRngStartPos="0" desc="messages[0] = (char*)malloc(128);" ElType="." rngLn="29" />
+        <ElDesc lineHash="-313645698" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="31" ln="30" srcRngEndPos="0" srcRngStartln="30" srcRngStartPos="0" desc="malloc(...)" ElType=".C" rngLn="30">
+          <Props>
+            <Prop key="Tracked variables" val="malloc(...)" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のソース" kind="cause" />
+            <Ann msg="NULL 値のキャリア: malloc(...)" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-313645698" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="31" ln="30" srcRngEndPos="0" srcRngStartln="30" srcRngStartPos="0" desc="messages[1] = (char*)malloc(128);" ElType="!" rngLn="30" />
+        <ElDesc lineHash="-380652451" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="32" ln="31" srcRngEndPos="0" srcRngStartln="31" srcRngStartPos="0" desc="messages[2] = (char*)malloc(128);" ElType="." rngLn="31">
+          <Props>
+            <Prop key="Tracked variables" val="messages[1]" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: messages[1]" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1384907465" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="33" ln="32" srcRngEndPos="0" srcRngStartln="32" srcRngStartPos="0" desc="strcpy(messages[VALUE_LOW_MSG], &quot;Low&quot;);" ElType="." rngLn="32" />
+        <ElDesc lineHash="660982285" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="34" ln="33" srcRngEndPos="0" srcRngStartln="33" srcRngStartPos="0" desc="strcpy(messages[VALUE_HIGH_MSG], &quot;High&quot;);" ElType=".P" rngLn="33">
+          <Props>
+            <Prop key="Tracked variables" val="messages[1]" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: messages[1]" kind="var" />
+            <Ann msg="null ポインタ間接参照のポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="&quot;messages[2]&quot; は null の可能性がある" ln="34" locFile="/DevelopSampleProject/Sensor/sensor.c" ruleSAFMsg="null ポインタ間接参照のポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="32" rule="BD-PB-NP" FirstElSrcRngStartPos="0" lnHash="-410884226" ruleSCSCMsg="NULL 値のソース" FirstElSrcRngFile="/DevelopSampleProject/Sensor/sensor.c" rule.header="null ポインターの間接参照を避ける" FirstElSrcRngStartln="31" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-1094239639" lang="cpp" locEndPos="0" urgent="true" locEndLn="35" goals="1," locStartln="34" sev="1" locRef="22" tool="c++test" lineHash="-410884226" locType="sr" hash="-1464444715" causeLocRef="22">
+      <Props>
+        <Prop key="Tracked variables" val="NULL 値のキャリア" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="862816677" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="28" ln="27" srcRngEndPos="0" srcRngStartln="27" srcRngStartPos="0" desc="if (messages == 0) {" ElType="." rngLn="27">
+          <Anns>
+            <Ann msg="条件評価: (messages == 0) (true を仮定)" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="261036598" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="29" ln="28" srcRngEndPos="0" srcRngStartln="28" srcRngStartPos="0" desc="messages = (char**)malloc(sizeof(char*) * 3);" ElType="." rngLn="28" />
+        <ElDesc lineHash="-246638945" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="30" ln="29" srcRngEndPos="0" srcRngStartln="29" srcRngStartPos="0" desc="messages[0] = (char*)malloc(128);" ElType="." rngLn="29" />
+        <ElDesc lineHash="-313645698" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="31" ln="30" srcRngEndPos="0" srcRngStartln="30" srcRngStartPos="0" desc="messages[1] = (char*)malloc(128);" ElType="." rngLn="30" />
+        <ElDesc lineHash="-380652451" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="32" ln="31" srcRngEndPos="0" srcRngStartln="31" srcRngStartPos="0" desc="malloc(...)" ElType=".C" rngLn="31">
+          <Props>
+            <Prop key="Tracked variables" val="malloc(...)" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のソース" kind="cause" />
+            <Ann msg="NULL 値のキャリア: malloc(...)" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-380652451" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="32" ln="31" srcRngEndPos="0" srcRngStartln="31" srcRngStartPos="0" desc="messages[2] = (char*)malloc(128);" ElType="!" rngLn="31" />
+        <ElDesc lineHash="-1384907465" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="33" ln="32" srcRngEndPos="0" srcRngStartln="32" srcRngStartPos="0" desc="strcpy(messages[VALUE_LOW_MSG], &quot;Low&quot;);" ElType="." rngLn="32">
+          <Props>
+            <Prop key="Tracked variables" val="messages[2]" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: messages[2]" kind="var" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="660982285" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="34" ln="33" srcRngEndPos="0" srcRngStartln="33" srcRngStartPos="0" desc="strcpy(messages[VALUE_HIGH_MSG], &quot;High&quot;);" ElType="." rngLn="33" />
+        <ElDesc lineHash="-410884226" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="35" ln="34" srcRngEndPos="0" srcRngStartln="34" srcRngStartPos="0" desc="strcpy(messages[ERROR_MSG], &quot;Error occurred&quot;);" ElType=".P" rngLn="34">
+          <Props>
+            <Prop key="Tracked variables" val="messages[2]" />
+          </Props>
+          <Anns>
+            <Ann msg="NULL 値のキャリア: messages[2]" kind="var" />
+            <Ann msg="null ポインタ間接参照のポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="解放されたリソース &quot;messages&quot; の使用" ln="50" locFile="/DevelopSampleProject/Sensor/sensor.c" ruleSAFMsg="使用ポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="46" rule="BD-RES-FREE" FirstElSrcRngStartPos="0" lnHash="-837599021" ruleSCSCMsg="リソースが解放されたポイント" FirstElSrcRngFile="/DevelopSampleProject/Sensor/sensor.c" rule.header="解放されたリソースを使用してはならない" FirstElSrcRngStartln="45" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-682661278" lang="cpp" locEndPos="0" urgent="true" locEndLn="51" goals="1," locStartln="50" sev="1" locRef="22" tool="c++test" lineHash="-837599021" locType="sr" hash="-1464444715" causeLocRef="22">
+      <Props>
+        <Prop key="Tracked variables" val="解放されたリソース" />
+      </Props>
+      <ElDescList>
+        <ElDesc lineHash="906421368" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="58" ln="57" srcRngEndPos="0" srcRngStartln="57" srcRngStartPos="0" desc="finalize(); /* FIX: change order + add initialize() */" ElType="!" rngLn="57">
+          <ElDescList>
+            <ElDesc lineHash="948048499" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="41" ln="40" srcRngEndPos="0" srcRngStartln="40" srcRngStartPos="0" desc="if (messages) {" ElType="." rngLn="40">
+              <Anns>
+                <Ann msg="条件評価: (messages != 0) (true を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+            <ElDesc lineHash="1741518706" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="42" ln="41" srcRngEndPos="0" srcRngStartln="41" srcRngStartPos="0" desc="free(messages[0]);" ElType="." rngLn="41" />
+            <ElDesc lineHash="1741548497" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="43" ln="42" srcRngEndPos="0" srcRngStartln="42" srcRngStartPos="0" desc="free(messages[1]);" ElType="." rngLn="42" />
+            <ElDesc lineHash="1741578288" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="44" ln="43" srcRngEndPos="0" srcRngStartln="43" srcRngStartPos="0" desc="free(messages[2]);" ElType="." rngLn="43" />
+            <ElDesc lineHash="824852006" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="46" ln="45" srcRngEndPos="0" srcRngStartln="45" srcRngStartPos="0" desc="free(messages); /* FIX: double free */" ElType=".C" rngLn="45">
+              <Props>
+                <Prop key="Tracked variables" val="messages" />
+              </Props>
+              <Anns>
+                <Ann msg="リソースが解放されたポイント" kind="cause" />
+                <Ann msg="解放されたリソース: messages" kind="var" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="-1435883662" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="59" ln="58" srcRngEndPos="0" srcRngStartln="58" srcRngStartPos="0" desc="printMessage(ERROR_MSG, 0);" ElType="!" rngLn="58">
+          <ElDescList>
+            <ElDesc lineHash="-837599021" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="51" ln="50" srcRngEndPos="0" srcRngStartln="50" srcRngStartPos="0" desc="const char* msg = messages[msgIndex];" ElType=".P" rngLn="50">
+              <Props>
+                <Prop key="Tracked variables" val="messages" />
+              </Props>
+              <Anns>
+                <Ann msg="解放されたリソース: messages" kind="var" />
+                <Ann msg="使用ポイント" kind="point" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+          <Props>
+            <Prop key="Tracked variables" val="messages" />
+          </Props>
+          <Anns>
+            <Ann msg="解放されたリソース: messages" kind="var" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <FlowViol msg="条件 &quot;status = STATUS_STOPPED&quot; は常に true に評価される" ln="79" locFile="/DevelopSampleProject/Sensor/sensor.c" ruleSAFMsg="意味を持たない条件が使用されたポイント" FirstElSrcRngEndPos="0" auth="tutui" FirstElSrcRngEndLn="74" rule="BD-PB-CC" FirstElSrcRngStartPos="0" lnHash="-1204803311" ruleSCSCMsg="パスの開始" FirstElSrcRngFile="/DevelopSampleProject/Sensor/sensor.c" rule.header="常に同じ値に評価される条件式を避ける" FirstElSrcRngStartln="73" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.flow" id="-2113496884" lang="cpp" locEndPos="0" urgent="true" locEndLn="80" goals="1," locStartln="79" sev="2" locRef="22" tool="c++test" lineHash="-1204803311" locType="sr" hash="-1464444715" causeLocRef="22">
+      <Props />
+      <ElDescList>
+        <ElDesc lineHash="-612190262" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="74" ln="73" srcRngEndPos="0" srcRngStartln="73" srcRngStartPos="0" desc="void mainLoop()" ElType=".C" rngLn="73">
+          <Anns>
+            <Ann msg="パスの開始" kind="cause" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-1849522731" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="76" ln="75" srcRngEndPos="0" srcRngStartln="75" srcRngStartPos="0" desc="int sensorValue;" ElType="." rngLn="75" />
+        <ElDesc lineHash="1210994090" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="77" ln="76" srcRngEndPos="0" srcRngStartln="76" srcRngStartPos="0" desc="int status = 1;" ElType="." rngLn="76" />
+        <ElDesc lineHash="1823244012" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="78" ln="77" srcRngEndPos="0" srcRngStartln="77" srcRngStartPos="0" desc="while (1) {" ElType="." rngLn="77">
+          <Anns>
+            <Ann msg="ループ条件評価:1 (true)" kind="condEval" />
+            <Ann msg="ループに入る" kind="condEval" />
+          </Anns>
+        </ElDesc>
+        <ElDesc lineHash="-379640630" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="79" ln="78" srcRngEndPos="0" srcRngStartln="78" srcRngStartPos="0" desc="status = readSensor(&amp;sensorValue);" ElType="." rngLn="78">
+          <ElDescList>
+            <ElDesc lineHash="561654337" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="15" ln="14" srcRngEndPos="0" srcRngStartln="14" srcRngStartPos="0" desc="*value = v;" ElType="." rngLn="14" />
+            <ElDesc lineHash="-780053851" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="16" ln="15" srcRngEndPos="0" srcRngStartln="15" srcRngStartPos="0" desc="v++;" ElType="." rngLn="15" />
+            <ElDesc lineHash="-491983704" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="17" ln="16" srcRngEndPos="0" srcRngStartln="16" srcRngStartPos="0" desc="return (v > MAX_NUMBER_OF_SAMPLES) ? STATUS_STOPPED : STATUS_OK;" ElType="." rngLn="16">
+              <Anns>
+                <Ann msg="条件評価: (v > 30) (true を仮定)" kind="condEval" />
+              </Anns>
+            </ElDesc>
+          </ElDescList>
+        </ElDesc>
+        <ElDesc lineHash="-1204803311" locType="sr" srcRnghash="-1464444715" locRef="22" srcRngFile="/DevelopSampleProject/Sensor/sensor.c" srcRngEndLn="80" ln="79" srcRngEndPos="0" srcRngStartln="79" srcRngStartPos="0" desc="if (status = STATUS_STOPPED) { /* FIX: == instead of = */" ElType=".P" rngLn="79">
+          <Anns>
+            <Ann msg="意味を持たない条件が使用されたポイント" kind="point" />
+          </Anns>
+        </ElDesc>
+      </ElDescList>
+    </FlowViol>
+    <StdViol msg="The parameter 'p' of function 'getDistance' is passed by value" ln="6" locFile="/DevelopSampleProject/Shapes/Point.cpp" locStartln="6" sev="3" auth="tutui" locRef="26" rule="OPT-14" lnHash="-2009076121" rule.header="値ではなく参照でオブジェクトを渡す" tool="c++test" lineHash="-2009076121" locStartPos="32" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" locEndPos="33" locType="sr" urgent="true" hash="1997028367" locEndLn="6" goals="1," />
+    <DupViol msg="重複関数: 'double Rectangle :: getArea ( ) { double leftline =...'" ln="6" locFile="/DevelopSampleProject/Shapes/Rectangle.cpp" locStartln="6" sev="2" auth="tutui" locRef="27" rule="CDD-DUPM" lnHash="123" rule.header="関数の重複を避ける" tool="c++test" lineHash="123" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.dupcode" lang="cpp" locEndPos="1" locType="sr" urgent="true" hash="993800269" locEndLn="17" goals="1,">
+      <ElDescList>
+        <ElDesc lineHash="123" locType="sr" srcRnghash="993800269" locRef="27" srcRngFile="/DevelopSampleProject/Shapes/Rectangle.cpp" srcRngEndLn="17" ln="6" srcRngEndPos="1" srcRngStartln="6" srcRngStartPos="0" desc="[行 6] ファイル 'Rectangle.cpp' に重複関数" rngLn="6" />
+        <ElDesc lineHash="123" locType="sr" srcRnghash="1133154993" locRef="28" srcRngFile="/DevelopSampleProject/Shapes/Square.cpp" srcRngEndLn="17" ln="6" srcRngEndPos="1" srcRngStartln="6" srcRngStartPos="0" desc="[行 6] ファイル 'Square.cpp' に重複関数" rngLn="6" />
+      </ElDescList>
+    </DupViol>
+    <DupViol msg="重複関数: 'double Rectangle :: getPerimeter ( ) { double leftline =...'" ln="20" locFile="/DevelopSampleProject/Shapes/Rectangle.cpp" locStartln="20" sev="2" auth="tutui" locRef="27" rule="CDD-DUPM" lnHash="123" rule.header="関数の重複を避ける" tool="c++test" lineHash="123" locStartPos="0" analyzer="com.parasoft.xtest.cpp.analyzer.static.dupcode" lang="cpp" locEndPos="1" locType="sr" urgent="true" hash="993800269" locEndLn="31" goals="1,">
+      <ElDescList>
+        <ElDesc lineHash="123" locType="sr" srcRnghash="993800269" locRef="27" srcRngFile="/DevelopSampleProject/Shapes/Rectangle.cpp" srcRngEndLn="31" ln="20" srcRngEndPos="1" srcRngStartln="20" srcRngStartPos="0" desc="[行 20] ファイル 'Rectangle.cpp' に重複関数" rngLn="20" />
+        <ElDesc lineHash="123" locType="sr" srcRnghash="1133154993" locRef="28" srcRngFile="/DevelopSampleProject/Shapes/Square.cpp" srcRngEndLn="31" ln="20" srcRngEndPos="1" srcRngStartln="20" srcRngStartPos="0" desc="[行 20] ファイル 'Square.cpp' に重複関数" rngLn="20" />
+      </ElDescList>
+    </DupViol>
+    <StdViol msg="クラス Square に仮想関数があるが、仮想デストラクタがない" ln="7" locFile="/DevelopSampleProject/Shapes/Square.h" locStartln="7" sev="2" auth="tutui" locRef="30" rule="OOP-23" lnHash="2090173286" rule.header="クラスに仮想関数がある場合、仮想デストラクタがなければならない" tool="c++test" lineHash="2090173286" locStartPos="6" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" locEndPos="7" locType="sr" urgent="true" hash="412873452" locEndLn="7" goals="1," />
+    <StdViol msg="クラス Rectangle に仮想関数があるが、仮想デストラクタがない" ln="7" locFile="/DevelopSampleProject/Shapes/Rectangle.h" locStartln="7" sev="2" auth="tutui" locRef="31" rule="OOP-23" lnHash="-1066956828" rule.header="クラスに仮想関数がある場合、仮想デストラクタがなければならない" tool="c++test" lineHash="-1066956828" locStartPos="6" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" locEndPos="7" locType="sr" urgent="true" hash="-940449750" locEndLn="7" goals="1," />
+    <StdViol msg="クラス BetterRectangle に仮想関数があるが、仮想デストラクタがない" ln="7" locFile="/DevelopSampleProject/Shapes/BetterRectangle.h" locStartln="7" sev="2" auth="tutui" locRef="36" rule="OOP-23" lnHash="-185967143" rule.header="クラスに仮想関数がある場合、仮想デストラクタがなければならない" tool="c++test" lineHash="-185967143" locStartPos="6" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" locEndPos="7" locType="sr" urgent="true" hash="126874863" locEndLn="7" goals="1," />
+    <StdViol msg="クラス Shape に仮想関数があるが、仮想デストラクタがない" ln="4" locFile="/DevelopSampleProject/Shapes/Shape.h" locStartln="4" sev="2" auth="tutui" locRef="41" rule="OOP-23" lnHash="399430900" rule.header="クラスに仮想関数がある場合、仮想デストラクタがなければならない" tool="c++test" lineHash="399430900" locStartPos="6" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" locEndPos="7" locType="sr" urgent="true" hash="777628632" locEndLn="4" goals="1," />
+    <StdViol msg="The parameter 'p' of function 'getDistance' is passed by value" ln="20" locFile="/DevelopSampleProject/Shapes/Point.h" locStartln="20" sev="3" auth="tutui" locRef="42" rule="OPT-14" lnHash="11404527" rule.header="値ではなく参照でオブジェクトを渡す" tool="c++test" lineHash="11404527" locStartPos="26" analyzer="com.parasoft.xtest.cpp.analyzer.static.pattern" lang="cpp" locEndPos="27" locType="sr" urgent="true" hash="-653814286" locEndLn="20" goals="1," />
+  </StdViols>
+
+      <TestedFilesDetails>
+         <Total name="合計 (抑制された)" supp="0" total="45">
+            <Project id="DevelopSampleProject" name="DevelopSampleProject" supp="0" total="45">
+               <Res name="Timer" supp="0" total="5">
+                  <Res loc="/DevelopSampleProject/Timer/clock.c" locRef="1" locType="sr" name="clock.c" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/Timer/driver.c" locRef="2" locType="sr" name="driver.c" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/Timer/stdinout.c" locRef="3" locType="sr" name="stdinout.c" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/Timer/timer.c" locRef="4" locType="sr" name="timer.c" supp="0" total="5" />
+                  <Res loc="/DevelopSampleProject/Timer/clock.h" locRef="29" locType="sr" name="clock.h" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/Timer/consts.h" locRef="33" locType="sr" name="consts.h" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/Timer/timer.h" locRef="35" locType="sr" name="timer.h" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/Timer/inout.h" locRef="40" locType="sr" name="inout.h" supp="0" total="0" />
+               </Res>
+               <Res name="BD_Check" supp="0" total="1">
+                  <Res loc="/DevelopSampleProject/BD_Check/BD_check1.c" locRef="5" locType="sr" name="BD_check1.c" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/BD_Check/BD_check2.c" locRef="6" locType="sr" name="BD_check2.c" supp="0" total="1" />
+                  <Res loc="/DevelopSampleProject/BD_Check/BD_check.h" locRef="44" locType="sr" name="BD_check.h" supp="0" total="0" />
+               </Res>
+               <Res name="BugDetective" supp="0" total="24">
+                  <Res loc="/DevelopSampleProject/BugDetective/arrayOutOfBounds.c" locRef="7" locType="sr" name="arrayOutOfBounds.c" supp="0" total="1" />
+                  <Res loc="/DevelopSampleProject/BugDetective/bufferOverflow.c" locRef="8" locType="sr" name="bufferOverflow.c" supp="0" total="1" />
+                  <Res loc="/DevelopSampleProject/BugDetective/dbutil.c" locRef="9" locType="sr" name="dbutil.c" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/BugDetective/divisionByZero.c" locRef="10" locType="sr" name="divisionByZero.c" supp="0" total="2" />
+                  <Res loc="/DevelopSampleProject/BugDetective/fileLeaks.c" locRef="11" locType="sr" name="fileLeaks.c" supp="0" total="2" />
+                  <Res loc="/DevelopSampleProject/BugDetective/integerOverflow.c" locRef="12" locType="sr" name="integerOverflow.c" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/BugDetective/memoryLeaks.c" locRef="13" locType="sr" name="memoryLeaks.c" supp="0" total="2" />
+                  <Res loc="/DevelopSampleProject/BugDetective/nullPointerDeref.c" locRef="14" locType="sr" name="nullPointerDeref.c" supp="0" total="4" />
+                  <Res loc="/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" locRef="15" locType="sr" name="nullPointerDerefBenchmark.c" supp="0" total="3" />
+                  <Res loc="/DevelopSampleProject/BugDetective/sql.c" locRef="16" locType="sr" name="sql.c" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/BugDetective/sqlInjection.c" locRef="17" locType="sr" name="sqlInjection.c" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/BugDetective/unreachableCode.c" locRef="18" locType="sr" name="unreachableCode.c" supp="0" total="6" />
+                  <Res loc="/DevelopSampleProject/BugDetective/useBeforeInit.c" locRef="19" locType="sr" name="useBeforeInit.c" supp="0" total="3" />
+                  <Res loc="/DevelopSampleProject/BugDetective/dbutil.h" locRef="32" locType="sr" name="dbutil.h" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/BugDetective/sql.h" locRef="34" locType="sr" name="sql.h" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/BugDetective/socket.h" locRef="38" locType="sr" name="socket.h" supp="0" total="0" />
+               </Res>
+               <Res name="Control" supp="0" total="1">
+                  <Res loc="/DevelopSampleProject/Control/fan.c" locRef="20" locType="sr" name="fan.c" supp="0" total="1" />
+                  <Res loc="/DevelopSampleProject/Control/fan_control.c" locRef="21" locType="sr" name="fan_control.c" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/Control/fan_control.h" locRef="43" locType="sr" name="fan_control.h" supp="0" total="0" />
+               </Res>
+               <Res name="Sensor" supp="0" total="6">
+                  <Res loc="/DevelopSampleProject/Sensor/sensor.c" locRef="22" locType="sr" name="sensor.c" supp="0" total="6" />
+               </Res>
+               <Res name="Shapes" supp="0" total="8">
+                  <Res loc="/DevelopSampleProject/Shapes/BetterRectangle.cpp" locRef="23" locType="sr" name="BetterRectangle.cpp" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/Shapes/Logger.cpp" locRef="24" locType="sr" name="Logger.cpp" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/Shapes/Main.cpp" locRef="25" locType="sr" name="Main.cpp" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/Shapes/Point.cpp" locRef="26" locType="sr" name="Point.cpp" supp="0" total="1" />
+                  <Res loc="/DevelopSampleProject/Shapes/Rectangle.cpp" locRef="27" locType="sr" name="Rectangle.cpp" supp="0" total="2" />
+                  <Res loc="/DevelopSampleProject/Shapes/Square.cpp" locRef="28" locType="sr" name="Square.cpp" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/Shapes/Square.h" locRef="30" locType="sr" name="Square.h" supp="0" total="1" />
+                  <Res loc="/DevelopSampleProject/Shapes/Rectangle.h" locRef="31" locType="sr" name="Rectangle.h" supp="0" total="1" />
+                  <Res loc="/DevelopSampleProject/Shapes/BetterRectangle.h" locRef="36" locType="sr" name="BetterRectangle.h" supp="0" total="1" />
+                  <Res loc="/DevelopSampleProject/Shapes/Logger.h" locRef="37" locType="sr" name="Logger.h" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/Shapes/BetterSquare.h" locRef="39" locType="sr" name="BetterSquare.h" supp="0" total="0" />
+                  <Res loc="/DevelopSampleProject/Shapes/Shape.h" locRef="41" locType="sr" name="Shape.h" supp="0" total="1" />
+                  <Res loc="/DevelopSampleProject/Shapes/Point.h" locRef="42" locType="sr" name="Point.h" supp="0" total="1" />
+               </Res>
+            </Project>
+         </Total>
+      </TestedFilesDetails>
+   </CodingStandards>
+   <Statistics>
+      
+   </Statistics>
+</ResultsSession>

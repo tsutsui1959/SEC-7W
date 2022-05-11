@@ -1,0 +1,11 @@
+#Wed Oct 13 13:41:18 JST 2021
+/DevelopSampleProject//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.c.win32.x86=C\:\\online_cpptest\\cygwin\\bin\\gcc.exe
+/DevelopSampleProject//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.cpp.win32.x86=C\:\\online_cpptest\\cygwin\\bin\\g++.exe
+/DevelopSampleProject//com.parasoft.xtest.checkers.api.cpp.options.compiler.family.win32.x86=gcc_9-64
+/DevelopSampleProject//com.parasoft.xtest.checkers.api.cpp.options.compiler.options.win32.x86=${cpptest\:original_options} -DPARASOFT_CPPTEST
+/DevelopSampleProject//com.parasoft.xtest.checkers.api.cpp.options.extractor.id=options_dir_extractor_id
+/DevelopSampleProject//com.parasoft.xtest.checkers.api.cpp.options.linker.command.win32.x86=C\:\\online_cpptest\\cygwin\\bin\\g++.exe
+/DevelopSampleProject//com.parasoft.xtest.checkers.api.cpp.options.linker.options.win32.x86=${cpptest\:original_options}
+/DevelopSampleProject//com.parasoft.xtest.checkers.api.cpp.options.ode_auto_scan_mode=never
+/DevelopSampleProject//com.parasoft.xtest.checkers.api.cpp.options.ode_options_dir=${resource_loc\:/DevelopSampleProject/cpptestscan.bdf}
+project.path=/DevelopSampleProject

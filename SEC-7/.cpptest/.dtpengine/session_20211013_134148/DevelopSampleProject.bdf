@@ -1,0 +1,244 @@
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Timer
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-g
+arg=-I.
+arg=-c
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\clock.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Timer
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-g
+arg=-I.
+arg=-c
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\driver.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Timer
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-g
+arg=-I.
+arg=-c
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\stdinout.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Timer
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-g
+arg=-I.
+arg=-c
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Timer\timer.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BD_Check
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BD_Check\BD_check1.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BD_Check
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BD_Check\BD_check2.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective\arrayOutOfBounds.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective\bufferOverflow.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective\dbutil.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective\divisionByZero.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective\fileLeaks.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective\integerOverflow.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective\memoryLeaks.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective\nullPointerDeref.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective\nullPointerDerefBenchmark.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective\sql.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective\sqlInjection.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective\unreachableCode.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\BugDetective\useBeforeInit.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Control
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-g
+arg=-I.
+arg=-c
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Control\fan.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Control
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-g
+arg=-I.
+arg=-c
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Control\fan_control.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\gcc.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-g
+arg=-I.
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_c_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\g++.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_cpp_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes\BetterRectangle.cpp
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\g++.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_cpp_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes\Logger.cpp
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\g++.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_cpp_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes\Main.cpp
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\g++.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_cpp_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes\Point.cpp
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\g++.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_cpp_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes\Rectangle.cpp
+------- cpptestscan v.10.3.0 (cpptesttrace) -------
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes
+project_name=DevelopSampleProject
+arg=C:\online_cpptest\cygwin\bin\g++.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=--cpptest_cpp_file
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes\Square.cpp

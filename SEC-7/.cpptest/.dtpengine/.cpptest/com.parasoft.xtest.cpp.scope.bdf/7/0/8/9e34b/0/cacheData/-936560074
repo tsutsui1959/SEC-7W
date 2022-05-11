@@ -1,0 +1,7 @@
+file=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes\Point.cpp
+compiler=gcc_9-64
+working_dir=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes
+arg=C:\online_cpptest\cygwin\bin\g++.exe
+arg=-IC:\Program Files\Parasoft\C++test\10.5\engine\runtime\include
+arg=-DPARASOFT_CPPTEST
+arg=C:\online_cpptest\SEC-7\DevelopSampleProject\Shapes\Point.cpp

@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Metrics writerVersion="0.1.1" hasViols="true" id="1635903527062" lang="ja_JP" climode="true" time="2021-10-13T13:42:36+09:00" machine="Pana-7600U-01" user="tutui" toolName="DTP Engine for C/C++" execEnv="win32_x86_64" toolId="c++test" toolVer="2020.2.0" toolDispName="C/C++test" project="" buildId="2021-10-13" prjModule="DevelopSampleProject" tag="Recommended Rules">
+  <TestConfig machine="Pana-7600U-01" pseudoUrl="builtin://Recommended Rules" name="Recommended Rules" user="tutui" />
+  <Analyzers>
+    <Analyzer id="com.parasoft.xtest.scope.analyzer" name="Scope Analyzer" ver="10.5.0.20201016" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.code" name="Parasoft C/C++ Code Analyzer" ver="10.5.0.20201022B981" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.desktop.files.in.scope" name="Helper Scope Analyzer for C/C++test Professional" ver="10.5.0.20201022B981" />
+    <Analyzer id="com.parasoft.xtest.dupcode.parser" name="Code Duplication Parser" ver="10.5.0.20201016" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.pattern" name="Parasoft C/C++ Static Analyzer" ver="10.5.0.20201022B981" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.flow" name="Parasoft C/C++ Flow Analyzer" ver="10.5.0.20201013B2287" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.metrics" name="Parasoft C/C++ Metrics Analyzer" ver="10.5.0.20201022B981" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.dupcode" name="Code Duplication Detector" ver="10.5.0.20201016" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.global" name="Parasoft C/C++ Global Static Analyzer" ver="10.5.0.20201022B981" />
+  </Analyzers>
+  <Repositories />
+  <Locations>
+    <Loc locRef="1" totLns="30" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/clock.c" hash="-249486341" project="DevelopSampleProject" resProjPath="Timer/clock.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="2" totLns="76" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/driver.c" hash="65740504" project="DevelopSampleProject" resProjPath="Timer/driver.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="3" totLns="55" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/stdinout.c" hash="844867668" project="DevelopSampleProject" resProjPath="Timer/stdinout.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="4" totLns="155" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/timer.c" hash="-275311578" project="DevelopSampleProject" resProjPath="Timer/timer.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="5" totLns="22" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BD_Check/BD_check1.c" hash="-1926818961" project="DevelopSampleProject" resProjPath="BD_Check/BD_check1.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="6" totLns="41" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BD_Check/BD_check2.c" hash="-743134928" project="DevelopSampleProject" resProjPath="BD_Check/BD_check2.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="7" totLns="44" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/arrayOutOfBounds.c" hash="-1411136315" project="DevelopSampleProject" resProjPath="BugDetective/arrayOutOfBounds.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="8" totLns="35" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/bufferOverflow.c" hash="226867487" project="DevelopSampleProject" resProjPath="BugDetective/bufferOverflow.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="9" totLns="17" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/dbutil.c" hash="-892903586" project="DevelopSampleProject" resProjPath="BugDetective/dbutil.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="10" totLns="58" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/divisionByZero.c" hash="1923244810" project="DevelopSampleProject" resProjPath="BugDetective/divisionByZero.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="11" totLns="60" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/fileLeaks.c" hash="2102946591" project="DevelopSampleProject" resProjPath="BugDetective/fileLeaks.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="12" totLns="42" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/integerOverflow.c" hash="2111655268" project="DevelopSampleProject" resProjPath="BugDetective/integerOverflow.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="13" totLns="46" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/memoryLeaks.c" hash="1502549011" project="DevelopSampleProject" resProjPath="BugDetective/memoryLeaks.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="14" totLns="43" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/nullPointerDeref.c" hash="585379582" project="DevelopSampleProject" resProjPath="BugDetective/nullPointerDeref.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="15" totLns="79" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" hash="-1583021683" project="DevelopSampleProject" resProjPath="BugDetective/nullPointerDerefBenchmark.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="16" totLns="12" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/sql.c" hash="1115766966" project="DevelopSampleProject" resProjPath="BugDetective/sql.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="17" totLns="37" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/sqlInjection.c" hash="-1138451494" project="DevelopSampleProject" resProjPath="BugDetective/sqlInjection.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="18" totLns="68" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/unreachableCode.c" hash="1398926183" project="DevelopSampleProject" resProjPath="BugDetective/unreachableCode.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="19" totLns="53" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/useBeforeInit.c" hash="389143777" project="DevelopSampleProject" resProjPath="BugDetective/useBeforeInit.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="20" totLns="28" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Control/fan.c" hash="1600673856" project="DevelopSampleProject" resProjPath="Control/fan.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="21" totLns="14" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Control/fan_control.c" hash="-230714909" project="DevelopSampleProject" resProjPath="Control/fan_control.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="22" totLns="94" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Sensor/sensor.c" hash="-1464444715" project="DevelopSampleProject" resProjPath="Sensor/sensor.c" projPath="/DevelopSampleProject" />
+    <Loc locRef="23" totLns="13" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/BetterRectangle.cpp" hash="1374762162" project="DevelopSampleProject" resProjPath="Shapes/BetterRectangle.cpp" projPath="/DevelopSampleProject" />
+    <Loc locRef="24" totLns="5" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Logger.cpp" hash="694175076" project="DevelopSampleProject" resProjPath="Shapes/Logger.cpp" projPath="/DevelopSampleProject" />
+    <Loc locRef="25" totLns="29" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Main.cpp" hash="557422286" project="DevelopSampleProject" resProjPath="Shapes/Main.cpp" projPath="/DevelopSampleProject" />
+    <Loc locRef="26" totLns="29" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Point.cpp" hash="1997028367" project="DevelopSampleProject" resProjPath="Shapes/Point.cpp" projPath="/DevelopSampleProject" />
+    <Loc locRef="27" totLns="37" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Rectangle.cpp" hash="993800269" project="DevelopSampleProject" resProjPath="Shapes/Rectangle.cpp" projPath="/DevelopSampleProject" />
+    <Loc locRef="28" totLns="38" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Square.cpp" hash="1133154993" project="DevelopSampleProject" resProjPath="Shapes/Square.cpp" projPath="/DevelopSampleProject" />
+    <Loc locRef="29" totLns="14" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/clock.h" hash="-1204881763" project="DevelopSampleProject" resProjPath="Timer/clock.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="30" totLns="32" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Square.h" hash="412873452" project="DevelopSampleProject" resProjPath="Shapes/Square.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="31" totLns="32" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Rectangle.h" hash="-940449750" project="DevelopSampleProject" resProjPath="Shapes/Rectangle.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="32" totLns="10" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/dbutil.h" hash="-390129458" project="DevelopSampleProject" resProjPath="BugDetective/dbutil.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="33" totLns="9" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/consts.h" hash="1651539479" project="DevelopSampleProject" resProjPath="Timer/consts.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="34" totLns="28" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/sql.h" hash="380717242" project="DevelopSampleProject" resProjPath="BugDetective/sql.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="35" totLns="36" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/timer.h" hash="-311568100" project="DevelopSampleProject" resProjPath="Timer/timer.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="36" totLns="24" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/BetterRectangle.h" hash="126874863" project="DevelopSampleProject" resProjPath="Shapes/BetterRectangle.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="37" totLns="203" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Logger.h" hash="-1572680660" project="DevelopSampleProject" resProjPath="Shapes/Logger.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="38" totLns="22" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BugDetective/socket.h" hash="-829573575" project="DevelopSampleProject" resProjPath="BugDetective/socket.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="39" totLns="15" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/BetterSquare.h" hash="-188264527" project="DevelopSampleProject" resProjPath="Shapes/BetterSquare.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="40" totLns="15" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Timer/inout.h" hash="-311681184" project="DevelopSampleProject" resProjPath="Timer/inout.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="41" totLns="10" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Shape.h" hash="777628632" project="DevelopSampleProject" resProjPath="Shapes/Shape.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="42" totLns="27" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Shapes/Point.h" hash="-653814286" project="DevelopSampleProject" resProjPath="Shapes/Point.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="43" totLns="14" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/Control/fan_control.h" hash="538373380" project="DevelopSampleProject" resProjPath="Control/fan_control.h" projPath="/DevelopSampleProject" />
+    <Loc locRef="44" totLns="3" projId="DevelopSampleProject" auth="tutui" uri="file://Pana-7600U-01/C:/online_cpptest/SEC-7/DevelopSampleProject/BD_Check/BD_check.h" hash="1417310945" project="DevelopSampleProject" resProjPath="BD_Check/BD_check.h" projPath="/DevelopSampleProject" />
+  </Locations>
+<Values>
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/arrayOutOfBounds.c" item="arrayOutOfBounds.c" val="44.0" module="DevelopSampleProject" ln="1" locRef="7" />
+  <Metric id="METRIC.NOPLIF" itemId="Control/fan_control.c" item="fan_control.c" val="14.0" module="DevelopSampleProject" ln="1" locRef="21" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/fileLeaks.c" item="fileLeaks.c" val="60.0" module="DevelopSampleProject" ln="1" locRef="11" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/sql.c" item="sql.c" val="12.0" module="DevelopSampleProject" ln="1" locRef="16" />
+  <Metric id="METRIC.NOPLIF" itemId="BD_Check/BD_check1.c" item="BD_check1.c" val="22.0" module="DevelopSampleProject" ln="1" locRef="5" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/nullPointerDerefBenchmark.c" item="nullPointerDerefBenchmark.c" val="79.0" module="DevelopSampleProject" ln="1" locRef="15" />
+  <Metric id="METRIC.NOPLIF" itemId="BD_Check/BD_check2.c" item="BD_check2.c" val="41.0" module="DevelopSampleProject" ln="1" locRef="6" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/sql.h" item="sql.h" val="28.0" module="DevelopSampleProject" ln="1" locRef="34" />
+  <Metric id="METRIC.NOPLIF" itemId="Timer/timer.h" item="timer.h" val="36.0" module="DevelopSampleProject" ln="1" locRef="35" />
+  <Metric id="METRIC.NOPLIF" itemId="Shapes/Main.cpp" item="Main.cpp" val="29.0" module="DevelopSampleProject" ln="1" locRef="25" />
+  <Metric id="METRIC.NOPLIF" itemId="Timer/timer.c" item="timer.c" val="155.0" module="DevelopSampleProject" ln="1" locRef="4" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/socket.h" item="socket.h" val="22.0" module="DevelopSampleProject" ln="1" locRef="38" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/useBeforeInit.c" item="useBeforeInit.c" val="53.0" module="DevelopSampleProject" ln="1" locRef="19" />
+  <Metric id="METRIC.NOPLIF" itemId="Shapes/Point.cpp" item="Point.cpp" val="29.0" module="DevelopSampleProject" ln="1" locRef="26" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/nullPointerDeref.c" item="nullPointerDeref.c" val="43.0" module="DevelopSampleProject" ln="1" locRef="14" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/integerOverflow.c" item="integerOverflow.c" val="42.0" module="DevelopSampleProject" ln="1" locRef="12" />
+  <Metric id="METRIC.NOPLIF" itemId="Timer/inout.h" item="inout.h" val="15.0" module="DevelopSampleProject" ln="1" locRef="40" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/divisionByZero.c" item="divisionByZero.c" val="58.0" module="DevelopSampleProject" ln="1" locRef="10" />
+  <Metric id="METRIC.NOPLIF" itemId="Shapes/Shape.h" item="Shape.h" val="10.0" module="DevelopSampleProject" ln="1" locRef="41" />
+  <Metric id="METRIC.NOPLIF" itemId="Control/fan_control.h" item="fan_control.h" val="14.0" module="DevelopSampleProject" ln="1" locRef="43" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/sqlInjection.c" item="sqlInjection.c" val="37.0" module="DevelopSampleProject" ln="1" locRef="17" />
+  <Metric id="METRIC.NOPLIF" itemId="Shapes/BetterRectangle.cpp" item="BetterRectangle.cpp" val="13.0" module="DevelopSampleProject" ln="1" locRef="23" />
+  <Metric id="METRIC.NOPLIF" itemId="Timer/clock.h" item="clock.h" val="14.0" module="DevelopSampleProject" ln="1" locRef="29" />
+  <Metric id="METRIC.NOPLIF" itemId="Shapes/Square.h" item="Square.h" val="32.0" module="DevelopSampleProject" ln="1" locRef="30" />
+  <Metric id="METRIC.NOPLIF" itemId="Shapes/Rectangle.h" item="Rectangle.h" val="32.0" module="DevelopSampleProject" ln="1" locRef="31" />
+  <Metric id="METRIC.NOPLIF" itemId="Timer/clock.c" item="clock.c" val="30.0" module="DevelopSampleProject" ln="1" locRef="1" />
+  <Metric id="METRIC.NOPLIF" itemId="Timer/stdinout.c" item="stdinout.c" val="55.0" module="DevelopSampleProject" ln="1" locRef="3" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/dbutil.c" item="dbutil.c" val="17.0" module="DevelopSampleProject" ln="1" locRef="9" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/dbutil.h" item="dbutil.h" val="10.0" module="DevelopSampleProject" ln="1" locRef="32" />
+  <Metric id="METRIC.NOPLIF" itemId="Timer/consts.h" item="consts.h" val="9.0" module="DevelopSampleProject" ln="1" locRef="33" />
+  <Metric id="METRIC.NOPLIF" itemId="Timer/driver.c" item="driver.c" val="76.0" module="DevelopSampleProject" ln="1" locRef="2" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/unreachableCode.c" item="unreachableCode.c" val="68.0" module="DevelopSampleProject" ln="1" locRef="18" />
+  <Metric id="METRIC.NOPLIF" itemId="Shapes/BetterRectangle.h" item="BetterRectangle.h" val="24.0" module="DevelopSampleProject" ln="1" locRef="36" />
+  <Metric id="METRIC.NOPLIF" itemId="Shapes/Logger.h" item="Logger.h" val="203.0" module="DevelopSampleProject" ln="1" locRef="37" />
+  <Metric id="METRIC.NOPLIF" itemId="Shapes/Rectangle.cpp" item="Rectangle.cpp" val="37.0" module="DevelopSampleProject" ln="1" locRef="27" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/memoryLeaks.c" item="memoryLeaks.c" val="46.0" module="DevelopSampleProject" ln="1" locRef="13" />
+  <Metric id="METRIC.NOPLIF" itemId="Shapes/BetterSquare.h" item="BetterSquare.h" val="15.0" module="DevelopSampleProject" ln="1" locRef="39" />
+  <Metric id="METRIC.NOPLIF" itemId="BugDetective/bufferOverflow.c" item="bufferOverflow.c" val="35.0" module="DevelopSampleProject" ln="1" locRef="8" />
+  <Metric id="METRIC.NOPLIF" itemId="Control/fan.c" item="fan.c" val="28.0" module="DevelopSampleProject" ln="1" locRef="20" />
+  <Metric id="METRIC.NOPLIF" itemId="Shapes/Square.cpp" item="Square.cpp" val="38.0" module="DevelopSampleProject" ln="1" locRef="28" />
+  <Metric id="METRIC.NOPLIF" itemId="Shapes/Logger.cpp" item="Logger.cpp" val="5.0" module="DevelopSampleProject" ln="1" locRef="24" />
+  <Metric id="METRIC.NOPLIF" itemId="Shapes/Point.h" item="Point.h" val="27.0" module="DevelopSampleProject" ln="1" locRef="42" />
+  <Metric id="METRIC.NOPLIF" itemId="Sensor/sensor.c" item="sensor.c" val="94.0" module="DevelopSampleProject" ln="1" locRef="22" />
+  <Metric id="METRIC.NOPLIF" itemId="BD_Check/BD_check.h" item="BD_check.h" val="3.0" module="DevelopSampleProject" ln="1" locRef="44" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/nullPointerDerefBenchmark.c#noFalseViolation1" item="noFalseViolation1" val="8.0" module="DevelopSampleProject" ln="16" locRef="15" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/nullPointerDerefBenchmark.c#noFalseViolation2" item="noFalseViolation2" val="8.0" module="DevelopSampleProject" ln="25" locRef="15" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logError(unsigned long)" item="Logger::logError(unsigned long)" val="4.0" module="DevelopSampleProject" type="Logger" ln="160" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/unreachableCode.c#guessFigure" item="guessFigure" val="30.0" module="DevelopSampleProject" ln="11" locRef="18" />
+  <Metric id="METRIC.NOSLIM" itemId="Sensor/sensor.c#handleSensorValue" item="handleSensorValue" val="11.0" module="DevelopSampleProject" ln="61" locRef="22" />
+  <Metric id="METRIC.NOSLIM" itemId="BD_Check/BD_check2.c#bar" item="bar" val="16.0" module="DevelopSampleProject" ln="22" locRef="6" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/fileLeaks.c#printFile" item="printFile" val="13.0" module="DevelopSampleProject" ln="9" locRef="11" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/bufferOverflow.c#fillBuffer" item="fillBuffer" val="7.0" module="DevelopSampleProject" ln="9" locRef="8" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::getWarnLogger()" item="Logger::getWarnLogger()" val="7.0" module="DevelopSampleProject" type="Logger" ln="19" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Timer/timer.c#query_user" item="query_user" val="24.0" module="DevelopSampleProject" ln="38" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Point.cpp#Point::getDistance(Point)" item="Point::getDistance(Point)" val="25.0" module="DevelopSampleProject" type="Point" ln="6" locRef="26" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Square.cpp#Square::getArea()" item="Square::getArea()" val="14.0" module="DevelopSampleProject" type="Square" ln="5" locRef="28" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/nullPointerDerefBenchmark.c#noFalseViolation3" item="noFalseViolation3" val="9.0" module="DevelopSampleProject" ln="34" locRef="15" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/nullPointerDeref.c#init" item="init" val="7.0" module="DevelopSampleProject" ln="36" locRef="14" />
+  <Metric id="METRIC.NOSLIM" itemId="Control/fan_control.c#set_fan_rpm" item="set_fan_rpm" val="3.0" module="DevelopSampleProject" ln="12" locRef="21" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/BetterRectangle.h#BetterRectangle::BetterRectangle(double, double, double, double)" item="BetterRectangle::BetterRectangle(double, double, double, double)" val="4.0" module="DevelopSampleProject" type="BetterRectangle" ln="10" locRef="36" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logWarn(unsigned int)" item="Logger::logWarn(unsigned int)" val="4.0" module="DevelopSampleProject" type="Logger" ln="135" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/BetterRectangle.cpp#BetterRectangle::getArea()" item="BetterRectangle::getArea()" val="6.0" module="DevelopSampleProject" type="BetterRectangle" ln="3" locRef="23" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(const char *)" item="Logger::operator &lt;&lt;(const char *)" val="7.0" module="DevelopSampleProject" type="Logger" ln="88" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Square.h#Square::Square(double, double, double, double, double, double, double, double)" item="Square::Square(double, double, double, double, double, double, double, double)" val="10.0" module="DevelopSampleProject" type="Square" ln="9" locRef="30" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logWarn(const char *)" item="Logger::logWarn(const char *)" val="4.0" module="DevelopSampleProject" type="Logger" ln="105" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Timer/timer.c#list_timers" item="list_timers" val="14.0" module="DevelopSampleProject" ln="142" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/divisionByZero.c#createNewPerson" item="createNewPerson" val="10.0" module="DevelopSampleProject" ln="12" locRef="10" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/nullPointerDerefBenchmark.c#helper2" item="helper2" val="3.0" module="DevelopSampleProject" ln="12" locRef="15" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/nullPointerDerefBenchmark.c#helper1" item="helper1" val="5.0" module="DevelopSampleProject" ln="6" locRef="15" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/integerOverflow.c#readMessage" item="readMessage" val="22.0" module="DevelopSampleProject" ln="16" locRef="12" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/sqlInjection.c#extractPassword" item="extractPassword" val="4.0" module="DevelopSampleProject" ln="18" locRef="17" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Rectangle.cpp#Rectangle::getArea()" item="Rectangle::getArea()" val="14.0" module="DevelopSampleProject" type="Rectangle" ln="5" locRef="27" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/unreachableCode.c#checkRange" item="checkRange" val="9.0" module="DevelopSampleProject" ln="44" locRef="18" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/arrayOutOfBounds.c#clearAllCache" item="clearAllCache" val="4.0" module="DevelopSampleProject" ln="40" locRef="7" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logError(double)" item="Logger::logError(double)" val="4.0" module="DevelopSampleProject" type="Logger" ln="175" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Timer/timer.c#format_timer_record" item="format_timer_record" val="12.0" module="DevelopSampleProject" ln="126" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/sqlInjection.c#extractUsername" item="extractUsername" val="4.0" module="DevelopSampleProject" ln="12" locRef="17" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/nullPointerDerefBenchmark.c#functionCall_trueViolation2" item="functionCall_trueViolation2" val="4.0" module="DevelopSampleProject" ln="75" locRef="15" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::Logger()" item="Logger::Logger()" val="4.0" module="DevelopSampleProject" type="Logger" ln="191" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Timer/stdinout.c#get_input_digit" item="get_input_digit" val="25.0" module="DevelopSampleProject" ln="16" locRef="3" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/nullPointerDerefBenchmark.c#functionCall_trueViolation1" item="functionCall_trueViolation1" val="6.0" module="DevelopSampleProject" ln="68" locRef="15" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Rectangle.cpp#Rectangle::checkIfValid(double, double, double, double)" item="Rectangle::checkIfValid(double, double, double, double)" val="6.0" module="DevelopSampleProject" type="Rectangle" ln="33" locRef="27" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/BetterSquare.h#BetterSquare::BetterSquare(double, double, double)" item="BetterSquare::BetterSquare(double, double, double)" val="4.0" module="DevelopSampleProject" type="BetterSquare" ln="9" locRef="39" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Point.h#Point::Point(double, double)" item="Point::Point(double, double)" val="3.0" module="DevelopSampleProject" type="Point" ln="6" locRef="42" />
+  <Metric id="METRIC.NOSLIM" itemId="Timer/driver.c#main_loop" item="main_loop" val="33.0" module="DevelopSampleProject" ln="32" locRef="2" />
+  <Metric id="METRIC.NOSLIM" itemId="Timer/clock.c#display_time" item="display_time" val="9.0" module="DevelopSampleProject" ln="13" locRef="1" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logError(unsigned int)" item="Logger::logError(unsigned int)" val="4.0" module="DevelopSampleProject" type="Logger" ln="130" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/sql.c#SQLExecDirect" item="SQLExecDirect" val="7.0" module="DevelopSampleProject" ln="6" locRef="16" />
+  <Metric id="METRIC.NOSLIM" itemId="Sensor/sensor.c#finalize" item="finalize" val="9.0" module="DevelopSampleProject" ln="38" locRef="22" />
+  <Metric id="METRIC.NOSLIM" itemId="Sensor/sensor.c#initialize" item="initialize" val="12.0" module="DevelopSampleProject" ln="25" locRef="22" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/divisionByZero.c#calculateAverageSalary" item="calculateAverageSalary" val="5.0" module="DevelopSampleProject" ln="23" locRef="10" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/arrayOutOfBounds.c#clip" item="clip" val="4.0" module="DevelopSampleProject" ln="9" locRef="7" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/divisionByZero.c#processFile" item="processFile" val="4.0" module="DevelopSampleProject" ln="38" locRef="10" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logInfo(unsigned long)" item="Logger::logInfo(unsigned long)" val="4.0" module="DevelopSampleProject" type="Logger" ln="170" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/memoryLeaks.c#storePerson" item="storePerson" val="3.0" module="DevelopSampleProject" ln="5" locRef="13" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/memoryLeaks.c#printPersonInfo" item="printPersonInfo" val="18.0" module="DevelopSampleProject" ln="10" locRef="13" />
+  <Metric id="METRIC.NOSLIM" itemId="Sensor/sensor.c#mainLoop" item="mainLoop" val="16.0" module="DevelopSampleProject" ln="73" locRef="22" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::getInfoLogger()" item="Logger::getInfoLogger()" val="7.0" module="DevelopSampleProject" type="Logger" ln="27" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Timer/stdinout.c#print_string" item="print_string" val="5.0" module="DevelopSampleProject" ln="52" locRef="3" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/useBeforeInit.c#copyPersonFromFileToDB" item="copyPersonFromFileToDB" val="22.0" module="DevelopSampleProject" ln="30" locRef="19" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Main.cpp#main" item="main" val="48.0" module="DevelopSampleProject" ln="9" locRef="25" />
+  <Metric id="METRIC.NOSLIM" itemId="BD_Check/BD_check2.c#btoa" item="btoa" val="15.0" module="DevelopSampleProject" ln="5" locRef="6" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/arrayOutOfBounds.c#clearCache" item="clearCache" val="10.0" module="DevelopSampleProject" ln="29" locRef="7" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logWarn(int)" item="Logger::logWarn(int)" val="4.0" module="DevelopSampleProject" type="Logger" ln="120" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/integerOverflow.c#decode" item="decode" val="4.0" module="DevelopSampleProject" ln="10" locRef="12" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(unsigned long)" item="Logger::operator &lt;&lt;(unsigned long)" val="7.0" module="DevelopSampleProject" type="Logger" ln="72" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Control/fan.c#fan_control" item="fan_control" val="15.0" module="DevelopSampleProject" ln="11" locRef="20" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::setEnabled(bool)" item="Logger::setEnabled(bool)" val="4.0" module="DevelopSampleProject" type="Logger" ln="39" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/fileLeaks.c#displayFileContent" item="displayFileContent" val="12.0" module="DevelopSampleProject" ln="23" locRef="11" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/useBeforeInit.c#storePersonToDB" item="storePersonToDB" val="3.0" module="DevelopSampleProject" ln="10" locRef="19" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/BetterRectangle.cpp#BetterRectangle::getPerimeter()" item="BetterRectangle::getPerimeter()" val="6.0" module="DevelopSampleProject" type="BetterRectangle" ln="9" locRef="23" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/bufferOverflow.c#resetBuffer" item="resetBuffer" val="5.0" module="DevelopSampleProject" ln="24" locRef="8" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/divisionByZero.c#processStaff" item="processStaff" val="8.0" module="DevelopSampleProject" ln="29" locRef="10" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/divisionByZero.c#displayPersonalInfo" item="displayPersonalInfo" val="6.0" module="DevelopSampleProject" ln="5" locRef="10" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logWarn(double)" item="Logger::logWarn(double)" val="4.0" module="DevelopSampleProject" type="Logger" ln="180" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/nullPointerDeref.c#storePersonToFile" item="storePersonToFile" val="8.0" module="DevelopSampleProject" ln="10" locRef="14" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logInfo(const char *)" item="Logger::logInfo(const char *)" val="4.0" module="DevelopSampleProject" type="Logger" ln="110" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Control/fan_control.c#read_temperature" item="read_temperature" val="4.0" module="DevelopSampleProject" ln="9" locRef="21" />
+  <Metric id="METRIC.NOSLIM" itemId="Timer/timer.c#add_timer_record" item="add_timer_record" val="16.0" module="DevelopSampleProject" ln="88" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="Timer/timer.c#add_timer" item="add_timer" val="12.0" module="DevelopSampleProject" ln="74" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/useBeforeInit.c#writePersonToFile" item="writePersonToFile" val="12.0" module="DevelopSampleProject" ln="15" locRef="19" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/nullPointerDerefBenchmark.c#functionCall_noFalseViolation2" item="functionCall_noFalseViolation2" val="5.0" module="DevelopSampleProject" ln="62" locRef="15" />
+  <Metric id="METRIC.NOSLIM" itemId="Timer/driver.c#print_menu_get_action" item="print_menu_get_action" val="17.0" module="DevelopSampleProject" ln="13" locRef="2" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/fileLeaks.c#displayContentOfSeveralFiles" item="displayContentOfSeveralFiles" val="21.0" module="DevelopSampleProject" ln="38" locRef="11" />
+  <Metric id="METRIC.NOSLIM" itemId="Sensor/sensor.c#readSensor" item="readSensor" val="7.0" module="DevelopSampleProject" ln="11" locRef="22" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/nullPointerDerefBenchmark.c#functionCall_noFalseViolation1" item="functionCall_noFalseViolation1" val="6.0" module="DevelopSampleProject" ln="54" locRef="15" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(unsigned int)" item="Logger::operator &lt;&lt;(unsigned int)" val="7.0" module="DevelopSampleProject" type="Logger" ln="56" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/dbutil.c#retrievePersonFromDB" item="retrievePersonFromDB" val="12.0" module="DevelopSampleProject" ln="5" locRef="9" />
+  <Metric id="METRIC.NOSLIM" itemId="Timer/timer.c#init_timer" item="init_timer" val="5.0" module="DevelopSampleProject" ln="20" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/unreachableCode.c#checkSequence" item="checkSequence" val="11.0" module="DevelopSampleProject" ln="56" locRef="18" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/nullPointerDeref.c#copyPersonToFile" item="copyPersonToFile" val="6.0" module="DevelopSampleProject" ln="20" locRef="14" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Square.cpp#Square::checkIfValid(double, double, double, double)" item="Square::checkIfValid(double, double, double, double)" val="7.0" module="DevelopSampleProject" type="Square" ln="33" locRef="28" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Point.h#Point::getY()" item="Point::getY()" val="4.0" module="DevelopSampleProject" type="Point" ln="15" locRef="42" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/arrayOutOfBounds.c#selectPerson" item="selectPerson" val="10.0" module="DevelopSampleProject" ln="14" locRef="7" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logInfo(long)" item="Logger::logInfo(long)" val="4.0" module="DevelopSampleProject" type="Logger" ln="155" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::getErrorLogger()" item="Logger::getErrorLogger()" val="7.0" module="DevelopSampleProject" type="Logger" ln="11" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(long)" item="Logger::operator &lt;&lt;(long)" val="7.0" module="DevelopSampleProject" type="Logger" ln="64" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/nullPointerDerefBenchmark.c#trueViolation" item="trueViolation" val="9.0" module="DevelopSampleProject" ln="44" locRef="15" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logError(int)" item="Logger::logError(int)" val="4.0" module="DevelopSampleProject" type="Logger" ln="115" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/bufferOverflow.c#resetAll" item="resetAll" val="4.0" module="DevelopSampleProject" ln="30" locRef="8" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Rectangle.h#Rectangle::Rectangle(double, double, double, double, double, double, double, double)" item="Rectangle::Rectangle(double, double, double, double, double, double, double, double)" val="10.0" module="DevelopSampleProject" type="Rectangle" ln="9" locRef="31" />
+  <Metric id="METRIC.NOSLIM" itemId="Timer/clock.c#set_time" item="set_time" val="4.0" module="DevelopSampleProject" ln="27" locRef="1" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Rectangle.cpp#Rectangle::getPerimeter()" item="Rectangle::getPerimeter()" val="14.0" module="DevelopSampleProject" type="Rectangle" ln="19" locRef="27" />
+  <Metric id="METRIC.NOSLIM" itemId="Sensor/sensor.c#printMessage" item="printMessage" val="6.0" module="DevelopSampleProject" ln="48" locRef="22" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(double)" item="Logger::operator &lt;&lt;(double)" val="7.0" module="DevelopSampleProject" type="Logger" ln="80" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logInfo(unsigned int)" item="Logger::logInfo(unsigned int)" val="4.0" module="DevelopSampleProject" type="Logger" ln="140" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logError(const char *)" item="Logger::logError(const char *)" val="4.0" module="DevelopSampleProject" type="Logger" ln="100" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logWarn(unsigned long)" item="Logger::logWarn(unsigned long)" val="4.0" module="DevelopSampleProject" type="Logger" ln="165" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/nullPointerDeref.c#createPerson" item="createPerson" val="8.0" module="DevelopSampleProject" ln="27" locRef="14" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logWarn(long)" item="Logger::logWarn(long)" val="4.0" module="DevelopSampleProject" type="Logger" ln="150" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Square.cpp#Square::getPerimeter()" item="Square::getPerimeter()" val="14.0" module="DevelopSampleProject" type="Square" ln="19" locRef="28" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/memoryLeaks.c#simpleLeakInCycle" item="simpleLeakInCycle" val="11.0" module="DevelopSampleProject" ln="32" locRef="13" />
+  <Metric id="METRIC.NOSLIM" itemId="Sensor/sensor.c#reportSensorFailure" item="reportSensorFailure" val="5.0" module="DevelopSampleProject" ln="55" locRef="22" />
+  <Metric id="METRIC.NOSLIM" itemId="Timer/timer.c#delete_timer_record" item="delete_timer_record" val="16.0" module="DevelopSampleProject" ln="108" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="Timer/timer.c#uninit_timer" item="uninit_timer" val="8.0" module="DevelopSampleProject" ln="25" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(int)" item="Logger::operator &lt;&lt;(int)" val="7.0" module="DevelopSampleProject" type="Logger" ln="48" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logInfo(double)" item="Logger::logInfo(double)" val="4.0" module="DevelopSampleProject" type="Logger" ln="185" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="BugDetective/sqlInjection.c#handleRequest" item="handleRequest" val="12.0" module="DevelopSampleProject" ln="24" locRef="17" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logError(long)" item="Logger::logError(long)" val="4.0" module="DevelopSampleProject" type="Logger" ln="145" locRef="37" />
+  <Metric id="METRIC.NOSLIM" itemId="BD_Check/BD_check1.c#printTime" item="printTime" val="10.0" module="DevelopSampleProject" ln="5" locRef="5" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Point.h#Point::getX()" item="Point::getX()" val="4.0" module="DevelopSampleProject" type="Point" ln="10" locRef="42" />
+  <Metric id="METRIC.NOSLIM" itemId="Shapes/Logger.h#Logger::logInfo(int)" item="Logger::logInfo(int)" val="4.0" module="DevelopSampleProject" type="Logger" ln="125" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Timer/clock.c#display_time" item="display_time" val="1.0" module="DevelopSampleProject" ln="13" locRef="1" />
+  <Metric id="METRIC.CC" itemId="Timer/clock.c#set_time" item="set_time" val="1.0" module="DevelopSampleProject" ln="27" locRef="1" />
+  <Metric id="METRIC.CC" itemId="Timer/driver.c#print_menu_get_action" item="print_menu_get_action" val="1.0" module="DevelopSampleProject" ln="13" locRef="2" />
+  <Metric id="METRIC.CC" itemId="Timer/driver.c#main_loop" item="main_loop" val="8.0" module="DevelopSampleProject" ln="32" locRef="2" />
+  <Metric id="METRIC.CC" itemId="Timer/driver.c#main" item="main" val="1.0" module="DevelopSampleProject" ln="69" locRef="2" />
+  <Metric id="METRIC.CC" itemId="Timer/stdinout.c#get_input_digit" item="get_input_digit" val="1.0" module="DevelopSampleProject" ln="16" locRef="3" />
+  <Metric id="METRIC.CC" itemId="Timer/stdinout.c#print_string" item="print_string" val="1.0" module="DevelopSampleProject" ln="52" locRef="3" />
+  <Metric id="METRIC.CC" itemId="Timer/timer.c#init_timer" item="init_timer" val="1.0" module="DevelopSampleProject" ln="20" locRef="4" />
+  <Metric id="METRIC.CC" itemId="Timer/timer.c#uninit_timer" item="uninit_timer" val="2.0" module="DevelopSampleProject" ln="25" locRef="4" />
+  <Metric id="METRIC.CC" itemId="Timer/timer.c#query_user" item="query_user" val="1.0" module="DevelopSampleProject" ln="38" locRef="4" />
+  <Metric id="METRIC.CC" itemId="Timer/timer.c#add_timer" item="add_timer" val="2.0" module="DevelopSampleProject" ln="74" locRef="4" />
+  <Metric id="METRIC.CC" itemId="Timer/timer.c#add_timer_record" item="add_timer_record" val="2.0" module="DevelopSampleProject" ln="88" locRef="4" />
+  <Metric id="METRIC.CC" itemId="Timer/timer.c#delete_timer_record" item="delete_timer_record" val="3.0" module="DevelopSampleProject" ln="108" locRef="4" />
+  <Metric id="METRIC.CC" itemId="Timer/timer.c#format_timer_record" item="format_timer_record" val="2.0" module="DevelopSampleProject" ln="126" locRef="4" />
+  <Metric id="METRIC.CC" itemId="Timer/timer.c#list_timers" item="list_timers" val="2.0" module="DevelopSampleProject" ln="142" locRef="4" />
+  <Metric id="METRIC.CC" itemId="BD_Check/BD_check1.c#printTime" item="printTime" val="1.0" module="DevelopSampleProject" ln="5" locRef="5" />
+  <Metric id="METRIC.CC" itemId="BD_Check/BD_check1.c#main" item="main" val="1.0" module="DevelopSampleProject" ln="18" locRef="5" />
+  <Metric id="METRIC.CC" itemId="BD_Check/BD_check2.c#btoa" item="btoa" val="2.0" module="DevelopSampleProject" ln="5" locRef="6" />
+  <Metric id="METRIC.CC" itemId="BD_Check/BD_check2.c#bar" item="bar" val="4.0" module="DevelopSampleProject" ln="22" locRef="6" />
+  <Metric id="METRIC.CC" itemId="BugDetective/arrayOutOfBounds.c#clip" item="clip" val="1.0" module="DevelopSampleProject" ln="9" locRef="7" />
+  <Metric id="METRIC.CC" itemId="BugDetective/arrayOutOfBounds.c#selectPerson" item="selectPerson" val="2.0" module="DevelopSampleProject" ln="14" locRef="7" />
+  <Metric id="METRIC.CC" itemId="BugDetective/arrayOutOfBounds.c#clearCache" item="clearCache" val="3.0" module="DevelopSampleProject" ln="29" locRef="7" />
+  <Metric id="METRIC.CC" itemId="BugDetective/arrayOutOfBounds.c#clearAllCache" item="clearAllCache" val="1.0" module="DevelopSampleProject" ln="40" locRef="7" />
+  <Metric id="METRIC.CC" itemId="BugDetective/bufferOverflow.c#fillBuffer" item="fillBuffer" val="1.0" module="DevelopSampleProject" ln="9" locRef="8" />
+  <Metric id="METRIC.CC" itemId="BugDetective/bufferOverflow.c#resetBuffer" item="resetBuffer" val="1.0" module="DevelopSampleProject" ln="24" locRef="8" />
+  <Metric id="METRIC.CC" itemId="BugDetective/bufferOverflow.c#resetAll" item="resetAll" val="1.0" module="DevelopSampleProject" ln="30" locRef="8" />
+  <Metric id="METRIC.CC" itemId="BugDetective/dbutil.c#retrievePersonFromDB" item="retrievePersonFromDB" val="3.0" module="DevelopSampleProject" ln="5" locRef="9" />
+  <Metric id="METRIC.CC" itemId="BugDetective/divisionByZero.c#displayPersonalInfo" item="displayPersonalInfo" val="1.0" module="DevelopSampleProject" ln="5" locRef="10" />
+  <Metric id="METRIC.CC" itemId="BugDetective/divisionByZero.c#createNewPerson" item="createNewPerson" val="2.0" module="DevelopSampleProject" ln="12" locRef="10" />
+  <Metric id="METRIC.CC" itemId="BugDetective/divisionByZero.c#calculateAverageSalary" item="calculateAverageSalary" val="1.0" module="DevelopSampleProject" ln="23" locRef="10" />
+  <Metric id="METRIC.CC" itemId="BugDetective/divisionByZero.c#processStaff" item="processStaff" val="2.0" module="DevelopSampleProject" ln="29" locRef="10" />
+  <Metric id="METRIC.CC" itemId="BugDetective/divisionByZero.c#processFile" item="processFile" val="1.0" module="DevelopSampleProject" ln="38" locRef="10" />
+  <Metric id="METRIC.CC" itemId="BugDetective/divisionByZero.c#main" item="main" val="2.0" module="DevelopSampleProject" ln="44" locRef="10" />
+  <Metric id="METRIC.CC" itemId="BugDetective/fileLeaks.c#printFile" item="printFile" val="3.0" module="DevelopSampleProject" ln="9" locRef="11" />
+  <Metric id="METRIC.CC" itemId="BugDetective/fileLeaks.c#displayFileContent" item="displayFileContent" val="2.0" module="DevelopSampleProject" ln="23" locRef="11" />
+  <Metric id="METRIC.CC" itemId="BugDetective/fileLeaks.c#displayContentOfSeveralFiles" item="displayContentOfSeveralFiles" val="3.0" module="DevelopSampleProject" ln="38" locRef="11" />
+  <Metric id="METRIC.CC" itemId="BugDetective/integerOverflow.c#decode" item="decode" val="1.0" module="DevelopSampleProject" ln="10" locRef="12" />
+  <Metric id="METRIC.CC" itemId="BugDetective/integerOverflow.c#readMessage" item="readMessage" val="3.0" module="DevelopSampleProject" ln="16" locRef="12" />
+  <Metric id="METRIC.CC" itemId="BugDetective/memoryLeaks.c#storePerson" item="storePerson" val="1.0" module="DevelopSampleProject" ln="5" locRef="13" />
+  <Metric id="METRIC.CC" itemId="BugDetective/memoryLeaks.c#printPersonInfo" item="printPersonInfo" val="4.0" module="DevelopSampleProject" ln="10" locRef="13" />
+  <Metric id="METRIC.CC" itemId="BugDetective/memoryLeaks.c#simpleLeakInCycle" item="simpleLeakInCycle" val="2.0" module="DevelopSampleProject" ln="32" locRef="13" />
+  <Metric id="METRIC.CC" itemId="BugDetective/nullPointerDeref.c#storePersonToFile" item="storePersonToFile" val="2.0" module="DevelopSampleProject" ln="10" locRef="14" />
+  <Metric id="METRIC.CC" itemId="BugDetective/nullPointerDeref.c#copyPersonToFile" item="copyPersonToFile" val="1.0" module="DevelopSampleProject" ln="20" locRef="14" />
+  <Metric id="METRIC.CC" itemId="BugDetective/nullPointerDeref.c#createPerson" item="createPerson" val="1.0" module="DevelopSampleProject" ln="27" locRef="14" />
+  <Metric id="METRIC.CC" itemId="BugDetective/nullPointerDeref.c#init" item="init" val="1.0" module="DevelopSampleProject" ln="36" locRef="14" />
+  <Metric id="METRIC.CC" itemId="BugDetective/nullPointerDerefBenchmark.c#helper1" item="helper1" val="2.0" module="DevelopSampleProject" ln="6" locRef="15" />
+  <Metric id="METRIC.CC" itemId="BugDetective/nullPointerDerefBenchmark.c#helper2" item="helper2" val="1.0" module="DevelopSampleProject" ln="12" locRef="15" />
+  <Metric id="METRIC.CC" itemId="BugDetective/nullPointerDerefBenchmark.c#noFalseViolation1" item="noFalseViolation1" val="3.0" module="DevelopSampleProject" ln="16" locRef="15" />
+  <Metric id="METRIC.CC" itemId="BugDetective/nullPointerDerefBenchmark.c#noFalseViolation2" item="noFalseViolation2" val="3.0" module="DevelopSampleProject" ln="25" locRef="15" />
+  <Metric id="METRIC.CC" itemId="BugDetective/nullPointerDerefBenchmark.c#noFalseViolation3" item="noFalseViolation3" val="3.0" module="DevelopSampleProject" ln="34" locRef="15" />
+  <Metric id="METRIC.CC" itemId="BugDetective/nullPointerDerefBenchmark.c#trueViolation" item="trueViolation" val="3.0" module="DevelopSampleProject" ln="44" locRef="15" />
+  <Metric id="METRIC.CC" itemId="BugDetective/nullPointerDerefBenchmark.c#functionCall_noFalseViolation1" item="functionCall_noFalseViolation1" val="2.0" module="DevelopSampleProject" ln="54" locRef="15" />
+  <Metric id="METRIC.CC" itemId="BugDetective/nullPointerDerefBenchmark.c#functionCall_noFalseViolation2" item="functionCall_noFalseViolation2" val="2.0" module="DevelopSampleProject" ln="62" locRef="15" />
+  <Metric id="METRIC.CC" itemId="BugDetective/nullPointerDerefBenchmark.c#functionCall_trueViolation1" item="functionCall_trueViolation1" val="2.0" module="DevelopSampleProject" ln="68" locRef="15" />
+  <Metric id="METRIC.CC" itemId="BugDetective/nullPointerDerefBenchmark.c#functionCall_trueViolation2" item="functionCall_trueViolation2" val="1.0" module="DevelopSampleProject" ln="75" locRef="15" />
+  <Metric id="METRIC.CC" itemId="BugDetective/sql.c#SQLExecDirect" item="SQLExecDirect" val="1.0" module="DevelopSampleProject" ln="6" locRef="16" />
+  <Metric id="METRIC.CC" itemId="BugDetective/sqlInjection.c#extractUsername" item="extractUsername" val="1.0" module="DevelopSampleProject" ln="12" locRef="17" />
+  <Metric id="METRIC.CC" itemId="BugDetective/sqlInjection.c#extractPassword" item="extractPassword" val="1.0" module="DevelopSampleProject" ln="18" locRef="17" />
+  <Metric id="METRIC.CC" itemId="BugDetective/sqlInjection.c#handleRequest" item="handleRequest" val="1.0" module="DevelopSampleProject" ln="24" locRef="17" />
+  <Metric id="METRIC.CC" itemId="BugDetective/unreachableCode.c#guessFigure" item="guessFigure" val="8.0" module="DevelopSampleProject" ln="11" locRef="18" />
+  <Metric id="METRIC.CC" itemId="BugDetective/unreachableCode.c#checkRange" item="checkRange" val="3.0" module="DevelopSampleProject" ln="44" locRef="18" />
+  <Metric id="METRIC.CC" itemId="BugDetective/unreachableCode.c#checkSequence" item="checkSequence" val="3.0" module="DevelopSampleProject" ln="56" locRef="18" />
+  <Metric id="METRIC.CC" itemId="BugDetective/useBeforeInit.c#storePersonToDB" item="storePersonToDB" val="1.0" module="DevelopSampleProject" ln="10" locRef="19" />
+  <Metric id="METRIC.CC" itemId="BugDetective/useBeforeInit.c#writePersonToFile" item="writePersonToFile" val="2.0" module="DevelopSampleProject" ln="15" locRef="19" />
+  <Metric id="METRIC.CC" itemId="BugDetective/useBeforeInit.c#copyPersonFromFileToDB" item="copyPersonFromFileToDB" val="3.0" module="DevelopSampleProject" ln="30" locRef="19" />
+  <Metric id="METRIC.CC" itemId="Control/fan.c#fan_control" item="fan_control" val="3.0" module="DevelopSampleProject" ln="11" locRef="20" />
+  <Metric id="METRIC.CC" itemId="Control/fan_control.c#read_temperature" item="read_temperature" val="1.0" module="DevelopSampleProject" ln="9" locRef="21" />
+  <Metric id="METRIC.CC" itemId="Control/fan_control.c#set_fan_rpm" item="set_fan_rpm" val="1.0" module="DevelopSampleProject" ln="12" locRef="21" />
+  <Metric id="METRIC.CC" itemId="Sensor/sensor.c#readSensor" item="readSensor" val="1.0" module="DevelopSampleProject" ln="11" locRef="22" />
+  <Metric id="METRIC.CC" itemId="Sensor/sensor.c#initialize" item="initialize" val="2.0" module="DevelopSampleProject" ln="25" locRef="22" />
+  <Metric id="METRIC.CC" itemId="Sensor/sensor.c#finalize" item="finalize" val="2.0" module="DevelopSampleProject" ln="38" locRef="22" />
+  <Metric id="METRIC.CC" itemId="Sensor/sensor.c#printMessage" item="printMessage" val="1.0" module="DevelopSampleProject" ln="48" locRef="22" />
+  <Metric id="METRIC.CC" itemId="Sensor/sensor.c#reportSensorFailure" item="reportSensorFailure" val="1.0" module="DevelopSampleProject" ln="55" locRef="22" />
+  <Metric id="METRIC.CC" itemId="Sensor/sensor.c#handleSensorValue" item="handleSensorValue" val="3.0" module="DevelopSampleProject" ln="61" locRef="22" />
+  <Metric id="METRIC.CC" itemId="Sensor/sensor.c#mainLoop" item="mainLoop" val="4.0" module="DevelopSampleProject" ln="73" locRef="22" />
+  <Metric id="METRIC.CC" itemId="Sensor/sensor.c#main" item="main" val="1.0" module="DevelopSampleProject" ln="90" locRef="22" />
+  <Metric id="METRIC.CC" itemId="Shapes/BetterRectangle.cpp#BetterRectangle::getArea()" item="BetterRectangle::getArea()" val="1.0" module="DevelopSampleProject" type="BetterRectangle" ln="3" locRef="23" />
+  <Metric id="METRIC.CC" itemId="Shapes/BetterRectangle.cpp#BetterRectangle::getPerimeter()" item="BetterRectangle::getPerimeter()" val="1.0" module="DevelopSampleProject" type="BetterRectangle" ln="9" locRef="23" />
+  <Metric id="METRIC.CC" itemId="Shapes/BetterRectangle.h#BetterRectangle::BetterRectangle(double, double, double, double)" item="BetterRectangle::BetterRectangle(double, double, double, double)" val="1.0" module="DevelopSampleProject" type="BetterRectangle" ln="10" locRef="36" />
+  <Metric id="METRIC.CC" itemId="Shapes/Point.h#Point::Point(double, double)" item="Point::Point(double, double)" val="1.0" module="DevelopSampleProject" type="Point" ln="6" locRef="42" />
+  <Metric id="METRIC.CC" itemId="Shapes/Point.h#Point::getX()" item="Point::getX()" val="1.0" module="DevelopSampleProject" type="Point" ln="10" locRef="42" />
+  <Metric id="METRIC.CC" itemId="Shapes/Point.h#Point::getY()" item="Point::getY()" val="1.0" module="DevelopSampleProject" type="Point" ln="15" locRef="42" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::getErrorLogger()" item="Logger::getErrorLogger()" val="2.0" module="DevelopSampleProject" type="Logger" ln="11" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::getWarnLogger()" item="Logger::getWarnLogger()" val="2.0" module="DevelopSampleProject" type="Logger" ln="19" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::getInfoLogger()" item="Logger::getInfoLogger()" val="2.0" module="DevelopSampleProject" type="Logger" ln="27" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::setEnabled(bool)" item="Logger::setEnabled(bool)" val="1.0" module="DevelopSampleProject" type="Logger" ln="39" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(int)" item="Logger::operator &lt;&lt;(int)" val="2.0" module="DevelopSampleProject" type="Logger" ln="48" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(unsigned int)" item="Logger::operator &lt;&lt;(unsigned int)" val="2.0" module="DevelopSampleProject" type="Logger" ln="56" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(long)" item="Logger::operator &lt;&lt;(long)" val="2.0" module="DevelopSampleProject" type="Logger" ln="64" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(unsigned long)" item="Logger::operator &lt;&lt;(unsigned long)" val="2.0" module="DevelopSampleProject" type="Logger" ln="72" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(double)" item="Logger::operator &lt;&lt;(double)" val="2.0" module="DevelopSampleProject" type="Logger" ln="80" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(const char *)" item="Logger::operator &lt;&lt;(const char *)" val="2.0" module="DevelopSampleProject" type="Logger" ln="88" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logError(const char *)" item="Logger::logError(const char *)" val="1.0" module="DevelopSampleProject" type="Logger" ln="100" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logWarn(const char *)" item="Logger::logWarn(const char *)" val="1.0" module="DevelopSampleProject" type="Logger" ln="105" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logInfo(const char *)" item="Logger::logInfo(const char *)" val="1.0" module="DevelopSampleProject" type="Logger" ln="110" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logError(int)" item="Logger::logError(int)" val="1.0" module="DevelopSampleProject" type="Logger" ln="115" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logWarn(int)" item="Logger::logWarn(int)" val="1.0" module="DevelopSampleProject" type="Logger" ln="120" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logInfo(int)" item="Logger::logInfo(int)" val="1.0" module="DevelopSampleProject" type="Logger" ln="125" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logError(unsigned int)" item="Logger::logError(unsigned int)" val="1.0" module="DevelopSampleProject" type="Logger" ln="130" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logWarn(unsigned int)" item="Logger::logWarn(unsigned int)" val="1.0" module="DevelopSampleProject" type="Logger" ln="135" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logInfo(unsigned int)" item="Logger::logInfo(unsigned int)" val="1.0" module="DevelopSampleProject" type="Logger" ln="140" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logError(long)" item="Logger::logError(long)" val="1.0" module="DevelopSampleProject" type="Logger" ln="145" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logWarn(long)" item="Logger::logWarn(long)" val="1.0" module="DevelopSampleProject" type="Logger" ln="150" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logInfo(long)" item="Logger::logInfo(long)" val="1.0" module="DevelopSampleProject" type="Logger" ln="155" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logError(unsigned long)" item="Logger::logError(unsigned long)" val="1.0" module="DevelopSampleProject" type="Logger" ln="160" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logWarn(unsigned long)" item="Logger::logWarn(unsigned long)" val="1.0" module="DevelopSampleProject" type="Logger" ln="165" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logInfo(unsigned long)" item="Logger::logInfo(unsigned long)" val="1.0" module="DevelopSampleProject" type="Logger" ln="170" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logError(double)" item="Logger::logError(double)" val="1.0" module="DevelopSampleProject" type="Logger" ln="175" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logWarn(double)" item="Logger::logWarn(double)" val="1.0" module="DevelopSampleProject" type="Logger" ln="180" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::logInfo(double)" item="Logger::logInfo(double)" val="1.0" module="DevelopSampleProject" type="Logger" ln="185" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Logger.h#Logger::Logger()" item="Logger::Logger()" val="1.0" module="DevelopSampleProject" type="Logger" ln="191" locRef="37" />
+  <Metric id="METRIC.CC" itemId="Shapes/Main.cpp#main" item="main" val="1.0" module="DevelopSampleProject" ln="9" locRef="25" />
+  <Metric id="METRIC.CC" itemId="Shapes/Square.h#Square::Square(double, double, double, double, double, double, double, double)" item="Square::Square(double, double, double, double, double, double, double, double)" val="1.0" module="DevelopSampleProject" type="Square" ln="9" locRef="30" />
+  <Metric id="METRIC.CC" itemId="Shapes/Rectangle.h#Rectangle::Rectangle(double, double, double, double, double, double, double, double)" item="Rectangle::Rectangle(double, double, double, double, double, double, double, double)" val="1.0" module="DevelopSampleProject" type="Rectangle" ln="9" locRef="31" />
+  <Metric id="METRIC.CC" itemId="Shapes/BetterSquare.h#BetterSquare::BetterSquare(double, double, double)" item="BetterSquare::BetterSquare(double, double, double)" val="1.0" module="DevelopSampleProject" type="BetterSquare" ln="9" locRef="39" />
+  <Metric id="METRIC.CC" itemId="Shapes/Point.cpp#Point::getDistance(Point)" item="Point::getDistance(Point)" val="3.0" module="DevelopSampleProject" type="Point" ln="6" locRef="26" />
+  <Metric id="METRIC.CC" itemId="Shapes/Rectangle.cpp#Rectangle::getArea()" item="Rectangle::getArea()" val="1.0" module="DevelopSampleProject" type="Rectangle" ln="5" locRef="27" />
+  <Metric id="METRIC.CC" itemId="Shapes/Rectangle.cpp#Rectangle::getPerimeter()" item="Rectangle::getPerimeter()" val="1.0" module="DevelopSampleProject" type="Rectangle" ln="19" locRef="27" />
+  <Metric id="METRIC.CC" itemId="Shapes/Rectangle.cpp#Rectangle::checkIfValid(double, double, double, double)" item="Rectangle::checkIfValid(double, double, double, double)" val="1.0" module="DevelopSampleProject" type="Rectangle" ln="33" locRef="27" />
+  <Metric id="METRIC.CC" itemId="Shapes/Square.cpp#Square::getArea()" item="Square::getArea()" val="1.0" module="DevelopSampleProject" type="Square" ln="5" locRef="28" />
+  <Metric id="METRIC.CC" itemId="Shapes/Square.cpp#Square::getPerimeter()" item="Square::getPerimeter()" val="1.0" module="DevelopSampleProject" type="Square" ln="19" locRef="28" />
+  <Metric id="METRIC.CC" itemId="Shapes/Square.cpp#Square::checkIfValid(double, double, double, double)" item="Square::checkIfValid(double, double, double, double)" val="1.0" module="DevelopSampleProject" type="Square" ln="33" locRef="28" />
+  <Metric id="METRIC.NBD" itemId="Timer/clock.c#display_time" item="display_time" val="0.0" module="DevelopSampleProject" ln="13" locRef="1" />
+  <Metric id="METRIC.NBD" itemId="Timer/clock.c#set_time" item="set_time" val="0.0" module="DevelopSampleProject" ln="27" locRef="1" />
+  <Metric id="METRIC.NBD" itemId="Timer/driver.c#print_menu_get_action" item="print_menu_get_action" val="0.0" module="DevelopSampleProject" ln="13" locRef="2" />
+  <Metric id="METRIC.NBD" itemId="Timer/driver.c#main_loop" item="main_loop" val="3.0" module="DevelopSampleProject" ln="32" locRef="2" />
+  <Metric id="METRIC.NBD" itemId="Timer/driver.c#main" item="main" val="0.0" module="DevelopSampleProject" ln="69" locRef="2" />
+  <Metric id="METRIC.NBD" itemId="Timer/stdinout.c#get_input_digit" item="get_input_digit" val="0.0" module="DevelopSampleProject" ln="16" locRef="3" />
+  <Metric id="METRIC.NBD" itemId="Timer/stdinout.c#print_string" item="print_string" val="0.0" module="DevelopSampleProject" ln="52" locRef="3" />
+  <Metric id="METRIC.NBD" itemId="Timer/timer.c#init_timer" item="init_timer" val="0.0" module="DevelopSampleProject" ln="20" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="Timer/timer.c#uninit_timer" item="uninit_timer" val="1.0" module="DevelopSampleProject" ln="25" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="Timer/timer.c#query_user" item="query_user" val="0.0" module="DevelopSampleProject" ln="38" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="Timer/timer.c#add_timer" item="add_timer" val="1.0" module="DevelopSampleProject" ln="74" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="Timer/timer.c#add_timer_record" item="add_timer_record" val="1.0" module="DevelopSampleProject" ln="88" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="Timer/timer.c#delete_timer_record" item="delete_timer_record" val="2.0" module="DevelopSampleProject" ln="108" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="Timer/timer.c#format_timer_record" item="format_timer_record" val="1.0" module="DevelopSampleProject" ln="126" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="Timer/timer.c#list_timers" item="list_timers" val="1.0" module="DevelopSampleProject" ln="142" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="BD_Check/BD_check1.c#printTime" item="printTime" val="0.0" module="DevelopSampleProject" ln="5" locRef="5" />
+  <Metric id="METRIC.NBD" itemId="BD_Check/BD_check1.c#main" item="main" val="0.0" module="DevelopSampleProject" ln="18" locRef="5" />
+  <Metric id="METRIC.NBD" itemId="BD_Check/BD_check2.c#btoa" item="btoa" val="1.0" module="DevelopSampleProject" ln="5" locRef="6" />
+  <Metric id="METRIC.NBD" itemId="BD_Check/BD_check2.c#bar" item="bar" val="2.0" module="DevelopSampleProject" ln="22" locRef="6" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/arrayOutOfBounds.c#clip" item="clip" val="0.0" module="DevelopSampleProject" ln="9" locRef="7" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/arrayOutOfBounds.c#selectPerson" item="selectPerson" val="1.0" module="DevelopSampleProject" ln="14" locRef="7" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/arrayOutOfBounds.c#clearCache" item="clearCache" val="2.0" module="DevelopSampleProject" ln="29" locRef="7" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/arrayOutOfBounds.c#clearAllCache" item="clearAllCache" val="0.0" module="DevelopSampleProject" ln="40" locRef="7" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/bufferOverflow.c#fillBuffer" item="fillBuffer" val="0.0" module="DevelopSampleProject" ln="9" locRef="8" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/bufferOverflow.c#resetBuffer" item="resetBuffer" val="0.0" module="DevelopSampleProject" ln="24" locRef="8" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/bufferOverflow.c#resetAll" item="resetAll" val="0.0" module="DevelopSampleProject" ln="30" locRef="8" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/dbutil.c#retrievePersonFromDB" item="retrievePersonFromDB" val="1.0" module="DevelopSampleProject" ln="5" locRef="9" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/divisionByZero.c#displayPersonalInfo" item="displayPersonalInfo" val="0.0" module="DevelopSampleProject" ln="5" locRef="10" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/divisionByZero.c#createNewPerson" item="createNewPerson" val="0.0" module="DevelopSampleProject" ln="12" locRef="10" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/divisionByZero.c#calculateAverageSalary" item="calculateAverageSalary" val="0.0" module="DevelopSampleProject" ln="23" locRef="10" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/divisionByZero.c#processStaff" item="processStaff" val="1.0" module="DevelopSampleProject" ln="29" locRef="10" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/divisionByZero.c#processFile" item="processFile" val="0.0" module="DevelopSampleProject" ln="38" locRef="10" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/divisionByZero.c#main" item="main" val="1.0" module="DevelopSampleProject" ln="44" locRef="10" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/fileLeaks.c#printFile" item="printFile" val="2.0" module="DevelopSampleProject" ln="9" locRef="11" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/fileLeaks.c#displayFileContent" item="displayFileContent" val="1.0" module="DevelopSampleProject" ln="23" locRef="11" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/fileLeaks.c#displayContentOfSeveralFiles" item="displayContentOfSeveralFiles" val="2.0" module="DevelopSampleProject" ln="38" locRef="11" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/integerOverflow.c#decode" item="decode" val="0.0" module="DevelopSampleProject" ln="10" locRef="12" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/integerOverflow.c#readMessage" item="readMessage" val="1.0" module="DevelopSampleProject" ln="16" locRef="12" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/memoryLeaks.c#storePerson" item="storePerson" val="0.0" module="DevelopSampleProject" ln="5" locRef="13" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/memoryLeaks.c#printPersonInfo" item="printPersonInfo" val="2.0" module="DevelopSampleProject" ln="10" locRef="13" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/memoryLeaks.c#simpleLeakInCycle" item="simpleLeakInCycle" val="1.0" module="DevelopSampleProject" ln="32" locRef="13" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/nullPointerDeref.c#storePersonToFile" item="storePersonToFile" val="1.0" module="DevelopSampleProject" ln="10" locRef="14" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/nullPointerDeref.c#copyPersonToFile" item="copyPersonToFile" val="0.0" module="DevelopSampleProject" ln="20" locRef="14" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/nullPointerDeref.c#createPerson" item="createPerson" val="0.0" module="DevelopSampleProject" ln="27" locRef="14" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/nullPointerDeref.c#init" item="init" val="0.0" module="DevelopSampleProject" ln="36" locRef="14" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/nullPointerDerefBenchmark.c#helper1" item="helper1" val="0.0" module="DevelopSampleProject" ln="6" locRef="15" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/nullPointerDerefBenchmark.c#helper2" item="helper2" val="0.0" module="DevelopSampleProject" ln="12" locRef="15" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/nullPointerDerefBenchmark.c#noFalseViolation1" item="noFalseViolation1" val="0.0" module="DevelopSampleProject" ln="16" locRef="15" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/nullPointerDerefBenchmark.c#noFalseViolation2" item="noFalseViolation2" val="0.0" module="DevelopSampleProject" ln="25" locRef="15" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/nullPointerDerefBenchmark.c#noFalseViolation3" item="noFalseViolation3" val="0.0" module="DevelopSampleProject" ln="34" locRef="15" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/nullPointerDerefBenchmark.c#trueViolation" item="trueViolation" val="0.0" module="DevelopSampleProject" ln="44" locRef="15" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/nullPointerDerefBenchmark.c#functionCall_noFalseViolation1" item="functionCall_noFalseViolation1" val="0.0" module="DevelopSampleProject" ln="54" locRef="15" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/nullPointerDerefBenchmark.c#functionCall_noFalseViolation2" item="functionCall_noFalseViolation2" val="0.0" module="DevelopSampleProject" ln="62" locRef="15" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/nullPointerDerefBenchmark.c#functionCall_trueViolation1" item="functionCall_trueViolation1" val="0.0" module="DevelopSampleProject" ln="68" locRef="15" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/nullPointerDerefBenchmark.c#functionCall_trueViolation2" item="functionCall_trueViolation2" val="0.0" module="DevelopSampleProject" ln="75" locRef="15" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/sql.c#SQLExecDirect" item="SQLExecDirect" val="0.0" module="DevelopSampleProject" ln="6" locRef="16" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/sqlInjection.c#extractUsername" item="extractUsername" val="0.0" module="DevelopSampleProject" ln="12" locRef="17" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/sqlInjection.c#extractPassword" item="extractPassword" val="0.0" module="DevelopSampleProject" ln="18" locRef="17" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/sqlInjection.c#handleRequest" item="handleRequest" val="0.0" module="DevelopSampleProject" ln="24" locRef="17" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/unreachableCode.c#guessFigure" item="guessFigure" val="1.0" module="DevelopSampleProject" ln="11" locRef="18" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/unreachableCode.c#checkRange" item="checkRange" val="1.0" module="DevelopSampleProject" ln="44" locRef="18" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/unreachableCode.c#checkSequence" item="checkSequence" val="1.0" module="DevelopSampleProject" ln="56" locRef="18" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/useBeforeInit.c#storePersonToDB" item="storePersonToDB" val="0.0" module="DevelopSampleProject" ln="10" locRef="19" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/useBeforeInit.c#writePersonToFile" item="writePersonToFile" val="1.0" module="DevelopSampleProject" ln="15" locRef="19" />
+  <Metric id="METRIC.NBD" itemId="BugDetective/useBeforeInit.c#copyPersonFromFileToDB" item="copyPersonFromFileToDB" val="1.0" module="DevelopSampleProject" ln="30" locRef="19" />
+  <Metric id="METRIC.NBD" itemId="Control/fan.c#fan_control" item="fan_control" val="1.0" module="DevelopSampleProject" ln="11" locRef="20" />
+  <Metric id="METRIC.NBD" itemId="Control/fan_control.c#read_temperature" item="read_temperature" val="0.0" module="DevelopSampleProject" ln="9" locRef="21" />
+  <Metric id="METRIC.NBD" itemId="Control/fan_control.c#set_fan_rpm" item="set_fan_rpm" val="0.0" module="DevelopSampleProject" ln="12" locRef="21" />
+  <Metric id="METRIC.NBD" itemId="Sensor/sensor.c#readSensor" item="readSensor" val="0.0" module="DevelopSampleProject" ln="11" locRef="22" />
+  <Metric id="METRIC.NBD" itemId="Sensor/sensor.c#initialize" item="initialize" val="1.0" module="DevelopSampleProject" ln="25" locRef="22" />
+  <Metric id="METRIC.NBD" itemId="Sensor/sensor.c#finalize" item="finalize" val="1.0" module="DevelopSampleProject" ln="38" locRef="22" />
+  <Metric id="METRIC.NBD" itemId="Sensor/sensor.c#printMessage" item="printMessage" val="0.0" module="DevelopSampleProject" ln="48" locRef="22" />
+  <Metric id="METRIC.NBD" itemId="Sensor/sensor.c#reportSensorFailure" item="reportSensorFailure" val="0.0" module="DevelopSampleProject" ln="55" locRef="22" />
+  <Metric id="METRIC.NBD" itemId="Sensor/sensor.c#handleSensorValue" item="handleSensorValue" val="1.0" module="DevelopSampleProject" ln="61" locRef="22" />
+  <Metric id="METRIC.NBD" itemId="Sensor/sensor.c#mainLoop" item="mainLoop" val="2.0" module="DevelopSampleProject" ln="73" locRef="22" />
+  <Metric id="METRIC.NBD" itemId="Sensor/sensor.c#main" item="main" val="0.0" module="DevelopSampleProject" ln="90" locRef="22" />
+  <Metric id="METRIC.NBD" itemId="Shapes/BetterRectangle.cpp#BetterRectangle::getArea()" item="BetterRectangle::getArea()" val="0.0" module="DevelopSampleProject" type="BetterRectangle" ln="3" locRef="23" />
+  <Metric id="METRIC.NBD" itemId="Shapes/BetterRectangle.cpp#BetterRectangle::getPerimeter()" item="BetterRectangle::getPerimeter()" val="0.0" module="DevelopSampleProject" type="BetterRectangle" ln="9" locRef="23" />
+  <Metric id="METRIC.NBD" itemId="Shapes/BetterRectangle.h#BetterRectangle::BetterRectangle(double, double, double, double)" item="BetterRectangle::BetterRectangle(double, double, double, double)" val="0.0" module="DevelopSampleProject" type="BetterRectangle" ln="10" locRef="36" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Point.h#Point::Point(double, double)" item="Point::Point(double, double)" val="0.0" module="DevelopSampleProject" type="Point" ln="6" locRef="42" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Point.h#Point::getX()" item="Point::getX()" val="0.0" module="DevelopSampleProject" type="Point" ln="10" locRef="42" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Point.h#Point::getY()" item="Point::getY()" val="0.0" module="DevelopSampleProject" type="Point" ln="15" locRef="42" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::getErrorLogger()" item="Logger::getErrorLogger()" val="1.0" module="DevelopSampleProject" type="Logger" ln="11" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::getWarnLogger()" item="Logger::getWarnLogger()" val="1.0" module="DevelopSampleProject" type="Logger" ln="19" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::getInfoLogger()" item="Logger::getInfoLogger()" val="1.0" module="DevelopSampleProject" type="Logger" ln="27" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::setEnabled(bool)" item="Logger::setEnabled(bool)" val="0.0" module="DevelopSampleProject" type="Logger" ln="39" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(int)" item="Logger::operator &lt;&lt;(int)" val="1.0" module="DevelopSampleProject" type="Logger" ln="48" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(unsigned int)" item="Logger::operator &lt;&lt;(unsigned int)" val="1.0" module="DevelopSampleProject" type="Logger" ln="56" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(long)" item="Logger::operator &lt;&lt;(long)" val="1.0" module="DevelopSampleProject" type="Logger" ln="64" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(unsigned long)" item="Logger::operator &lt;&lt;(unsigned long)" val="1.0" module="DevelopSampleProject" type="Logger" ln="72" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(double)" item="Logger::operator &lt;&lt;(double)" val="1.0" module="DevelopSampleProject" type="Logger" ln="80" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::operator &lt;&lt;(const char *)" item="Logger::operator &lt;&lt;(const char *)" val="1.0" module="DevelopSampleProject" type="Logger" ln="88" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logError(const char *)" item="Logger::logError(const char *)" val="0.0" module="DevelopSampleProject" type="Logger" ln="100" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logWarn(const char *)" item="Logger::logWarn(const char *)" val="0.0" module="DevelopSampleProject" type="Logger" ln="105" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logInfo(const char *)" item="Logger::logInfo(const char *)" val="0.0" module="DevelopSampleProject" type="Logger" ln="110" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logError(int)" item="Logger::logError(int)" val="0.0" module="DevelopSampleProject" type="Logger" ln="115" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logWarn(int)" item="Logger::logWarn(int)" val="0.0" module="DevelopSampleProject" type="Logger" ln="120" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logInfo(int)" item="Logger::logInfo(int)" val="0.0" module="DevelopSampleProject" type="Logger" ln="125" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logError(unsigned int)" item="Logger::logError(unsigned int)" val="0.0" module="DevelopSampleProject" type="Logger" ln="130" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logWarn(unsigned int)" item="Logger::logWarn(unsigned int)" val="0.0" module="DevelopSampleProject" type="Logger" ln="135" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logInfo(unsigned int)" item="Logger::logInfo(unsigned int)" val="0.0" module="DevelopSampleProject" type="Logger" ln="140" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logError(long)" item="Logger::logError(long)" val="0.0" module="DevelopSampleProject" type="Logger" ln="145" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logWarn(long)" item="Logger::logWarn(long)" val="0.0" module="DevelopSampleProject" type="Logger" ln="150" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logInfo(long)" item="Logger::logInfo(long)" val="0.0" module="DevelopSampleProject" type="Logger" ln="155" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logError(unsigned long)" item="Logger::logError(unsigned long)" val="0.0" module="DevelopSampleProject" type="Logger" ln="160" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logWarn(unsigned long)" item="Logger::logWarn(unsigned long)" val="0.0" module="DevelopSampleProject" type="Logger" ln="165" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logInfo(unsigned long)" item="Logger::logInfo(unsigned long)" val="0.0" module="DevelopSampleProject" type="Logger" ln="170" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logError(double)" item="Logger::logError(double)" val="0.0" module="DevelopSampleProject" type="Logger" ln="175" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logWarn(double)" item="Logger::logWarn(double)" val="0.0" module="DevelopSampleProject" type="Logger" ln="180" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::logInfo(double)" item="Logger::logInfo(double)" val="0.0" module="DevelopSampleProject" type="Logger" ln="185" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Logger.h#Logger::Logger()" item="Logger::Logger()" val="0.0" module="DevelopSampleProject" type="Logger" ln="191" locRef="37" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Main.cpp#main" item="main" val="0.0" module="DevelopSampleProject" ln="9" locRef="25" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Square.h#Square::Square(double, double, double, double, double, double, double, double)" item="Square::Square(double, double, double, double, double, double, double, double)" val="0.0" module="DevelopSampleProject" type="Square" ln="9" locRef="30" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Rectangle.h#Rectangle::Rectangle(double, double, double, double, double, double, double, double)" item="Rectangle::Rectangle(double, double, double, double, double, double, double, double)" val="0.0" module="DevelopSampleProject" type="Rectangle" ln="9" locRef="31" />
+  <Metric id="METRIC.NBD" itemId="Shapes/BetterSquare.h#BetterSquare::BetterSquare(double, double, double)" item="BetterSquare::BetterSquare(double, double, double)" val="0.0" module="DevelopSampleProject" type="BetterSquare" ln="9" locRef="39" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Point.cpp#Point::getDistance(Point)" item="Point::getDistance(Point)" val="1.0" module="DevelopSampleProject" type="Point" ln="6" locRef="26" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Rectangle.cpp#Rectangle::getArea()" item="Rectangle::getArea()" val="0.0" module="DevelopSampleProject" type="Rectangle" ln="5" locRef="27" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Rectangle.cpp#Rectangle::getPerimeter()" item="Rectangle::getPerimeter()" val="0.0" module="DevelopSampleProject" type="Rectangle" ln="19" locRef="27" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Rectangle.cpp#Rectangle::checkIfValid(double, double, double, double)" item="Rectangle::checkIfValid(double, double, double, double)" val="0.0" module="DevelopSampleProject" type="Rectangle" ln="33" locRef="27" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Square.cpp#Square::getArea()" item="Square::getArea()" val="0.0" module="DevelopSampleProject" type="Square" ln="5" locRef="28" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Square.cpp#Square::getPerimeter()" item="Square::getPerimeter()" val="0.0" module="DevelopSampleProject" type="Square" ln="19" locRef="28" />
+  <Metric id="METRIC.NBD" itemId="Shapes/Square.cpp#Square::checkIfValid(double, double, double, double)" item="Square::checkIfValid(double, double, double, double)" val="0.0" module="DevelopSampleProject" type="Square" ln="33" locRef="28" />
+</Values></Metrics>

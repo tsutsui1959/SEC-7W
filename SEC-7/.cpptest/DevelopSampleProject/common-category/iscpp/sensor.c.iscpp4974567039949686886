@@ -1,0 +1,6 @@
+fileName=C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor\sensor.c
+isCpp=
+compilerOpts=-I"C:\Program Files\Parasoft\C++test\10.5\engine\runtime\include" -g -I. -DPARASOFT_CPPTEST
+compilerId=gcc_9-64
+workingDir=C:\online_cpptest\SEC-7\DevelopSampleProject\Sensor
+advancedOptionsHash=1237154733

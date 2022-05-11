@@ -1,0 +1,2 @@
+[ERROR] [13:39:47,632] Invalid context at com.parasoft.xtest.common.cpp.wizard.AbstractCppTestContextWizard.init(AbstractCppTestContextWizard.java:38)
+[ERROR] [13:41:18,779] Path to link is inside project - skipping at com.parasoft.xtest.common.eclipse.core.cpp.project.ImportProjectOperation.prepareProject(ImportProjectOperation.java:259)
